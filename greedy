@@ -1,0 +1,126 @@
+public class JumpGame {
+    public static void main(String[] args) {
+        int nums[] = {2,3,1,1,4};
+
+        int reach = 0;
+
+        for(int i=0;i<nums.length;i++){
+            if(i > reach){
+                System.out.println("False");
+                return;
+            }
+            reach = Math.max(reach, i + nums[i]);
+        }
+
+        System.out.println("True");
+    }
+}
+output:
+True
+
+import java.util.*;
+
+public class Candy {
+    public static void main(String[] args) {
+        int ratings[] = {1,0,2};
+        int n = ratings.length;
+
+        int[] candy = new int[n];
+        Arrays.fill(candy,1);
+
+        for(int i=1;i<n;i++)
+            if(ratings[i] > ratings[i-1])
+                candy[i] = candy[i-1] + 1;
+
+        for(int i=n-2;i>=0;i--)
+            if(ratings[i] > ratings[i+1])
+                candy[i] = Math.max(candy[i], candy[i+1]+1);
+
+        int sum = 0;
+        for(int c : candy) sum += c;
+
+        System.out.println(sum);
+    }
+}
+output:
+5
+
+public class GasStation {
+    public static void main(String[] args) {
+
+        int gas[] = {1,2,3,4,5};
+        int cost[] = {3,4,5,1,2};
+
+        int total=0, curr=0, start=0;
+
+        for(int i=0;i<gas.length;i++){
+            int diff = gas[i] - cost[i];
+            total += diff;
+            curr += diff;
+
+            if(curr < 0){
+                start = i+1;
+                curr = 0;
+            }
+        }
+
+        System.out.println(total >= 0 ? start : -1);
+    }
+}
+output:
+3
+
+import java.util.*;
+
+public class Balloons {
+    public static void main(String[] args) {
+
+        int[][] points = {{10,16},{2,8},{1,6},{7,12}};
+
+        Arrays.sort(points, (a,b)->a[1]-b[1]);
+
+        int arrows = 1;
+        int end = points[0][1];
+
+        for(int i=1;i<points.length;i++){
+            if(points[i][0] > end){
+                arrows++;
+                end = points[i][1];
+            }
+        }
+
+        System.out.println(arrows);
+    }
+}
+output:
+2
+
+import java.util.*;
+
+public class Huffman {
+    public static void main(String[] args) {
+
+        int freq[] = {5,9,12,13,16,45};
+
+        PriorityQueue<Integer> pq = new PriorityQueue<>();
+
+        for(int f : freq)
+            pq.add(f);
+
+        int cost = 0;
+
+        while(pq.size() > 1){
+            int a = pq.poll();
+            int b = pq.poll();
+
+            int sum = a + b;
+            cost += sum;
+
+            pq.add(sum);
+        }
+
+        System.out.println(cost);
+    }
+}
+output:
+224
