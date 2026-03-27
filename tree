@@ -1,0 +1,97 @@
+public class Main {
+    static Node delete(Node root, int key) {
+        if (root == null) return null;
+
+        if (key < root.data)
+            root.left = delete(root.left, key);
+        else if (key > root.data)
+            root.right = delete(root.right, key);
+        else {
+            if (root.left == null) return root.right;
+            if (root.right == null) return root.left;
+
+            Node min = root.right;
+            while (min.left != null) min = min.left;
+
+            root.data = min.data;
+            root.right = delete(root.right, min.data);
+        }
+        return root;
+    }
+}
+
+public class Main {
+    static boolean isMirror(Node a, Node b) {
+        if (a == null && b == null) return true;
+        if (a == null || b == null) return false;
+
+        return a.data == b.data &&
+               isMirror(a.left, b.right) &&
+               isMirror(a.right, b.left);
+    }
+
+    public static void main(String[] args) {
+        Node root = new Node(1);
+        root.left = new Node(2);
+        root.right = new Node(2);
+
+        System.out.println(isMirror(root.left, root.right));
+    }
+}
+
+
+public class Main {
+    static boolean hasPathSum(Node root, int sum) {
+        if (root == null) return false;
+
+        if (root.left == null && root.right == null)
+            return sum == root.data;
+
+        return hasPathSum(root.left, sum - root.data) ||
+               hasPathSum(root.right, sum - root.data);
+    }
+
+    public static void main(String[] args) {
+        Node root = new Node(5);
+        root.left = new Node(4);
+        root.right = new Node(8);
+
+        System.out.println(hasPathSum(root, 9));
+    }
+}
+
+import java.util.*;
+
+public class Main {
+    static void zigzag(Node root) {
+        Queue<Node> q = new LinkedList<>();
+        q.add(root);
+        boolean leftToRight = true;
+
+        while (!q.isEmpty()) {
+            int size = q.size();
+            List<Integer> level = new ArrayList<>();
+
+            for (int i = 0; i < size; i++) {
+                Node curr = q.poll();
+
+                if (leftToRight) level.add(curr.data);
+                else level.add(0, curr.data);
+
+                if (curr.left != null) q.add(curr.left);
+                if (curr.right != null) q.add(curr.right);
+            }
+
+            System.out.println(level);
+            leftToRight = !leftToRight;
+        }
+    }
+
+    public static void main(String[] args) {
+        Node root = new Node(1);
+        root.left = new Node(2);
+        root.right = new Node(3);
+
+        zigzag(root);
+    }
+}
