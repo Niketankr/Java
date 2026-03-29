@@ -1,0 +1,128 @@
+class Node {
+    int data;
+    Node left, right;
+    Node(int d){ data=d; }
+}
+
+public class Main {
+    static int maxSum = Integer.MIN_VALUE;
+
+    static int solve(Node root){
+        if(root == null) return 0;
+
+        int left = Math.max(0, solve(root.left));
+        int right = Math.max(0, solve(root.right));
+
+        maxSum = Math.max(maxSum, left + right + root.data);
+
+        return root.data + Math.max(left, right);
+    }
+
+    public static void main(String[] args){
+        Node root = new Node(-10);
+        root.left = new Node(9);
+        root.right = new Node(20);
+        root.right.left = new Node(15);
+        root.right.right = new Node(7);
+
+        solve(root);
+        System.out.println(maxSum); // Output: 42
+    }
+}
+
+output:
+42
+
+
+
+import java.util.*;
+
+class Node {
+    int data;
+    Node left, right;
+    Node(int d){ data=d; }
+}
+
+public class Main {
+
+    static String serialize(Node root){
+        if(root == null) return "null,";
+
+        return root.data + "," +
+               serialize(root.left) +
+               serialize(root.right);
+    }
+
+    static Node deserialize(Queue<String> q){
+        String val = q.poll();
+
+        if(val.equals("null")) return null;
+
+        Node root = new Node(Integer.parseInt(val));
+        root.left = deserialize(q);
+        root.right = deserialize(q);
+
+        return root;
+    }
+
+    public static void main(String[] args){
+        Node root = new Node(1);
+        root.left = new Node(2);
+        root.right = new Node(3);
+
+        String data = serialize(root);
+        System.out.println(data);
+
+        Queue<String> q = new LinkedList<>(Arrays.asList(data.split(",")));
+        Node newRoot = deserialize(q);
+
+        System.out.println(newRoot.data); // check
+    }
+}
+output:
+1,2,null,null,3,null,null,
+1
+
+
+class Node {
+    int data;
+    Node left, right;
+    Node(int d){ data=d; }
+}
+
+public class Main {
+
+    static Node first=null, second=null, prev=null;
+
+    static void inorder(Node root){
+        if(root==null) return;
+
+        inorder(root.left);
+
+        if(prev!=null && root.data < prev.data){
+            if(first==null) first=prev;
+            second=root;
+        }
+
+        prev=root;
+        inorder(root.right);
+    }
+
+    public static void main(String[] args){
+        Node root = new Node(3);
+        root.left = new Node(1);
+        root.right = new Node(4);
+        root.right.left = new Node(2); // swapped
+
+        inorder(root);
+
+        int temp = first.data;
+        first.data = second.data;
+        second.data = temp;
+
+        System.out.println("Recovered BST");
+    }
+}
+
+output:
+Recovered BST
