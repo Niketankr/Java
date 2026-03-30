@@ -1,0 +1,129 @@
+import java.util.*;
+
+class Node {
+    int data;
+    Node left, right;
+
+    Node(int data) {
+        this.data = data;
+    }
+}
+
+public class Main {
+
+    static int maxSum = Integer.MIN_VALUE;
+
+    static int maxPath(Node root) {
+        if (root == null) return 0;
+
+        int left = Math.max(0, maxPath(root.left));
+        int right = Math.max(0, maxPath(root.right));
+
+        maxSum = Math.max(maxSum, left + right + root.data);
+
+        return root.data + Math.max(left, right);
+    }
+
+    public static void main(String[] args) {
+        Node root = new Node(-10);
+        root.left = new Node(9);
+        root.right = new Node(20);
+        root.right.left = new Node(15);
+        root.right.right = new Node(7);
+
+        maxPath(root);
+        System.out.println("Max Path Sum: " + maxSum);
+    }
+}
+output:
+Max Path Sum: 42
+
+import java.util.*;
+
+class Node {
+    int data;
+    Node left, right;
+
+    Node(int data) {
+        this.data = data;
+    }
+}
+
+public class Main {
+
+    static Node LCA(Node root, Node p, Node q) {
+        if (root == null || root == p || root == q)
+            return root;
+
+        Node left = LCA(root.left, p, q);
+        Node right = LCA(root.right, p, q);
+
+        if (left == null) return right;
+        if (right == null) return left;
+
+        return root;
+    }
+
+    public static void main(String[] args) {
+        Node root = new Node(1);
+        root.left = new Node(2);
+        root.right = new Node(3);
+
+        Node lca = LCA(root, root.left, root.right);
+        System.out.println("LCA: " + lca.data);
+    }
+}
+output:
+LCA: 1
+
+import java.util.*;
+
+class Node {
+    int data;
+    Node left, right;
+
+    Node(int data) {
+        this.data = data;
+    }
+}
+
+public class Main {
+
+    static String serialize(Node root) {
+        if (root == null) return "null,";
+
+        return root.data + "," +
+               serialize(root.left) +
+               serialize(root.right);
+    }
+
+    static Node deserialize(Queue<String> q) {
+        String val = q.poll();
+
+        if (val.equals("null")) return null;
+
+        Node root = new Node(Integer.parseInt(val));
+        root.left = deserialize(q);
+        root.right = deserialize(q);
+
+        return root;
+    }
+
+    public static void main(String[] args) {
+        Node root = new Node(1);
+        root.left = new Node(2);
+        root.right = new Node(3);
+
+        String data = serialize(root);
+        System.out.println("Serialized: " + data);
+
+        Queue<String> q = new LinkedList<>(Arrays.asList(data.split(",")));
+        Node newRoot = deserialize(q);
+
+        System.out.println("Root after Deserialize: " + newRoot.data);
+    }
+}
+output:
+Serialized: 1,2,null,null,3,null,null,
+Root after Deserialize: 1
+
