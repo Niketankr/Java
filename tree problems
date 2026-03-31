@@ -1,0 +1,84 @@
+import java.util.*;
+
+class Node {
+    int data;
+    Node left, right;
+
+    Node(int data) {
+        this.data = data;
+    }
+}
+
+public class Main {
+
+    static String serialize(Node root) {
+        if (root == null) return "null,";
+
+        return root.data + "," +
+               serialize(root.left) +
+               serialize(root.right);
+    }
+
+    static Node deserialize(Queue<String> q) {
+        String val = q.poll();
+
+        if (val.equals("null")) return null;
+
+        Node root = new Node(Integer.parseInt(val));
+        root.left = deserialize(q);
+        root.right = deserialize(q);
+
+        return root;
+    }
+
+    public static void main(String[] args) {
+        Node root = new Node(1);
+        root.left = new Node(2);
+        root.right = new Node(3);
+
+        String data = serialize(root);
+        System.out.println("Serialized: " + data);
+
+        Queue<String> q = new LinkedList<>(Arrays.asList(data.split(",")));
+        Node newRoot = deserialize(q);
+
+        System.out.println("Root after Deserialize: " + newRoot.data);
+    }
+}
+
+
+import java.util.*;
+
+class Node {
+    int data;
+    Node left, right;
+
+    Node(int data) {
+        this.data = data;
+    }
+}
+
+public class Main {
+
+    static int maxLevel = 0;
+
+    static void rightView(Node root, int level) {
+        if (root == null) return;
+
+        if (level > maxLevel) {
+            System.out.print(root.data + " ");
+            maxLevel = level;
+        }
+
+        rightView(root.right, level + 1);
+        rightView(root.left, level + 1);
+    }
+
+    public static void main(String[] args) {
+        Node root = new Node(1);
+        root.left = new Node(2);
+        root.right = new Node(3);
+
+        rightView(root, 1);
+    }
+}
