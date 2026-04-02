@@ -1,0 +1,78 @@
+import java.util.*;
+
+class Node {
+    int data;
+    Node left, right;
+
+    Node(int data) {
+        this.data = data;
+    }
+}
+
+public class Main {
+
+    static int count = 0, result = -1;
+
+    static void inorder(Node root, int k) {
+        if (root == null) return;
+
+        inorder(root.left, k);
+
+        count++;
+        if (count == k) {
+            result = root.data;
+            return;
+        }
+
+        inorder(root.right, k);
+    }
+
+    public static void main(String[] args) {
+        Node root = new Node(5);
+        root.left = new Node(3);
+        root.right = new Node(7);
+
+        inorder(root, 2);
+
+        System.out.println("Kth Smallest: " + result);
+    }
+}
+
+
+
+
+import java.util.*;
+
+class Node {
+    int data;
+    Node left, right;
+
+    Node(int data) {
+        this.data = data;
+    }
+}
+
+public class Main {
+
+    static int maxLevel = 0;
+
+    static void rightView(Node root, int level) {
+        if (root == null) return;
+
+        if (level > maxLevel) {
+            System.out.print(root.data + " ");
+            maxLevel = level;
+        }
+
+        rightView(root.right, level + 1);
+        rightView(root.left, level + 1);
+    }
+
+    public static void main(String[] args) {
+        Node root = new Node(1);
+        root.left = new Node(2);
+        root.right = new Node(3);
+
+        rightView(root, 1);
+    }
+}
