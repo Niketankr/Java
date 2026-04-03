@@ -1,0 +1,148 @@
+import java.util.*;
+
+class Node {
+    int data;
+    Node left, right;
+
+    Node(int data) {
+        this.data = data;
+    }
+}
+
+public class Main {
+
+    // 1. Max Path Sum
+    static int maxSum = Integer.MIN_VALUE;
+    static int maxPath(Node root) {
+        if (root == null) return 0;
+        int l = Math.max(0, maxPath(root.left));
+        int r = Math.max(0, maxPath(root.right));
+        maxSum = Math.max(maxSum, l + r + root.data);
+        return root.data + Math.max(l, r);
+    }
+
+    // 2. LCA
+    static Node LCA(Node root, Node p, Node q) {
+        if (root == null || root == p || root == q) return root;
+        Node l = LCA(root.left, p, q);
+        Node r = LCA(root.right, p, q);
+        if (l == null) return r;
+        if (r == null) return l;
+        return root;
+    }
+
+    // 3. Diameter
+    static int dia = 0;
+    static int height(Node root) {
+        if (root == null) return 0;
+        int l = height(root.left);
+        int r = height(root.right);
+        dia = Math.max(dia, l + r);
+        return 1 + Math.max(l, r);
+    }
+
+    // 4. Serialize
+    static String serialize(Node root) {
+        if (root == null) return "null,";
+        return root.data + "," + serialize(root.left) + serialize(root.right);
+    }
+
+    // 5. Deserialize
+    static Node deserialize(Queue<String> q) {
+        String val = q.poll();
+        if (val.equals("null")) return null;
+        Node root = new Node(Integer.parseInt(val));
+        root.left = deserialize(q);
+        root.right = deserialize(q);
+        return root;
+    }
+
+    // 6. Kth Smallest
+    static int count = 0, kth = -1;
+    static void kthSmallest(Node root, int k) {
+        if (root == null) return;
+        kthSmallest(root.left, k);
+        count++;
+        if (count == k) kth = root.data;
+        kthSmallest(root.right, k);
+    }
+
+    // 7. Validate BST
+    static boolean isValid(Node root, long min, long max) {
+        if (root == null) return true;
+        if (root.data <= min || root.data >= max) return false;
+        return isValid(root.left, min, root.data) &&
+               isValid(root.right, root.data, max);
+    }
+
+    // 8. Right View
+    static int maxLevel = 0;
+    static void rightView(Node root, int level) {
+        if (root == null) return;
+        if (level > maxLevel) {
+            System.out.print(root.data + " ");
+            maxLevel = level;
+        }
+        rightView(root.right, level + 1);
+        rightView(root.left, level + 1);
+    }
+
+    // 9. Left View
+    static void leftView(Node root, int level) {
+        if (root == null) return;
+        if (level > maxLevel) {
+            System.out.print(root.data + " ");
+            maxLevel = level;
+        }
+        leftView(root.left, level + 1);
+        leftView(root.right, level + 1);
+    }
+
+    // 10. Level Order
+    static void levelOrder(Node root) {
+        if (root == null) return;
+        Queue<Node> q = new LinkedList<>();
+        q.add(root);
+        while (!q.isEmpty()) {
+            Node n = q.poll();
+            System.out.print(n.data + " ");
+            if (n.left != null) q.add(n.left);
+            if (n.right != null) q.add(n.right);
+        }
+    }
+
+    // 11. Depth (FIXED - missing function)
+    static int depth(Node root) {
+        if (root == null) return 0;
+        return 1 + Math.max(depth(root.left), depth(root.right));
+    }
+
+    // MAIN (FIXED position)
+    public static void main(String[] args) {
+
+        Node root = new Node(1);
+        root.left = new Node(2);
+        root.right = new Node(3);
+
+        System.out.println("Level Order:");
+        levelOrder(root);
+
+        System.out.println("\nMax Depth: " + depth(root));
+
+        maxSum = Integer.MIN_VALUE;
+        maxPath(root);
+        System.out.println("Max Path Sum: " + maxSum);
+
+        maxLevel = 0;
+        System.out.print("Right View: ");
+        rightView(root, 1);
+    }
+}
+
+
+output:
+Level Order:
+1 2 3 
+Max Depth: 2
+Max Path Sum: 6
+Right View: 1 3 
