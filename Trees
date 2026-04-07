@@ -1,0 +1,183 @@
+import java.util.*;
+
+public class Main {
+
+    // 19. Largest Element
+    static int largest(int[] arr) {
+        int max = arr[0];
+        for (int x : arr) {
+            if (x > max) max = x;
+        }
+        return max;
+    }
+
+    // 20. Second Largest
+    static int secondLargest(int[] arr) {
+        int first = Integer.MIN_VALUE, second = Integer.MIN_VALUE;
+
+        for (int x : arr) {
+            if (x > first) {
+                second = first;
+                first = x;
+            } else if (x > second && x != first) {
+                second = x;
+            }
+        }
+        return second;
+    }
+
+    // 21. Reverse Array
+    static void reverse(int[] arr) {
+        int i = 0, j = arr.length - 1;
+        while (i < j) {
+            int temp = arr[i];
+            arr[i] = arr[j];
+            arr[j] = temp;
+            i++;
+            j--;
+        }
+    }
+
+    // 22. Bubble Sort
+    static void bubbleSort(int[] arr) {
+        int n = arr.length;
+        for (int i = 0; i < n - 1; i++) {
+            for (int j = 0; j < n - i - 1; j++) {
+                if (arr[j] > arr[j + 1]) {
+                    int temp = arr[j];
+                    arr[j] = arr[j + 1];
+                    arr[j + 1] = temp;
+                }
+            }
+        }
+    }
+
+    // 23. Remove Duplicates (Sorted Array)
+    static int removeDuplicates(int[] arr) {
+        int n = arr.length;
+        if (n == 0 || n == 1) return n;
+
+        int j = 0;
+        for (int i = 0; i < n - 1; i++) {
+            if (arr[i] != arr[i + 1]) {
+                arr[j++] = arr[i];
+            }
+        }
+        arr[j++] = arr[n - 1];
+        return j; // new size
+    }
+
+    // 24. Missing Number (1 to n)
+    static int missingNumber(int[] arr, int n) {
+        int sum = n * (n + 1) / 2;
+        int arrSum = 0;
+
+        for (int x : arr) arrSum += x;
+
+        return sum - arrSum;
+    }
+
+    // 25. Move Zeros to End
+    static void moveZeros(int[] arr) {
+        int j = 0;
+
+        for (int i = 0; i < arr.length; i++) {
+            if (arr[i] != 0) {
+                int temp = arr[i];
+                arr[i] = arr[j];
+                arr[j] = temp;
+                j++;
+            }
+        }
+    }
+
+    // 26. Intersection of Two Arrays
+    static void intersection(int[] a, int[] b) {
+        Set<Integer> set = new HashSet<>();
+
+        for (int x : a) set.add(x);
+
+        System.out.print("Intersection: ");
+        for (int x : b) {
+            if (set.contains(x)) {
+                System.out.print(x + " ");
+                set.remove(x); // avoid duplicates
+            }
+        }
+        System.out.println();
+    }
+
+    // Helper: Print Array
+    static void printArray(int[] arr, int size) {
+        for (int i = 0; i < size; i++) {
+            System.out.print(arr[i] + " ");
+        }
+        System.out.println();
+    }
+
+    // MAIN METHOD
+    public static void main(String[] args) {
+
+        Scanner sc = new Scanner(System.in);
+
+        System.out.print("Enter size: ");
+        int n = sc.nextInt();
+
+        int[] arr = new int[n];
+
+        System.out.println("Enter elements:");
+        for (int i = 0; i < n; i++) {
+            arr[i] = sc.nextInt();
+        }
+
+        System.out.println("Largest: " + largest(arr));
+
+        System.out.println("Second Largest: " + secondLargest(arr));
+
+        reverse(arr);
+        System.out.print("Reversed: ");
+        printArray(arr, n);
+
+        bubbleSort(arr);
+        System.out.print("Sorted: ");
+        printArray(arr, n);
+
+        int newSize = removeDuplicates(arr);
+        System.out.print("After Removing Duplicates: ");
+        printArray(arr, newSize);
+
+        System.out.println("Missing Number (1 to n): " +
+                missingNumber(arr, n));
+
+        moveZeros(arr);
+        System.out.print("After Moving Zeros: ");
+        printArray(arr, n);
+
+        // Intersection
+        System.out.print("Enter size of second array: ");
+        int m = sc.nextInt();
+        int[] arr2 = new int[m];
+
+        System.out.println("Enter elements:");
+        for (int i = 0; i < m; i++) {
+            arr2[i] = sc.nextInt();
+        }
+
+        intersection(arr, arr2);
+
+        sc.close();
+    }
+}
+output:
+Enter size: 5
+Enter elements:
+5
+7 8 4 5 
+Largest: 8
+Second Largest: 7
+Reversed: 5 4 8 7 5 
+Sorted: 4 5 5 7 8 
+After Removing Duplicates: 4 5 7 8 
+Missing Number (1 to n): -17
+After Moving Zeros: 4 5 7 8 8 
+Enter size of second array: 6
