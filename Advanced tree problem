@@ -1,0 +1,213 @@
+import java.util.*;
+
+public class Main {
+
+    static class Node {
+        int data;
+        Node left, right;
+
+        Node(int d) {
+            data = d;
+        }
+    }
+
+    /* ===================== 1. MAX PATH SUM ===================== */
+    static int maxSum = Integer.MIN_VALUE;
+    static int maxPath(Node root) {
+        if (root == null) return 0;
+        int l = Math.max(0, maxPath(root.left));
+        int r = Math.max(0, maxPath(root.right));
+        maxSum = Math.max(maxSum, l + r + root.data);
+        return root.data + Math.max(l, r);
+    }
+
+    /* ===================== 2. DIAMETER ===================== */
+    static int dia = 0;
+    static int height(Node root) {
+        if (root == null) return 0;
+        int l = height(root.left);
+        int r = height(root.right);
+        dia = Math.max(dia, l + r);
+        return 1 + Math.max(l, r);
+    }
+
+    /* ===================== 3. BALANCED TREE ===================== */
+    static int check(Node root) {
+        if (root == null) return 0;
+        int l = check(root.left);
+        if (l == -1) return -1;
+        int r = check(root.right);
+        if (r == -1) return -1;
+        if (Math.abs(l - r) > 1) return -1;
+        return 1 + Math.max(l, r);
+    }
+
+    /* ===================== 4. SAME TREE ===================== */
+    static boolean isSame(Node a, Node b) {
+        if (a == null && b == null) return true;
+        if (a == null || b == null) return false;
+        return a.data == b.data &&
+               isSame(a.left, b.left) &&
+               isSame(a.right, b.right);
+    }
+
+    /* ===================== 5. HOUSE ROBBER III ===================== */
+    static int[] rob(Node root) {
+        if (root == null) return new int[2];
+        int[] l = rob(root.left);
+        int[] r = rob(root.right);
+
+        int rob = root.data + l[1] + r[1];
+        int notRob = Math.max(l[0], l[1]) + Math.max(r[0], r[1]);
+
+        return new int[]{rob, notRob};
+    }
+
+    /* ===================== 6. LONGEST UNIVALUE PATH ===================== */
+    static int uni = 0;
+    static int univalue(Node root) {
+        if (root == null) return 0;
+        int l = univalue(root.left);
+        int r = univalue(root.right);
+
+        int left = 0, right = 0;
+        if (root.left != null && root.left.data == root.data)
+            left = l + 1;
+        if (root.right != null && root.right.data == root.data)
+            right = r + 1;
+
+        uni = Math.max(uni, left + right);
+        return Math.max(left, right);
+    }
+
+    /* ===================== 7. LCA ===================== */
+    static Node LCA(Node root, Node p, Node q) {
+        if (root == null || root == p || root == q) return root;
+        Node l = LCA(root.left, p, q);
+        Node r = LCA(root.right, p, q);
+        if (l == null) return r;
+        if (r == null) return l;
+        return root;
+    }
+
+    /* ===================== 8. LEVEL ORDER ===================== */
+    static void levelOrder(Node root) {
+        if (root == null) return;
+        Queue<Node> q = new LinkedList<>();
+        q.add(root);
+        while (!q.isEmpty()) {
+            Node n = q.poll();
+            System.out.print(n.data + " ");
+            if (n.left != null) q.add(n.left);
+            if (n.right != null) q.add(n.right);
+        }
+    }
+
+    /* ===================== 9. ZIGZAG ===================== */
+    static void zigzag(Node root) {
+        if (root == null) return;
+        Queue<Node> q = new LinkedList<>();
+        q.add(root);
+        boolean leftToRight = true;
+
+        while (!q.isEmpty()) {
+            int size = q.size();
+            List<Integer> list = new ArrayList<>();
+
+            for (int i = 0; i < size; i++) {
+                Node n = q.poll();
+                if (leftToRight) list.add(n.data);
+                else list.add(0, n.data);
+
+                if (n.left != null) q.add(n.left);
+                if (n.right != null) q.add(n.right);
+            }
+
+            System.out.println(list);
+            leftToRight = !leftToRight;
+        }
+    }
+
+    /* ===================== 10. RIGHT VIEW ===================== */
+    static void rightView(Node root) {
+        if (root == null) return;
+        Queue<Node> q = new LinkedList<>();
+        q.add(root);
+
+        while (!q.isEmpty()) {
+            int size = q.size();
+            for (int i = 0; i < size; i++) {
+                Node n = q.poll();
+                if (i == size - 1) System.out.print(n.data + " ");
+
+                if (n.left != null) q.add(n.left);
+                if (n.right != null) q.add(n.right);
+            }
+        }
+    }
+
+    /* ===================== 11. PATH SUM ===================== */
+    static boolean hasPathSum(Node root, int sum) {
+        if (root == null) return false;
+        if (root.left == null && root.right == null)
+            return sum == root.data;
+        return hasPathSum(root.left, sum - root.data) ||
+               hasPathSum(root.right, sum - root.data);
+    }
+
+    /* ===================== MAIN ===================== */
+    public static void main(String[] args) {
+
+        Node root = new Node(10);
+        root.left = new Node(5);
+        root.right = new Node(15);
+        root.left.left = new Node(3);
+        root.left.right = new Node(7);
+
+        System.out.print("Level Order: ");
+        levelOrder(root);
+
+        maxSum = Integer.MIN_VALUE;
+        maxPath(root);
+        System.out.println("\nMax Path Sum: " + maxSum);
+
+        dia = 0;
+        height(root);
+        System.out.println("Diameter: " + dia);
+
+        System.out.print("Right View: ");
+        rightView(root);
+
+        System.out.println("\nIs Valid BST: " + isValid(root, Long.MIN_VALUE, Long.MAX_VALUE));
+
+        count = 0;
+        kth = -1;
+        kthSmallest(root, 3);
+        System.out.println("Kth Smallest: " + kth);
+    }
+
+    /* ===================== 14. VALID BST ===================== */
+    static boolean isValid(Node root, long min, long max) {
+        if (root == null) return true;
+        if (root.data <= min || root.data >= max) return false;
+        return isValid(root.left, min, root.data) &&
+               isValid(root.right, root.data, max);
+    }
+
+    /* ===================== 15. KTH SMALLEST ===================== */
+    static int count = 0, kth = -1;
+    static void kthSmallest(Node root, int k) {
+        if (root == null) return;
+        kthSmallest(root.left, k);
+        count++;
+        if (count == k) kth = root.data;
+        kthSmallest(root.right, k);
+    }
+}
+output:
+Level Order: 10 5 15 3 7 
+Max Path Sum: 37
+Diameter: 3
+Right View: 10 15 7 
+Is Valid BST: true
+Kth Smallest: 7
