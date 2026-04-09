@@ -1,0 +1,169 @@
+import java.util.*;
+
+public class Main {
+
+    // 1. Reverse Number
+    static int reverse(int n) {
+        int rev = 0;
+        while (n != 0) {
+            rev = rev * 10 + n % 10;
+            n /= 10;
+        }
+        return rev;
+    }
+
+    // 2. Palindrome Number
+    static boolean isPalindrome(int n) {
+        return n == reverse(n);
+    }
+
+    // 3. Factorial (Iterative)
+    static long factorialIter(int n) {
+        long fact = 1;
+        for (int i = 1; i <= n; i++)
+            fact *= i;
+        return fact;
+    }
+
+    // 3. Factorial (Recursive)
+    static long factorialRec(int n) {
+        if (n == 0 || n == 1) return 1;
+        return n * factorialRec(n - 1);
+    }
+
+    // 4. Fibonacci Series
+    static void fibonacci(int n) {
+        int a = 0, b = 1;
+        System.out.print("Fibonacci: " + a + " " + b + " ");
+        for (int i = 2; i < n; i++) {
+            int c = a + b;
+            System.out.print(c + " ");
+            a = b;
+            b = c;
+        }
+        System.out.println();
+    }
+
+    // 5. Prime Check
+    static boolean isPrime(int n) {
+        if (n <= 1) return false;
+        for (int i = 2; i * i <= n; i++) {
+            if (n % i == 0) return false;
+        }
+        return true;
+    }
+
+    // 6. Count Digits
+    static int countDigits(int n) {
+        int count = 0;
+        while (n != 0) {
+            count++;
+            n /= 10;
+        }
+        return count;
+    }
+
+    // 7. Armstrong Number
+    static boolean isArmstrong(int n) {
+        int sum = 0, temp = n;
+        int digits = countDigits(n);
+
+        while (temp != 0) {
+            int d = temp % 10;
+            sum += Math.pow(d, digits);
+            temp /= 10;
+        }
+        return sum == n;
+    }
+
+    // 8. GCD
+    static int gcd(int a, int b) {
+        while (b != 0) {
+            int temp = b;
+            b = a % b;
+            a = temp;
+        }
+        return a;
+    }
+
+    // 8. LCM
+    static int lcm(int a, int b) {
+        return (a * b) / gcd(a, b);
+    }
+
+    // 9. Sum of Digits
+    static int sumDigits(int n) {
+        int sum = 0;
+        while (n != 0) {
+            sum += n % 10;
+            n /= 10;
+        }
+        return sum;
+    }
+
+    // 10. Swap Numbers
+    static void swap(int a, int b) {
+        System.out.println("Before Swap: a=" + a + ", b=" + b);
+
+        // Without temp
+        a = a + b;
+        b = a - b;
+        a = a - b;
+
+        System.out.println("After Swap: a=" + a + ", b=" + b);
+    }
+
+    // MAIN METHOD
+    public static void main(String[] args) {
+
+        Scanner sc = new Scanner(System.in);
+
+        System.out.print("Enter a number: ");
+        int n = sc.nextInt();
+
+        System.out.println("Reverse: " + reverse(n));
+
+        System.out.println("Palindrome: " + isPalindrome(n));
+
+        System.out.println("Factorial (Iterative): " + factorialIter(n));
+        System.out.println("Factorial (Recursive): " + factorialRec(n));
+
+        fibonacci(n);
+
+        System.out.println("Prime: " + isPrime(n));
+
+        System.out.println("Digit Count: " + countDigits(n));
+
+        System.out.println("Armstrong: " + isArmstrong(n));
+
+        System.out.print("Enter two numbers for GCD & LCM: ");
+        int a = sc.nextInt();
+        int b = sc.nextInt();
+
+        System.out.println("GCD: " + gcd(a, b));
+        System.out.println("LCM: " + lcm(a, b));
+
+        System.out.println("Sum of Digits: " + sumDigits(n));
+
+        swap(a, b);
+
+        sc.close();
+    }
+}
+out[ut:
+Enter a number: 63
+Reverse: 36
+Palindrome: false
+Factorial (Iterative): 1585267068834414592
+Factorial (Recursive): 1585267068834414592
+Fibonacci: 0 1 1 2 3 5 8 13 21 34 55 89 144 233 377 610 987 1597 2584 4181 6765 10946 17711 28657 46368 75025 121393 196418 317811 514229 832040 1346269 2178309 3524578 5702887 9227465 14930352 24157817 39088169 63245986 102334155 165580141 267914296 433494437 701408733 1134903170 1836311903 -1323752223 512559680 -811192543 -298632863 -1109825406 -1408458269 1776683621 368225352 2144908973 -1781832971 363076002 -1418756969 -1055680967 1820529360 764848393 -1709589543 
+Prime: false
+Digit Count: 2
+Armstrong: false
+Enter two numbers for GCD & LCM: 56
+54
+GCD: 2
+LCM: 1512
+Sum of Digits: 9
+Before Swap: a=56, b=54
+After Swap: a=54, b=56
