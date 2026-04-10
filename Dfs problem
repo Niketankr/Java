@@ -1,0 +1,104 @@
+import java.util.*;
+
+public class Main {
+
+    /* ===================== TREE NODE ===================== */
+    static class TreeNode {
+        int val;
+        TreeNode left, right;
+        TreeNode(int v) { val = v; }
+    }
+
+    /* ===================== SOLUTION CLASS ===================== */
+    static class Solution {
+
+        int maxSum = Integer.MIN_VALUE;
+
+        public int maxPathSum(TreeNode root) {
+            dfsMaxPath(root);
+            return maxSum;
+        }
+
+        int dfsMaxPath(TreeNode node) {
+            if (node == null) return 0;
+
+            int left = Math.max(0, dfsMaxPath(node.left));
+            int right = Math.max(0, dfsMaxPath(node.right));
+
+            maxSum = Math.max(maxSum, left + right + node.val);
+
+            return node.val + Math.max(left, right);
+        }
+
+        /* Diameter */
+        int diameter = 0;
+
+        public int diameterOfBinaryTree(TreeNode root) {
+            dfsHeight(root);
+            return diameter;
+        }
+
+        int dfsHeight(TreeNode node) {
+            if (node == null) return 0;
+
+            int left = dfsHeight(node.left);
+            int right = dfsHeight(node.right);
+
+            diameter = Math.max(diameter, left + right);
+
+            return 1 + Math.max(left, right);
+        }
+
+        /* Level Order */
+        public List<List<Integer>> levelOrder(TreeNode root) {
+            List<List<Integer>> res = new ArrayList<>();
+            if (root == null) return res;
+
+            Queue<TreeNode> q = new LinkedList<>();
+            q.add(root);
+
+            while (!q.isEmpty()) {
+                int size = q.size();
+                List<Integer> level = new ArrayList<>();
+
+                for (int i = 0; i < size; i++) {
+                    TreeNode node = q.poll();
+                    level.add(node.val);
+
+                    if (node.left != null) q.add(node.left);
+                    if (node.right != null) q.add(node.right);
+                }
+
+                res.add(level);
+            }
+            return res;
+        }
+    }
+
+    /* ===================== MAIN METHOD ===================== */
+    public static void main(String[] args) {
+
+        Solution sol = new Solution();
+
+        // Build sample tree
+        TreeNode root = new TreeNode(10);
+        root.left = new TreeNode(5);
+        root.right = new TreeNode(15);
+        root.left.left = new TreeNode(3);
+        root.left.right = new TreeNode(7);
+
+        // Test Max Path Sum
+        System.out.println("Max Path Sum: " + sol.maxPathSum(root));
+
+        // Test Diameter
+        System.out.println("Diameter: " + sol.diameterOfBinaryTree(root));
+
+        // Test Level Order
+        System.out.println("Level Order: " + sol.levelOrder(root));
+    }
+}
+output:
+Max Path Sum: 37
+Diameter: 3
+Level Order: [[10], [5, 15], [3, 7]]
+
