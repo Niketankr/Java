@@ -1,0 +1,303 @@
+import java.util.*;
+
+public class Main {
+
+    /* ===================== NODE ===================== */
+    static class TreeNode {
+        int val;
+        TreeNode left, right;
+        TreeNode(int v) { val = v; }
+    }
+
+    /* ===================== 1. MAX PATH SUM ===================== */
+    static int maxSum = Integer.MIN_VALUE;
+
+    static int maxPathSum(TreeNode root) {
+        dfsMax(root);
+        return maxSum;
+    }
+
+    static int dfsMax(TreeNode node) {
+        if (node == null) return 0;
+        int l = Math.max(0, dfsMax(node.left));
+        int r = Math.max(0, dfsMax(node.right));
+        maxSum = Math.max(maxSum, l + r + node.val);
+        return node.val + Math.max(l, r);
+    }
+
+    /* ===================== 2. DIAMETER ===================== */
+    static int dia = 0;
+
+    static int diameter(TreeNode root) {
+        height(root);
+        return dia;
+    }
+
+    static int height(TreeNode node) {
+        if (node == null) return 0;
+        int l = height(node.left);
+        int r = height(node.right);
+        dia = Math.max(dia, l + r);
+        return 1 + Math.max(l, r);
+    }
+
+    /* ===================== 3. TILT ===================== */
+    static int tilt = 0;
+
+    static int findTilt(TreeNode root) {
+        dfsTilt(root);
+        return tilt;
+    }
+
+    static int dfsTilt(TreeNode node) {
+        if (node == null) return 0;
+        int l = dfsTilt(node.left);
+        int r = dfsTilt(node.right);
+        tilt += Math.abs(l - r);
+        return l + r + node.val;
+    }
+
+    /* ===================== 4. HOUSE ROBBER ===================== */
+    static int[] rob(TreeNode node) {
+        if (node == null) return new int[2];
+
+        int[] l = rob(node.left);
+        int[] r = rob(node.right);
+
+        int rob = node.val + l[1] + r[1];
+        int notRob = Math.max(l[0], l[1]) + Math.max(r[0], r[1]);
+
+        return new int[]{rob, notRob};
+    }
+
+    /* ===================== 5. LCA ===================== */
+    static TreeNode LCA(TreeNode root, TreeNode p, TreeNode q) {
+        if (root == null || root == p || root == q) return root;
+
+        TreeNode l = LCA(root.left, p, q);
+        TreeNode r = LCA(root.right, p, q);
+
+        if (l == null) return r;
+        if (r == null) return l;
+
+        return root;
+    }
+
+    /* ===================== 6. PATH SUM II ===================== */
+    static void pathSum(TreeNode node, int sum, List<Integer> path) {
+        if (node == null) return;
+
+        path.add(node.val);
+
+        if (node.left == null && node.right == null && sum == node.val)
+            System.out.println(path);
+
+        pathSum(node.left, sum - node.val, path);
+        pathSum(node.right, sum - node.val, path);
+
+        path.remove(path.size() - 1);
+    }
+
+    /* ===================== 7. PATH SUM III ===================== */
+    static int pathSum3(TreeNode root, int target) {
+        Map<Long, Integer> map = new HashMap<>();
+        map.put(0L, 1);
+        return dfsPS(root, 0, target, map);
+    }
+
+    static int dfsPS(TreeNode node, long curr, int target, Map<Long, Integer> map) {
+        if (node == null) return 0;
+
+        curr += node.val;
+        int res = map.getOrDefault(curr - target, 0);
+
+        map.put(curr, map.getOrDefault(curr, 0) + 1);
+        res += dfsPS(node.left, curr, target, map);
+        res += dfsPS(node.right, curr, target, map);
+        map.put(curr, map.get(curr) - 1);
+
+        return res;
+    }
+
+    /* ===================== 8. ZIGZAG ===================== */
+    static void zigzag(TreeNode root) {
+        Queue<TreeNode> q = new LinkedList<>();
+        q.add(root);
+        boolean dir = true;
+
+        while (!q.isEmpty()) {
+            int size = q.size();
+            LinkedList<Integer> list = new LinkedList<>();
+
+            for (int i = 0; i < size; i++) {
+                TreeNode n = q.poll();
+
+                if (dir) list.addLast(n.val);
+                else list.addFirst(n.val);
+
+                if (n.left != null) q.add(n.left);
+                if (n.right != null) q.add(n.right);
+            }
+
+            System.out.println(list);
+            dir = !dir;
+        }
+    }
+
+    /* ===================== 9. RIGHT VIEW ===================== */
+    static void rightView(TreeNode root) {
+        Queue<TreeNode> q = new LinkedList<>();
+        q.add(root);
+
+        while (!q.isEmpty()) {
+            int size = q.size();
+
+            for (int i = 0; i < size; i++) {
+                TreeNode n = q.poll();
+                if (i == size - 1)
+                    System.out.print(n.val + " ");
+
+                if (n.left != null) q.add(n.left);
+                if (n.right != null) q.add(n.right);
+            }
+        }
+    }
+
+    /* ===================== 10. VALID BST ===================== */
+    static boolean isValid(TreeNode node, long min, long max) {
+        if (node == null) return true;
+
+        if (node.val <= min || node.val >= max) return false;
+
+        return isValid(node.left, min, node.val) &&
+               isValid(node.right, node.val, max);
+    }
+
+    /* ===================== 11. KTH SMALLEST ===================== */
+    static int count = 0, ans = -1;
+
+    static void kthSmallest(TreeNode node, int k) {
+        if (node == null) return;
+
+        kthSmallest(node.left, k);
+
+        count++;
+        if (count == k) ans = node.val;
+
+        kthSmallest(node.right, k);
+    }
+
+    /* ===================== 12. BINARY TREE PATHS ===================== */
+    static void paths(TreeNode node, String path) {
+        if (node == null) return;
+
+        if (path.length() == 0) path += node.val;
+        else path += "->" + node.val;
+
+        if (node.left == null && node.right == null) {
+            System.out.println(path);
+            return;
+        }
+
+        paths(node.left, path);
+        paths(node.right, path);
+    }
+
+    /* ===================== 13. MAX AVG SUBTREE ===================== */
+    static double maxAvg = 0;
+
+    static int[] avg(TreeNode node) {
+        if (node == null) return new int[]{0, 0};
+
+        int[] l = avg(node.left);
+        int[] r = avg(node.right);
+
+        int sum = l[0] + r[0] + node.val;
+        int count = l[1] + r[1] + 1;
+
+        maxAvg = Math.max(maxAvg, (double) sum / count);
+
+        return new int[]{sum, count};
+    }
+
+    /* ===================== 14. LARGEST BST ===================== */
+    static int maxSize = 0;
+
+    static int[] largestBST(TreeNode node) {
+        if (node == null)
+            return new int[]{Integer.MAX_VALUE, Integer.MIN_VALUE, 0};
+
+        int[] l = largestBST(node.left);
+        int[] r = largestBST(node.right);
+
+        if (node.val > l[1] && node.val < r[0]) {
+            int size = l[2] + r[2] + 1;
+            maxSize = Math.max(maxSize, size);
+
+            return new int[]{
+                Math.min(node.val, l[0]),
+                Math.max(node.val, r[1]),
+                size
+            };
+        }
+
+        return new int[]{Integer.MIN_VALUE, Integer.MAX_VALUE, 0};
+    }
+
+    /* ===================== 15. LCA DEEPEST ===================== */
+    static class Pair {
+        TreeNode node;
+        int depth;
+        Pair(TreeNode n, int d) { node = n; depth = d; }
+    }
+
+    static Pair lcaDeep(TreeNode node) {
+        if (node == null) return new Pair(null, 0);
+
+        Pair l = lcaDeep(node.left);
+        Pair r = lcaDeep(node.right);
+
+        if (l.depth > r.depth) return new Pair(l.node, l.depth + 1);
+        if (r.depth > l.depth) return new Pair(r.node, r.depth + 1);
+
+        return new Pair(node, l.depth + 1);
+    }
+
+    /* ===================== MAIN ===================== */
+    public static void main(String[] args) {
+
+        TreeNode root = new TreeNode(10);
+        root.left = new TreeNode(5);
+        root.right = new TreeNode(15);
+        root.left.left = new TreeNode(3);
+        root.left.right = new TreeNode(7);
+
+        System.out.println("Max Path Sum: " + maxPathSum(root));
+        System.out.println("Diameter: " + diameter(root));
+        System.out.println("Tilt: " + findTilt(root));
+
+        System.out.print("Right View: ");
+        rightView(root);
+        System.out.println();
+
+        System.out.println("Valid BST: " + isValid(root, Long.MIN_VALUE, Long.MAX_VALUE));
+
+        kthSmallest(root, 3);
+        System.out.println("Kth Smallest: " + ans);
+
+        System.out.println("Paths:");
+        paths(root, "");
+    }
+}
+
+output:
+Max Path Sum: 37
+Diameter: 3
+Tilt: 4
+Right View: 10 15 7 
+Valid BST: true
+Kth Smallest: 7
+Paths:
+10->5->3
+10->5->7
+10->15
