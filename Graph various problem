@@ -1,0 +1,201 @@
+import java.util.*;
+
+public class Main {
+
+    /* ===================== 1. NUMBER OF ISLANDS ===================== */
+    static int numIslands(char[][] grid) {
+        int count = 0;
+
+        for (int i = 0; i < grid.length; i++)
+            for (int j = 0; j < grid[0].length; j++)
+                if (grid[i][j] == '1') {
+                    dfsIsland(grid, i, j);
+                    count++;
+                }
+
+        return count;
+    }
+
+    static void dfsIsland(char[][] g, int i, int j) {
+        if (i < 0 || j < 0 || i >= g.length || j >= g[0].length || g[i][j] == '0')
+            return;
+
+        g[i][j] = '0';
+
+        dfsIsland(g, i+1, j);
+        dfsIsland(g, i-1, j);
+        dfsIsland(g, i, j+1);
+        dfsIsland(g, i, j-1);
+    }
+
+    /* ===================== 2. BFS ===================== */
+    static void bfs(List<List<Integer>> graph, int start) {
+        boolean[] vis = new boolean[graph.size()];
+        Queue<Integer> q = new LinkedList<>();
+
+        q.add(start);
+        vis[start] = true;
+
+        while (!q.isEmpty()) {
+            int node = q.poll();
+            System.out.print(node + " ");
+
+            for (int nei : graph.get(node)) {
+                if (!vis[nei]) {
+                    vis[nei] = true;
+                    q.add(nei);
+                }
+            }
+        }
+    }
+
+    /* ===================== 3. DFS ===================== */
+    static void dfs(List<List<Integer>> graph, int node, boolean[] vis) {
+        vis[node] = true;
+        System.out.print(node + " ");
+
+        for (int nei : graph.get(node))
+            if (!vis[nei])
+                dfs(graph, nei, vis);
+    }
+
+    /* ===================== 4. CYCLE DETECTION ===================== */
+    static boolean hasCycle(int node, int parent, List<List<Integer>> g, boolean[] vis) {
+        vis[node] = true;
+
+        for (int nei : g.get(node)) {
+            if (!vis[nei]) {
+                if (hasCycle(nei, node, g, vis)) return true;
+            } else if (nei != parent) return true;
+        }
+        return false;
+    }
+
+    /* ===================== 5. TOPO SORT (BFS) ===================== */
+    static void topoSort(int n, List<List<Integer>> g) {
+        int[] indeg = new int[n];
+
+        for (int i = 0; i < n; i++)
+            for (int nei : g.get(i))
+                indeg[nei]++;
+
+        Queue<Integer> q = new LinkedList<>();
+        for (int i = 0; i < n; i++)
+            if (indeg[i] == 0)
+                q.add(i);
+
+        while (!q.isEmpty()) {
+            int node = q.poll();
+            System.out.print(node + " ");
+
+            for (int nei : g.get(node)) {
+                if (--indeg[nei] == 0)
+                    q.add(nei);
+            }
+        }
+    }
+
+    /* ===================== 6. DIJKSTRA ===================== */
+    static void dijkstra(int n, List<List<int[]>> g, int src) {
+        int[] dist = new int[n];
+        Arrays.fill(dist, Integer.MAX_VALUE);
+
+        PriorityQueue<int[]> pq = new PriorityQueue<>((a,b)->a[1]-b[1]);
+
+        dist[src] = 0;
+        pq.add(new int[]{src, 0});
+
+        while (!pq.isEmpty()) {
+            int[] cur = pq.poll();
+            int node = cur[0], d = cur[1];
+
+            for (int[] nei : g.get(node)) {
+                int next = nei[0], wt = nei[1];
+
+                if (d + wt < dist[next]) {
+                    dist[next] = d + wt;
+                    pq.add(new int[]{next, dist[next]});
+                }
+            }
+        }
+
+        System.out.println("Distances: " + Arrays.toString(dist));
+    }
+
+    /* ===================== 7. UNION FIND ===================== */
+    static int[] parent;
+
+    static void initUF(int n) {
+        parent = new int[n];
+        for (int i = 0; i < n; i++) parent[i] = i;
+    }
+
+    static int find(int x) {
+        if (parent[x] != x)
+            parent[x] = find(parent[x]);
+        return parent[x];
+    }
+
+    static void union(int a, int b) {
+        parent[find(a)] = find(b);
+    }
+
+    /* ===================== MAIN ===================== */
+    public static void main(String[] args) {
+
+        // Graph build
+        int n = 5;
+        List<List<Integer>> g = new ArrayList<>();
+        for (int i = 0; i < n; i++) g.add(new ArrayList<>());
+
+        g.get(0).add(1);
+        g.get(0).add(2);
+        g.get(1).add(3);
+        g.get(2).add(4);
+
+        System.out.print("BFS: ");
+        bfs(g, 0);
+
+        System.out.print("\nDFS: ");
+        dfs(g, 0, new boolean[n]);
+
+        System.out.println("\nCycle: " + hasCycle(0, -1, g, new boolean[n]));
+
+        System.out.print("Topo Sort: ");
+        topoSort(n, g);
+
+        // Dijkstra graph
+        List<List<int[]>> wg = new ArrayList<>();
+        for (int i = 0; i < n; i++) wg.add(new ArrayList<>());
+
+        wg.get(0).add(new int[]{1,2});
+        wg.get(0).add(new int[]{2,4});
+        wg.get(1).add(new int[]{3,7});
+        wg.get(2).add(new int[]{4,1});
+
+        dijkstra(n, wg, 0);
+
+        // Union-Find
+        initUF(n);
+        union(1, 2);
+        union(2, 3);
+
+        System.out.println("Find(3): " + find(3));
+
+        // Number of Islands
+        char[][] grid = {
+            {'1','1','0'},
+            {'1','0','0'},
+            {'0','1','1'}
+        };
+
+        System.out.println("Islands: " + numIslands(grid));
+    }
+}
+output:
+BFS: 0 1 2 3 4 
+DFS: 0 1 3 2 4 
+Cycle: false
+Topo Sort: 0 1 2 3 4 Distances: [0, 2, 4, 9, 5]
+Find(3): 3
+Islands: 2
