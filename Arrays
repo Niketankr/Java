@@ -1,0 +1,83 @@
+import java.util.*;
+
+public class Main {
+
+    static String reverse(String s){
+        return new StringBuilder(s).reverse().toString();
+    }
+
+    static boolean palindrome(String s){
+        return s.equals(reverse(s));
+    }
+
+    static void countVC(String s){
+        int v=0,c=0;
+        s=s.toLowerCase();
+        for(char ch:s.toCharArray()){
+            if(Character.isLetter(ch)){
+                if("aeiou".indexOf(ch)!=-1) v++;
+                else c++;
+            }
+        }
+        System.out.println("V:"+v+" C:"+c);
+    }
+
+    static String removeDup(String s){
+        Set<Character> set=new LinkedHashSet<>();
+        for(char ch:s.toCharArray()) set.add(ch);
+
+        StringBuilder res=new StringBuilder();
+        for(char ch:set) res.append(ch);
+        return res.toString();
+    }
+
+    static void freq(String s){
+        int[] f=new int[256];
+        for(char ch:s.toCharArray()) f[ch]++;
+        for(int i=0;i<256;i++)
+            if(f[i]>0)
+                System.out.println((char)i+" "+f[i]);
+    }
+
+    static boolean anagram(String a,String b){
+        char[] x=a.toCharArray();
+        char[] y=b.toCharArray();
+        Arrays.sort(x);
+        Arrays.sort(y);
+        return Arrays.equals(x,y);
+    }
+
+    static char firstNonRepeat(String s){
+        int[] f=new int[256];
+        for(char ch:s.toCharArray()) f[ch]++;
+        for(char ch:s.toCharArray())
+            if(f[ch]==1) return ch;
+        return '#';
+    }
+
+    public static void main(String[] args){
+        String s="hello";
+
+        System.out.println(reverse(s));
+        System.out.println(palindrome(s));
+        countVC(s);
+        System.out.println(removeDup(s));
+        freq(s);
+        System.out.println(anagram("listen","silent"));
+        System.out.println(firstNonRepeat(s));
+        System.out.println(s.toUpperCase());
+    }
+}
+
+output:
+olleh
+false
+V:2 C:3
+helo
+e 1
+h 1
+l 2
+o 1
+true
+h
+HELLO
