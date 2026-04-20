@@ -1,0 +1,107 @@
+import java.util.*;
+
+public class Main {
+
+    static String reverse(String s){
+        return new StringBuilder(s).reverse().toString();
+    }
+
+    static boolean palindrome(String s){
+        return s.equals(reverse(s));
+    }
+
+    static void countVC(String s){
+        int v=0,c=0;
+        for(char ch:s.toLowerCase().toCharArray()){
+            if(Character.isLetter(ch)){
+                if("aeiou".indexOf(ch)!=-1) v++;
+                else c++;
+            }
+        }
+        System.out.println(v+" "+c);
+    }
+
+    static String removeDup(String s){
+        Set<Character> set=new LinkedHashSet<>();
+        for(char ch:s.toCharArray()) set.add(ch);
+        StringBuilder res=new StringBuilder();
+        for(char ch:set) res.append(ch);
+        return res.toString();
+    }
+
+    static void freq(String s){
+        int[] f=new int[256];
+        for(char ch:s.toCharArray()) f[ch]++;
+        for(int i=0;i<256;i++)
+            if(f[i]>0)
+                System.out.println((char)i+" "+f[i]);
+    }
+
+    static boolean anagram(String a,String b){
+        char[] x=a.toCharArray();
+        char[] y=b.toCharArray();
+        Arrays.sort(x);
+        Arrays.sort(y);
+        return Arrays.equals(x,y);
+    }
+
+    static char firstNonRepeat(String s){
+        int[] f=new int[256];
+        for(char ch:s.toCharArray()) f[ch]++;
+        for(char ch:s.toCharArray())
+            if(f[ch]==1) return ch;
+        return '#';
+    }
+
+    static String longestWord(String s){
+        String[] w=s.split(" ");
+        String max="";
+        for(String x:w)
+            if(x.length()>max.length()) max=x;
+        return max;
+    }
+
+    static void reverseWords(String s){
+        String[] w=s.split(" ");
+        for(int i=w.length-1;i>=0;i--)
+            System.out.print(w[i]+" ");
+        System.out.println();
+    }
+
+    static boolean substring(String s,String sub){
+        return s.contains(sub);
+    }
+
+    public static void main(String[] args){
+        String s="hello world";
+
+        System.out.println(reverse(s));
+        System.out.println(palindrome(s));
+        countVC(s);
+        System.out.println(removeDup(s));
+        freq(s);
+        System.out.println(anagram("listen","silent"));
+        System.out.println(firstNonRepeat("swiss"));
+        System.out.println(longestWord(s));
+        reverseWords(s);
+        System.out.println(substring(s,"world"));
+    }
+}
+output:
+dlrow olleh
+false
+3 7
+helo wrd
+  1
+d 1
+e 1
+h 1
+l 3
+o 2
+r 1
+w 1
+true
+w
+hello
+world hello 
+true
