@@ -1,0 +1,116 @@
+import java.util.*;
+
+public class Main {
+
+    static int largest(int[] a){
+        int m=a[0];
+        for(int x:a) if(x>m) m=x;
+        return m;
+    }
+
+    static int secondLargest(int[] a){
+        int f=Integer.MIN_VALUE,s=Integer.MIN_VALUE;
+        for(int x:a){
+            if(x>f){ s=f; f=x; }
+            else if(x>s && x!=f) s=x;
+        }
+        return s;
+    }
+
+    static void reverse(int[] a){
+        int i=0,j=a.length-1;
+        while(i<j){
+            int t=a[i]; a[i]=a[j]; a[j]=t;
+            i++; j--;
+        }
+    }
+
+    static void sort(int[] a){
+        Arrays.sort(a);
+    }
+
+    static int removeDup(int[] a){
+        int j=0;
+        for(int i=0;i<a.length-1;i++)
+            if(a[i]!=a[i+1]) a[j++]=a[i];
+        a[j++]=a[a.length-1];
+        return j;
+    }
+
+    static void moveZero(int[] a){
+        int j=0;
+        for(int i=0;i<a.length;i++)
+            if(a[i]!=0){
+                int t=a[i]; a[i]=a[j]; a[j]=t;
+                j++;
+            }
+    }
+
+    static int missing(int[] a,int n){
+        int sum=n*(n+1)/2,s=0;
+        for(int x:a) s+=x;
+        return sum-s;
+    }
+
+    static int findDuplicate(int[] a){
+        Set<Integer> set=new HashSet<>();
+        for(int x:a){
+            if(set.contains(x)) return x;
+            set.add(x);
+        }
+        return -1;
+    }
+
+    static void merge(int[] a,int[] b){
+        int[] c=new int[a.length+b.length];
+        System.arraycopy(a,0,c,0,a.length);
+        System.arraycopy(b,0,c,a.length,b.length);
+        System.out.println(Arrays.toString(c));
+    }
+
+    static void rotate(int[] a){
+        int last=a[a.length-1];
+        for(int i=a.length-1;i>0;i--)
+            a[i]=a[i-1];
+        a[0]=last;
+    }
+
+    public static void main(String[] args){
+
+        int[] a={1,2,0,3,2};
+
+        System.out.println(largest(a));
+        System.out.println(secondLargest(a));
+
+        reverse(a);
+        System.out.println(Arrays.toString(a));
+
+        sort(a);
+        System.out.println(Arrays.toString(a));
+
+        int n=removeDup(a);
+        System.out.println(Arrays.toString(Arrays.copyOf(a,n)));
+
+        moveZero(a);
+        System.out.println(Arrays.toString(a));
+
+        System.out.println(missing(new int[]{1,2,4,5},5));
+        System.out.println(findDuplicate(new int[]{1,2,3,2}));
+
+        merge(new int[]{1,2},new int[]{3,4});
+
+        rotate(a);
+        System.out.println(Arrays.toString(a));
+    }
+}
+output:
+3
+2
+[2, 3, 0, 2, 1]
+[0, 1, 2, 2, 3]
+[0, 1, 2, 3]
+[1, 2, 3, 3, 0]
+3
+2
+[1, 2, 3, 4]
+[0, 1, 2, 3, 3]
