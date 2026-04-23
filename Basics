@@ -1,0 +1,73 @@
+import java.util.*;
+
+public class Main {
+
+    static int sumN(int n){
+        if(n==0) return 0;
+        return n + sumN(n-1);
+    }
+
+    static int power(int a,int b){
+        if(b==0) return 1;
+        return a * power(a,b-1);
+    }
+
+    static int factorial(int n){
+        if(n<=1) return 1;
+        return n * factorial(n-1);
+    }
+
+    static int gcd(int a,int b){
+        if(b==0) return a;
+        return gcd(b,a%b);
+    }
+
+    static int lcm(int a,int b){
+        return (a*b)/gcd(a,b);
+    }
+
+    static int fib(int n){
+        if(n<=1) return n;
+        return fib(n-1)+fib(n-2);
+    }
+
+    static boolean armstrong(int n){
+        int sum=0,temp=n;
+        while(temp!=0){
+            int d=temp%10;
+            sum+=d*d*d;
+            temp/=10;
+        }
+        return sum==n;
+    }
+
+    static boolean peterson(int n){
+        int sum=0,temp=n;
+        while(temp!=0){
+            int d=temp%10;
+            sum+=factorial(d);
+            temp/=10;
+        }
+        return sum==n;
+    }
+
+    public static void main(String[] args){
+        System.out.println(sumN(5));
+        System.out.println(power(2,3));
+        System.out.println(factorial(5));
+        System.out.println(gcd(12,18));
+        System.out.println(lcm(12,18));
+        System.out.println(fib(6));
+        System.out.println(armstrong(153));
+        System.out.println(peterson(145));
+    }
+}
+output:
+15
+8
+120
+6
+36
+8
+true
+true
