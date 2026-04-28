@@ -1,0 +1,351 @@
+import java.util.*;
+import java.io.*;
+
+// Student Class
+class Student {
+    int id;
+    String name;
+}
+
+// Employee Class
+class Employee {
+    int id;
+    String name;
+    double salary;
+}
+
+public class Main {
+
+    // ================= ASSIGNMENT 7 =================
+
+    // Sum of N Naturals
+    static int sumN(int n) {
+        if (n == 0) return 0;
+        return n + sumN(n - 1);
+    }
+
+    // Power
+    static int power(int a, int b) {
+        if (b == 0) return 1;
+        return a * power(a, b - 1);
+    }
+
+    // Factorial
+    static int factorial(int n) {
+        if (n <= 1) return 1;
+        return n * factorial(n - 1);
+    }
+
+    // GCD
+    static int gcd(int a, int b) {
+        if (b == 0) return a;
+        return gcd(b, a % b);
+    }
+
+    // LCM
+    static int lcm(int a, int b) {
+        return (a * b) / gcd(a, b);
+    }
+
+    // Fibonacci
+    static int fib(int n) {
+        if (n <= 1) return n;
+        return fib(n - 1) + fib(n - 2);
+    }
+
+    // Armstrong Number
+    static boolean armstrong(int n) {
+        int sum = 0, temp = n;
+
+        while (temp != 0) {
+            int d = temp % 10;
+            sum += d * d * d;
+            temp /= 10;
+        }
+
+        return sum == n;
+    }
+
+    // Peterson Number
+    static boolean peterson(int n) {
+        int sum = 0, temp = n;
+
+        while (temp != 0) {
+            int d = temp % 10;
+            sum += factorial(d);
+            temp /= 10;
+        }
+
+        return sum == n;
+    }
+
+    // ================= ASSIGNMENT 8 =================
+
+    // Linear Search
+    static int linearSearch(int[] arr, int key) {
+        for (int i = 0; i < arr.length; i++) {
+            if (arr[i] == key)
+                return i;
+        }
+        return -1;
+    }
+
+    // Binary Search
+    static int binarySearch(int[] arr, int key) {
+        int left = 0, right = arr.length - 1;
+
+        while (left <= right) {
+            int mid = (left + right) / 2;
+
+            if (arr[mid] == key)
+                return mid;
+            else if (arr[mid] < key)
+                left = mid + 1;
+            else
+                right = mid - 1;
+        }
+
+        return -1;
+    }
+
+    // Bubble Sort Descending
+    static void bubbleSortDesc(int[] arr) {
+        for (int i = 0; i < arr.length - 1; i++) {
+            for (int j = 0; j < arr.length - i - 1; j++) {
+
+                if (arr[j] < arr[j + 1]) {
+                    int temp = arr[j];
+                    arr[j] = arr[j + 1];
+                    arr[j + 1] = temp;
+                }
+            }
+        }
+    }
+
+    // Selection Sort Ascending
+    static void selectionSortAsc(int[] arr) {
+        for (int i = 0; i < arr.length; i++) {
+
+            int min = i;
+
+            for (int j = i + 1; j < arr.length; j++) {
+                if (arr[j] < arr[min]) {
+                    min = j;
+                }
+            }
+
+            int temp = arr[i];
+            arr[i] = arr[min];
+            arr[min] = temp;
+        }
+    }
+
+    // ================= ASSIGNMENT 10 =================
+
+    // Swap Numbers
+    static void swap(int[] arr) {
+        int temp = arr[0];
+        arr[0] = arr[1];
+        arr[1] = temp;
+    }
+
+    // Reverse String
+    static void reverseString(String str) {
+        StringBuilder sb = new StringBuilder(str);
+        System.out.println("Reversed String: " + sb.reverse());
+    }
+
+    // Print Array
+    static void printArray(int[] arr) {
+        for (int x : arr) {
+            System.out.print(x + " ");
+        }
+        System.out.println();
+    }
+
+    // ================= MAIN METHOD =================
+
+    public static void main(String[] args) throws Exception {
+
+        // ===== Assignment 7 =====
+
+        System.out.println("===== Assignment 7 =====");
+
+        System.out.println("Sum of N Naturals: " + sumN(5));
+
+        System.out.println("Power: " + power(2, 3));
+
+        System.out.println("Factorial: " + factorial(5));
+
+        System.out.println("GCD: " + gcd(12, 18));
+
+        System.out.println("LCM: " + lcm(12, 18));
+
+        System.out.println("Fibonacci: " + fib(6));
+
+        System.out.println("Armstrong: " + armstrong(153));
+
+        System.out.println("Peterson: " + peterson(145));
+
+
+        // ===== Assignment 8 =====
+
+        System.out.println("\n===== Assignment 8 =====");
+
+        int[] arr = {5, 2, 8, 1};
+
+        System.out.println("Linear Search (8): " +
+                linearSearch(arr, 8));
+
+        Arrays.sort(arr);
+
+        System.out.println("Binary Search (8): " +
+                binarySearch(arr, 8));
+
+        bubbleSortDesc(arr);
+
+        System.out.print("Bubble Sort Desc: ");
+        printArray(arr);
+
+        selectionSortAsc(arr);
+
+        System.out.print("Selection Sort Asc: ");
+        printArray(arr);
+
+
+        // ===== Assignment 9 =====
+
+        System.out.println("\n===== Assignment 9 =====");
+
+        Student s = new Student();
+
+        s.id = 1;
+        s.name = "Niketan";
+
+        System.out.println("Student: " + s.id + " " + s.name);
+
+        Employee[] emp = new Employee[2];
+
+        for (int i = 0; i < 2; i++) {
+            emp[i] = new Employee();
+
+            emp[i].id = i + 1;
+            emp[i].name = "Employee" + (i + 1);
+            emp[i].salary = 10000 * (i + 1);
+        }
+
+        for (Employee e : emp) {
+            System.out.println(e.id + " " +
+                    e.name + " " + e.salary);
+        }
+
+
+        // ===== Assignment 10 =====
+
+        System.out.println("\n===== Assignment 10 =====");
+
+        int[] nums = {10, 20};
+
+        swap(nums);
+
+        System.out.println("After Swap: " +
+                nums[0] + " " + nums[1]);
+
+        int[][] matrix = {
+                {1, 2},
+                {3, 4}
+        };
+
+        System.out.println("2D Array Element: " +
+                matrix[1][1]);
+
+        System.out.println("Factorial: " + factorial(5));
+
+        reverseString("hello");
+
+        // Dynamic Allocation
+        int[] dynamic = new int[5];
+
+        dynamic[0] = 100;
+
+        System.out.println("Dynamic Array Value: " +
+                dynamic[0]);
+
+
+        // ===== Assignment 11 =====
+
+        System.out.println("\n===== Assignment 11 =====");
+
+        // Write File
+        FileWriter fw = new FileWriter("file1.txt");
+
+        fw.write("Hello Niketan\n");
+        fw.write("Welcome to Java File Handling");
+
+        fw.close();
+
+        // Read File
+        Scanner sc = new Scanner(new File("file1.txt"));
+
+        System.out.println("Reading File:");
+
+        while (sc.hasNextLine()) {
+            System.out.println(sc.nextLine());
+        }
+
+        sc.close();
+
+        // Copy File
+        BufferedReader br =
+                new BufferedReader(new FileReader("file1.txt"));
+
+        BufferedWriter bw =
+                new BufferedWriter(new FileWriter("file2.txt"));
+
+        String line;
+
+        while ((line = br.readLine()) != null) {
+            bw.write(line);
+            bw.newLine();
+        }
+
+        br.close();
+        bw.close();
+
+        System.out.println("File Copied Successfully");
+    }
+}
+output:
+===== Assignment 7 =====
+Sum of N Naturals: 15
+Power: 8
+Factorial: 120
+GCD: 6
+LCM: 36
+Fibonacci: 8
+Armstrong: true
+Peterson: true
+
+===== Assignment 8 =====
+Linear Search (8): 2
+Binary Search (8): 3
+Bubble Sort Desc: 8 5 2 1 
+Selection Sort Asc: 1 2 5 8 
+
+===== Assignment 9 =====
+Student: 1 Niketan
+1 Employee1 10000.0
+2 Employee2 20000.0
+
+===== Assignment 10 =====
+After Swap: 20 10
+2D Array Element: 4
+Factorial: 120
+Reversed String: olleh
+Dynamic Array Value: 100
+
+===== Assignment 11 =====
+Reading File:
+Hello Niketan
+Welcome to Java File Handling
+File Copied Successfully
