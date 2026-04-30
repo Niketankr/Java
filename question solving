@@ -1,0 +1,348 @@
+import java.util.*;
+import java.io.*;
+
+// Structure Program using Class
+class Student {
+    int id;
+    String name;
+
+    void display() {
+        System.out.println("Student ID: " + id);
+        System.out.println("Student Name: " + name);
+    }
+}
+
+public class Main {
+
+    // ================= PRIME NUMBER =================
+    static boolean isPrime(int n) {
+
+        if (n <= 1)
+            return false;
+
+        for (int i = 2; i * i <= n; i++) {
+
+            if (n % i == 0)
+                return false;
+        }
+
+        return true;
+    }
+
+    // ================= SERIES SUM =================
+    static int seriesSum(int n) {
+
+        int sum = 0;
+
+        for (int i = 1; i <= n; i++) {
+            sum += i;
+        }
+
+        return sum;
+    }
+
+    // ================= FACTORIAL USING RECURSION =================
+    static int factorial(int n) {
+
+        if (n <= 1)
+            return 1;
+
+        return n * factorial(n - 1);
+    }
+
+    // ================= BUBBLE SORT =================
+    static void bubbleSort(int[] arr) {
+
+        int n = arr.length;
+
+        for (int i = 0; i < n - 1; i++) {
+
+            for (int j = 0; j < n - i - 1; j++) {
+
+                if (arr[j] > arr[j + 1]) {
+
+                    int temp = arr[j];
+                    arr[j] = arr[j + 1];
+                    arr[j + 1] = temp;
+                }
+            }
+        }
+    }
+
+    // ================= BINARY SEARCH =================
+    static int binarySearch(int[] arr, int key) {
+
+        int left = 0;
+        int right = arr.length - 1;
+
+        while (left <= right) {
+
+            int mid = (left + right) / 2;
+
+            if (arr[mid] == key)
+                return mid;
+
+            else if (arr[mid] < key)
+                left = mid + 1;
+
+            else
+                right = mid - 1;
+        }
+
+        return -1;
+    }
+
+    // ================= SWAP TWO NUMBERS =================
+    static void swap(int a, int b) {
+
+        System.out.println("Before Swap: " + a + " " + b);
+
+        int temp = a;
+        a = b;
+        b = temp;
+
+        System.out.println("After Swap: " + a + " " + b);
+    }
+
+    // ================= PRINT DIGITS =================
+    static void printDigits(int n) {
+
+        System.out.println("Digits are:");
+
+        while (n != 0) {
+
+            int digit = n % 10;
+            System.out.println(digit);
+
+            n /= 10;
+        }
+    }
+
+    // ================= STRING LENGTH =================
+    static void stringLength(String str) {
+
+        System.out.println("Length of String = " + str.length());
+    }
+
+    // ================= SQUARE USING FUNCTION =================
+    static int square(int n) {
+
+        return n * n;
+    }
+
+    // ================= FILE HANDLING =================
+    static void fileHandling() throws Exception {
+
+        // Writing File
+        FileWriter fw = new FileWriter("sample.txt");
+
+        fw.write("Hello Niketan\n");
+        fw.write("Welcome to Java File Handling");
+
+        fw.close();
+
+        // Reading File
+        File file = new File("sample.txt");
+
+        Scanner sc = new Scanner(file);
+
+        System.out.println("\nReading File:");
+
+        while (sc.hasNextLine()) {
+
+            System.out.println(sc.nextLine());
+        }
+
+        sc.close();
+    }
+
+    // ================= PRINT ARRAY =================
+    static void printArray(int[] arr) {
+
+        for (int x : arr) {
+
+            System.out.print(x + " ");
+        }
+
+        System.out.println();
+    }
+
+    // ================= MAIN METHOD =================
+    public static void main(String[] args) throws Exception {
+
+        Scanner sc = new Scanner(System.in);
+
+        // 1. Print Numbers 1 to 10
+        System.out.println("Numbers from 1 to 10:");
+
+        for (int i = 1; i <= 10; i++) {
+
+            System.out.print(i + " ");
+        }
+
+        System.out.println();
+
+        // 2. Add Two Numbers
+        System.out.print("\nEnter first number: ");
+        int num1 = sc.nextInt();
+
+        System.out.print("Enter second number: ");
+        int num2 = sc.nextInt();
+
+        int sum = num1 + num2;
+
+        System.out.println("Sum = " + sum);
+
+        // 3. Positive or Negative
+        System.out.print("\nEnter a number: ");
+        int pn = sc.nextInt();
+
+        if (pn > 0)
+            System.out.println("Positive Number");
+
+        else if (pn < 0)
+            System.out.println("Negative Number");
+
+        else
+            System.out.println("Zero");
+
+        // 4. Sum of N Natural Numbers
+        System.out.print("\nEnter n: ");
+        int n = sc.nextInt();
+
+        System.out.println("Sum of Natural Numbers = " + seriesSum(n));
+
+        // 5. Print Digits
+        System.out.print("\nEnter number to print digits: ");
+        int digitNum = sc.nextInt();
+
+        printDigits(digitNum);
+
+        // 6. Swap Two Numbers
+        System.out.print("\nEnter two values to swap: ");
+
+        int x = sc.nextInt();
+        int y = sc.nextInt();
+
+        swap(x, y);
+
+        // 7. String Length
+        sc.nextLine();
+
+        System.out.print("\nEnter a string: ");
+        String str = sc.nextLine();
+
+        stringLength(str);
+
+        // 8. Square using Function
+        System.out.print("\nEnter number to find square: ");
+        int sq = sc.nextInt();
+
+        System.out.println("Square = " + square(sq));
+
+        // 9. Prime Number
+        System.out.print("\nEnter number to check prime: ");
+        int primeNum = sc.nextInt();
+
+        if (isPrime(primeNum))
+            System.out.println("Prime Number");
+
+        else
+            System.out.println("Not Prime Number");
+
+        // 10. Factorial using Recursion
+        System.out.print("\nEnter number for factorial: ");
+        int fact = sc.nextInt();
+
+        System.out.println("Factorial = " + factorial(fact));
+
+        // 11. Bubble Sort
+        int[] arr = {5, 2, 8, 1, 9};
+
+        System.out.println("\nOriginal Array:");
+        printArray(arr);
+
+        bubbleSort(arr);
+
+        System.out.println("Sorted Array:");
+        printArray(arr);
+
+        // 12. Binary Search
+        System.out.print("\nEnter element to search: ");
+        int key = sc.nextInt();
+
+        int result = binarySearch(arr, key);
+
+        if (result != -1)
+            System.out.println("Element found at index: " + result);
+
+        else
+            System.out.println("Element not found");
+
+        // 13. Structure Program
+        System.out.println("\nStructure Program:");
+
+        Student s = new Student();
+
+        s.id = 101;
+        s.name = "Niketan";
+
+        s.display();
+
+        // 14. File Handling
+        fileHandling();
+
+        sc.close();
+    }
+}
+output:
+Numbers from 1 to 10:
+1 2 3 4 5 6 7 8 9 10 
+
+Enter first number: 56
+Enter second number: 45
+Sum = 101
+
+Enter a number: 45
+Positive Number
+
+Enter n: 65
+Sum of Natural Numbers = 2145
+
+Enter number to print digits: 65
+Digits are:
+5
+6
+
+Enter two values to swap: 45
+65
+Before Swap: 45 65
+After Swap: 65 45
+
+Enter a string: nikledeon
+Length of String = 9
+
+Enter number to find square: 5
+Square = 25
+
+Enter number to check prime: 65
+Not Prime Number
+
+Enter number for factorial: 6
+Factorial = 720
+
+Original Array:
+5 2 8 1 9 
+Sorted Array:
+1 2 5 8 9 
+
+Enter element to search: 6
+Element not found
+
+Structure Program:
+Student ID: 101
+Student Name: Niketan
+
+Reading File:
+Hello Niketan
+Welcome to Java File Handling
