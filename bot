@@ -1,0 +1,138 @@
+import java.util.Scanner;
+
+public class SimpleAIChatbot {
+
+    public static String getResponse(String input) {
+
+        input = input.toLowerCase();
+
+        // Greetings
+        if (input.contains("hello") || input.contains("hi")) {
+            return "Hello! How can I help you?";
+        }
+
+        // Asking name
+        else if (input.contains("your name")) {
+            return "I am a Java AI Chatbot.";
+        }
+
+        // Asking about time
+        else if (input.contains("time")) {
+            return "I cannot access real time, but you can check your system clock.";
+        }
+
+        // Asking about java
+        else if (input.contains("java")) {
+            return "Java is a powerful object-oriented programming language.";
+        }
+
+        // Asking math
+        else if (input.matches(".*\\d+.*[+\\-*/].*\\d+.*")) {
+
+            try {
+
+                input = input.replaceAll(" ", "");
+
+                char operator = ' ';
+
+                if (input.contains("+"))
+                    operator = '+';
+
+                else if (input.contains("-"))
+                    operator = '-';
+
+                else if (input.contains("*"))
+                    operator = '*';
+
+                else if (input.contains("/"))
+                    operator = '/';
+
+                String[] parts = input.split("[+\\-*/]");
+
+                double a = Double.parseDouble(parts[0]);
+                double b = Double.parseDouble(parts[1]);
+
+                double result = 0;
+
+                switch (operator) {
+
+                    case '+':
+                        result = a + b;
+                        break;
+
+                    case '-':
+                        result = a - b;
+                        break;
+
+                    case '*':
+                        result = a * b;
+                        break;
+
+                    case '/':
+                        result = a / b;
+                        break;
+                }
+
+                return "Answer = " + result;
+
+            } catch (Exception e) {
+                return "Sorry, I cannot calculate that.";
+            }
+        }
+
+        // Exit
+        else if (input.contains("bye")) {
+            return "Goodbye! Have a nice day.";
+        }
+
+        // Default response
+        else {
+            return "Sorry, I don't understand.";
+        }
+    }
+
+    public static void main(String[] args) {
+
+        Scanner sc = new Scanner(System.in);
+
+        System.out.println("===== JAVA AI CHATBOT =====");
+
+        while (true) {
+
+            System.out.print("You: ");
+            String userInput = sc.nextLine();
+
+            String response = getResponse(userInput);
+
+            System.out.println("Bot: " + response);
+
+            if (userInput.equalsIgnoreCase("bye")) {
+                break;
+            }
+        }
+
+        sc.close();
+    }
+}
+output:
+===== JAVA AI CHATBOT =====
+You: hello
+Bot: Hello! How can I help you?
+You: what is your name
+Bot: I am a Java AI Chatbot.
+You: 25+65
+Bot: Answer = 90.0
+You: 6-5
+Bot: Answer = 1.0
+You: 96*56
+Bot: Answer = 5376.0
+You: 236/4
+Bot: Answer = 59.0
+You: 685/5
+Bot: Answer = 137.0
+You: tell me about java
+Bot: Java is a powerful object-oriented programming language.
+You: 87+98
+Bot: Answer = 185.0
+You: bye
+Bot: Goodbye! Have a nice day.
