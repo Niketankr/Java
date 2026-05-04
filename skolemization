@@ -1,0 +1,103 @@
+import java.util.*;
+
+public class Skolemization {
+
+    static int varCount = 1;
+    static int funcCount = 1;
+
+    // Check if character is variable
+    static boolean isVariable(char c) {
+        return Character.isLowerCase(c);
+    }
+
+    // Main Skolemization Function
+    static String skolemize(String formula) {
+
+        Stack<Character> universalVars = new Stack<>();
+
+        StringBuilder result = new StringBuilder();
+
+        for (int i = 0; i < formula.length(); i++) {
+
+            char ch = formula.charAt(i);
+
+            // Universal Quantifier ∀
+            if (ch == '∀') {
+
+                i++;
+
+                char var = formula.charAt(i);
+
+                universalVars.push(var);
+
+                result.append("∀").append(var);
+            }
+
+            // Existential Quantifier ∃
+            else if (ch == '∃') {
+
+                i++;
+
+                char var = formula.charAt(i);
+
+                String skolem;
+
+                // If no universal variable before it → constant
+                if (universalVars.isEmpty()) {
+
+                    skolem = "C" + funcCount++;
+
+                } else {
+
+                    // Create Skolem Function
+                    StringBuilder func = new StringBuilder();
+
+                    func.append("F").append(funcCount++).append("(");
+
+                    for (int j = 0; j < universalVars.size(); j++) {
+
+                        func.append(universalVars.get(j));
+
+                        if (j != universalVars.size() - 1)
+                            func.append(",");
+                    }
+
+                    func.append(")");
+
+                    skolem = func.toString();
+                }
+
+                // Replace existential variable everywhere
+                formula = formula.replace("" + var, skolem);
+            }
+
+            else {
+                result.append(ch);
+            }
+        }
+
+        return result.toString();
+    }
+
+    public static void main(String[] args) {
+
+        // Example First Order Logic Formula
+        // ∀x ∃y P(x,y)
+
+        String formula = "∀x∃yP(x,y)";
+
+        System.out.println("Original Formula:");
+        System.out.println(formula);
+
+        String skolemized = skolemize(formula);
+
+        System.out.println("\nSkolemized Formula:");
+        System.out.println(skolemized);
+    }
+}
+output:
+Original Formula:
+?x?yP(x,y)
+
+Skolemized Formula:
+?x1(x)P(x,F1(x))
