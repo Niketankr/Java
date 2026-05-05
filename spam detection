@@ -1,0 +1,136 @@
+import java.util.*;
+
+public class Transaction {
+
+    String sender;
+    String receiver;
+    double amount;
+    int frequency;
+
+    // Constructor
+    Transaction(String sender,
+                String receiver,
+                double amount,
+                int frequency) {
+
+        this.sender = sender;
+        this.receiver = receiver;
+        this.amount = amount;
+        this.frequency = frequency;
+    }
+
+    // Spam Detection Method
+    static boolean isSpam(Transaction t) {
+
+        // High Amount Check
+        if (t.amount > 100000) {
+            return true;
+        }
+
+        // Repeated Transaction Check
+        if (t.frequency > 10) {
+            return true;
+        }
+
+        // Suspicious Sender Names
+        String[] suspiciousWords = {
+                "spam",
+                "fraud",
+                "fake",
+                "hack",
+                "scam"
+        };
+
+        String name = t.sender.toLowerCase();
+
+        for (String word : suspiciousWords) {
+
+            if (name.contains(word)) {
+                return true;
+            }
+        }
+
+        return false;
+    }
+
+    // Main Method
+    public static void main(String[] args) {
+
+        // Creating Transactions
+        Transaction t1 =
+                new Transaction("Rahul",
+                        "Amit",
+                        5000,
+                        2);
+
+        Transaction t2 =
+                new Transaction("FraudCompany",
+                        "Rakesh",
+                        2000,
+                        1);
+
+        Transaction t3 =
+                new Transaction("OnlineStore",
+                        "Neha",
+                        250000,
+                        3);
+
+        Transaction t4 =
+                new Transaction("SpamSender",
+                        "Vikas",
+                        3000,
+                        15);
+
+        // Store Transactions
+        ArrayList<Transaction> list =
+                new ArrayList<>();
+
+        list.add(t1);
+        list.add(t2);
+        list.add(t3);
+        list.add(t4);
+
+        // Output
+        System.out.println("===== SPAM DETECTION SYSTEM =====");
+
+        for (Transaction t : list) {
+
+            System.out.println("\nSender    : " + t.sender);
+            System.out.println("Receiver  : " + t.receiver);
+            System.out.println("Amount    : " + t.amount);
+            System.out.println("Frequency : " + t.frequency);
+
+            if (isSpam(t)) {
+                System.out.println("Status    : SPAM DETECTED");
+            } else {
+                System.out.println("Status    : SAFE");
+            }
+        }
+    }
+}
+output:
+===== SPAM DETECTION SYSTEM =====
+
+Sender    : Rahul
+Receiver  : Amit
+Amount    : 5000.0
+Frequency : 2
+Status    : SAFE
+
+Sender    : FraudCompany
+Receiver  : Rakesh
+Amount    : 2000.0
+Frequency : 1
+Status    : SPAM DETECTED
+
+Sender    : OnlineStore
+Receiver  : Neha
+Amount    : 250000.0
+Frequency : 3
+Status    : SPAM DETECTED
+
+Sender    : SpamSender
+Receiver  : Vikas
+Amount    : 3000.0
+Frequency : 15
+Status    : SPAM DETECTED
