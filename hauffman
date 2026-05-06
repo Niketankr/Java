@@ -1,0 +1,169 @@
+import java.util.*;
+
+// ================= HUFFMAN NODE =================
+class HuffmanNode {
+
+    int data;
+    char ch;
+
+    HuffmanNode left;
+    HuffmanNode right;
+}
+
+// ================= COMPARATOR =================
+class MyComparator implements Comparator<HuffmanNode> {
+
+    public int compare(HuffmanNode x, HuffmanNode y) {
+        return x.data - y.data;
+    }
+}
+
+public class Main {
+
+    // ================= PRINT HUFFMAN CODES =================
+    public static void printCode(HuffmanNode root, String s) {
+
+        if (root.left == null && root.right == null) {
+
+            System.out.println(root.ch + " : " + s);
+            return;
+        }
+
+        printCode(root.left, s + "0");
+        printCode(root.right, s + "1");
+    }
+
+    // ================= HUFFMAN CODING =================
+    public static void huffmanCoding() {
+
+        int n = 6;
+
+        char[] charArray = { 'a', 'b', 'c', 'd', 'e', 'f' };
+
+        int[] charFreq = { 5, 9, 12, 13, 16, 45 };
+
+        PriorityQueue<HuffmanNode> q =
+                new PriorityQueue<>(n, new MyComparator());
+
+        for (int i = 0; i < n; i++) {
+
+            HuffmanNode hn = new HuffmanNode();
+
+            hn.ch = charArray[i];
+            hn.data = charFreq[i];
+
+            hn.left = null;
+            hn.right = null;
+
+            q.add(hn);
+        }
+
+        HuffmanNode root = null;
+
+        while (q.size() > 1) {
+
+            HuffmanNode x = q.peek();
+            q.poll();
+
+            HuffmanNode y = q.peek();
+            q.poll();
+
+            HuffmanNode f = new HuffmanNode();
+
+            f.data = x.data + y.data;
+
+            f.ch = '-';
+
+            f.left = x;
+            f.right = y;
+
+            root = f;
+
+            q.add(f);
+        }
+
+        System.out.println("Huffman Codes:");
+
+        printCode(root, "");
+    }
+
+    // ================= FLOYD WARSHALL =================
+    public static void floydWarshall(int graph[][]) {
+
+        int n = graph.length;
+
+        int dist[][] = new int[n][n];
+
+        for (int i = 0; i < n; i++) {
+
+            for (int j = 0; j < n; j++) {
+
+                dist[i][j] = graph[i][j];
+            }
+        }
+
+        for (int k = 0; k < n; k++) {
+
+            for (int i = 0; i < n; i++) {
+
+                for (int j = 0; j < n; j++) {
+
+                    if (dist[i][k] + dist[k][j] < dist[i][j]) {
+
+                        dist[i][j] =
+                                dist[i][k] + dist[k][j];
+                    }
+                }
+            }
+        }
+
+        System.out.println("\nFloyd Warshall Shortest Paths:");
+
+        for (int i = 0; i < n; i++) {
+
+            for (int j = 0; j < n; j++) {
+
+                if (dist[i][j] == 99999)
+                    System.out.print("INF ");
+                else
+                    System.out.print(dist[i][j] + " ");
+            }
+
+            System.out.println();
+        }
+    }
+
+    // ================= MAIN METHOD =================
+    public static void main(String[] args) {
+
+        // Huffman Coding
+        huffmanCoding();
+
+        // Floyd Warshall Graph
+        int INF = 99999;
+
+        int graph[][] = {
+                {0, 5, INF, 10},
+                {INF, 0, 3, INF},
+                {INF, INF, 0, 1},
+                {INF, INF, INF, 0}
+        };
+
+        // Floyd Warshall
+        floydWarshall(graph);
+    }
+}
+output:
+Huffman Codes:
+f : 0
+c : 100
+d : 101
+a : 1100
+b : 1101
+e : 111
+
+Floyd Warshall Shortest Paths:
+0 5 8 9 
+INF 0 3 4 
+INF INF 0 1 
+INF INF INF 0 
