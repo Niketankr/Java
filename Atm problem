@@ -1,0 +1,207 @@
+import java.util.*;
+
+public class Main {
+
+    public static void main(String[] args) {
+
+        Scanner sc = new Scanner(System.in);
+
+        // Default ATM Data
+        int balance = 10000;
+        int pin = 1234;
+
+        System.out.println("===== WELCOME TO ATM =====");
+
+        // PIN Verification
+        System.out.print("Enter ATM PIN: ");
+        int enteredPin = sc.nextInt();
+
+        if (enteredPin != pin) {
+
+            System.out.println("Incorrect PIN");
+            System.out.println("Transaction Cancelled");
+
+            return;
+        }
+
+        int choice;
+
+        do {
+
+            System.out.println("\n===== ATM MENU =====");
+            System.out.println("1. Check Balance");
+            System.out.println("2. Deposit Money");
+            System.out.println("3. Withdraw Money");
+            System.out.println("4. Change PIN");
+            System.out.println("5. Exit");
+
+            System.out.print("Enter your choice: ");
+
+            choice = sc.nextInt();
+
+            switch (choice) {
+
+                // ================= CHECK BALANCE =================
+                case 1:
+
+                    System.out.println(
+                            "Current Balance = ₹" + balance
+                    );
+
+                    break;
+
+                // ================= DEPOSIT =================
+                case 2:
+
+                    System.out.print(
+                            "Enter amount to deposit: ₹"
+                    );
+
+                    int deposit = sc.nextInt();
+
+                    if (deposit <= 0) {
+
+                        System.out.println(
+                                "Invalid Deposit Amount"
+                        );
+                    }
+
+                    else {
+
+                        balance += deposit;
+
+                        System.out.println(
+                                "₹" + deposit +
+                                        " Deposited Successfully"
+                        );
+
+                        System.out.println(
+                                "Updated Balance = ₹" + balance
+                        );
+                    }
+
+                    break;
+
+                // ================= WITHDRAW =================
+                case 3:
+
+                    System.out.print(
+                            "Enter amount to withdraw: ₹"
+                    );
+
+                    int withdraw = sc.nextInt();
+
+                    if (withdraw <= 0) {
+
+                        System.out.println(
+                                "Invalid Withdrawal Amount"
+                        );
+                    }
+
+                    else if (withdraw > balance) {
+
+                        System.out.println(
+                                "Insufficient Balance"
+                        );
+                    }
+
+                    else {
+
+                        balance -= withdraw;
+
+                        System.out.println(
+                                "₹" + withdraw +
+                                        " Withdrawn Successfully"
+                        );
+
+                        System.out.println(
+                                "Remaining Balance = ₹" + balance
+                        );
+                    }
+
+                    break;
+
+                // ================= CHANGE PIN =================
+                case 4:
+
+                    System.out.print(
+                            "Enter old PIN: "
+                    );
+
+                    int oldPin = sc.nextInt();
+
+                    if (oldPin == pin) {
+
+                        System.out.print(
+                                "Enter new PIN: "
+                        );
+
+                        pin = sc.nextInt();
+
+                        System.out.println(
+                                "PIN Changed Successfully"
+                        );
+                    }
+
+                    else {
+
+                        System.out.println(
+                                "Incorrect Old PIN"
+                        );
+                    }
+
+                    break;
+
+                // ================= EXIT =================
+                case 5:
+
+                    System.out.println(
+                            "Thank You For Using ATM"
+                    );
+
+                    break;
+
+                // ================= INVALID =================
+                default:
+
+                    System.out.println(
+                            "Invalid Choice"
+                    );
+            }
+
+        } while (choice != 5);
+
+        sc.close();
+    }
+}
+===== WELCOME TO ATM =====
+Enter ATM PIN: 1234
+
+===== ATM MENU =====
+1. Check Balance
+2. Deposit Money
+3. Withdraw Money
+4. Change PIN
+5. Exit
+Enter your choice: 1
+Current Balance = ?10000
+
+===== ATM MENU =====
+1. Check Balance
+2. Deposit Money
+3. Withdraw Money
+4. Change PIN
+5. Exit
+Enter your choice: 3
+Enter amount to withdraw: ?5000
+?5000 Withdrawn Successfully
+Remaining Balance = ?5000
+
+===== ATM MENU =====
+1. Check Balance
+2. Deposit Money
+3. Withdraw Money
+4. Change PIN
+5. Exit
+Enter your choice: 5
+Thank You For Using ATM
