@@ -1,0 +1,41 @@
+import java.util.*;
+
+public class Main {
+
+    public static void main(String[] args) {
+
+        Scanner sc = new Scanner(System.in);
+
+        System.out.print("Enter marks of 5 subjects: ");
+
+        int total = 0;
+
+        for (int i = 0; i < 5; i++) {
+
+            total += sc.nextInt();
+        }
+
+        double percentage = total / 5.0;
+
+        System.out.println("Percentage = " + percentage);
+
+        if (percentage >= 90)
+            System.out.println("Grade A");
+
+        else if (percentage >= 75)
+            System.out.println("Grade B");
+
+        else if (percentage >= 50)
+            System.out.println("Grade C");
+
+        else
+            System.out.println("Fail");
+
+        sc.close();
+    }
+}
+output:
+Enter marks of 5 subjects: 90 98 80 69
+89
+Percentage = 85.2
+Grade B
