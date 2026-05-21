@@ -1,0 +1,155 @@
+import java.util.*;
+
+// ================= PARENT CLASS =================
+class Hospital {
+
+    // Protected → accessible in child class
+    protected String hospitalName =
+            "City Care Hospital";
+}
+
+// ================= CHILD CLASS =================
+class Patient extends Hospital {
+
+    // Private Data
+    private int patientId;
+    private String patientName;
+    private int age;
+    private double bill;
+
+    // Constructor
+    public Patient(
+            int patientId,
+            String patientName,
+            int age
+    ) {
+
+        this.patientId = patientId;
+        this.patientName = patientName;
+        this.age = age;
+
+        bill = 0;
+    }
+
+    // Public Method
+    public void admitPatient() {
+
+        System.out.println(
+                "\nPatient admitted successfully."
+        );
+    }
+
+    // Public Method
+    public void addTreatment(double amount) {
+
+        bill += amount;
+
+        System.out.println(
+                "Treatment Added: ₹" + amount
+        );
+    }
+
+    // Public Method
+    public void displayPatient() {
+
+        System.out.println(
+                "\n===== PATIENT DETAILS ====="
+        );
+
+        System.out.println(
+                "Hospital: " +
+                        hospitalName
+        );
+
+        System.out.println(
+                "Patient ID: " +
+                        patientId
+        );
+
+        System.out.println(
+                "Name: " +
+                        patientName
+        );
+
+        System.out.println(
+                "Age: " +
+                        age
+        );
+
+        System.out.println(
+                "Total Bill: ₹" +
+                        bill
+        );
+    }
+}
+
+// ================= MAIN CLASS =================
+public class Main {
+
+    public static void main(String[] args) {
+
+        Scanner sc =
+                new Scanner(System.in);
+
+        System.out.print(
+                "Enter Patient ID: "
+        );
+
+        int id =
+                sc.nextInt();
+
+        sc.nextLine();
+
+        System.out.print(
+                "Enter Patient Name: "
+        );
+
+        String name =
+                sc.nextLine();
+
+        System.out.print(
+                "Enter Age: "
+        );
+
+        int age =
+                sc.nextInt();
+
+        Patient p =
+                new Patient(
+                        id,
+                        name,
+                        age
+                );
+
+        p.admitPatient();
+
+        System.out.print(
+                "\nEnter Treatment Cost: ₹"
+        );
+
+        double cost =
+                sc.nextDouble();
+
+        p.addTreatment(cost);
+
+        p.displayPatient();
+
+        sc.close();
+    }
+}
+output:
+Enter Patient ID: 8502
+Enter Patient Name: Manohar
+Enter Age: 25
+
+Patient admitted successfully.
+
+Enter Treatment Cost: ?25000
+Treatment Added: ?25000.0
+
+===== PATIENT DETAILS =====
+Hospital: City Care Hospital
+Patient ID: 8502
+Name: Manohar
+Age: 25
+Total Bill: ?25000.0
