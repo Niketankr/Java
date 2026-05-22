@@ -1,0 +1,150 @@
+import java.util.*;
+
+class Bus {
+
+    private int totalSeats;
+    private int bookedSeats;
+
+    Bus(int seats) {
+        totalSeats = seats;
+        bookedSeats = 0;
+    }
+
+    public void bookSeat(int seats) {
+
+        if (bookedSeats + seats <= totalSeats) {
+
+            bookedSeats += seats;
+
+            System.out.println(
+                    seats + " seat(s) booked successfully."
+            );
+
+            System.out.println(
+                    "Available Seats: " +
+                            (totalSeats - bookedSeats)
+            );
+        }
+
+        else {
+
+            System.out.println(
+                    "Not enough seats available."
+            );
+        }
+    }
+
+    public void showStatus() {
+
+        System.out.println(
+                "\nTotal Seats: " +
+                        totalSeats
+        );
+
+        System.out.println(
+                "Booked Seats: " +
+                        bookedSeats
+        );
+
+        System.out.println(
+                "Available Seats: " +
+                        (totalSeats - bookedSeats)
+        );
+    }
+}
+
+public class Main {
+
+    public static void main(String[] args) {
+
+        Scanner sc =
+                new Scanner(System.in);
+
+        Bus bus =
+                new Bus(40);
+
+        while (true) {
+
+            System.out.println(
+                    "\n===== BUS RESERVATION ====="
+            );
+
+            System.out.println(
+                    "1. Book Seat"
+            );
+
+            System.out.println(
+                    "2. Show Status"
+            );
+
+            System.out.println(
+                    "3. Exit"
+            );
+
+            System.out.print(
+                    "Enter Choice: "
+            );
+
+            int choice =
+                    sc.nextInt();
+
+            switch (choice) {
+
+                case 1:
+
+                    System.out.print(
+                            "Enter seats: "
+                    );
+
+                    int seats =
+                            sc.nextInt();
+
+                    bus.bookSeat(seats);
+
+                    break;
+
+                case 2:
+
+                    bus.showStatus();
+
+                    break;
+
+                case 3:
+
+                    System.exit(0);
+
+                default:
+
+                    System.out.println(
+                            "Invalid Choice"
+                    );
+            }
+        }
+    }
+}
+output:
+
+===== BUS RESERVATION =====
+1. Book Seat
+2. Show Status
+3. Exit
+Enter Choice: 1
+Enter seats: 4
+4 seat(s) booked successfully.
+Available Seats: 36
+
+===== BUS RESERVATION =====
+1. Book Seat
+2. Show Status
+3. Exit
+Enter Choice: 2
+
+Total Seats: 40
+Booked Seats: 4
+Available Seats: 36
+
+===== BUS RESERVATION =====
+1. Book Seat
+2. Show Status
+3. Exit
+Enter Choice: 3
