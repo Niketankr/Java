@@ -1,0 +1,129 @@
+import java.util.*;
+
+public class Main {
+
+    public static void main(String[] args) {
+
+        Scanner sc = new Scanner(System.in);
+
+        int totalBill = 0;
+
+        while (true) {
+
+            System.out.println("\n===== FOOD DELIVERY APP =====");
+
+            System.out.println("1. Burger   ₹120");
+            System.out.println("2. Pizza    ₹300");
+            System.out.println("3. Biryani  ₹250");
+            System.out.println("4. Sandwich ₹150");
+            System.out.println("5. Checkout");
+
+            System.out.print("Select item: ");
+
+            int choice = sc.nextInt();
+
+            if (choice == 5) {
+
+                System.out.println(
+                        "\nTotal Bill = ₹"
+                                + totalBill
+                );
+
+                System.out.println(
+                        "Order Placed Successfully"
+                );
+
+                break;
+            }
+
+            System.out.print(
+                    "Enter Quantity: "
+            );
+
+            int qty = sc.nextInt();
+
+            switch (choice) {
+
+                case 1:
+                    totalBill += 120 * qty;
+                    break;
+
+                case 2:
+                    totalBill += 300 * qty;
+                    break;
+
+                case 3:
+                    totalBill += 250 * qty;
+                    break;
+
+                case 4:
+                    totalBill += 150 * qty;
+                    break;
+
+                default:
+                    System.out.println(
+                            "Invalid Item"
+                    );
+            }
+
+            System.out.println(
+                    "Current Bill = ₹"
+                            + totalBill
+            );
+        }
+
+        sc.close();
+    }
+}
+output:
+
+===== FOOD DELIVERY APP =====
+1. Burger   ?120
+2. Pizza    ?300
+3. Biryani  ?250
+4. Sandwich ?150
+5. Checkout
+Select item: 2
+Enter Quantity: 2
+Current Bill = ?600
+
+===== FOOD DELIVERY APP =====
+1. Burger   ?120
+2. Pizza    ?300
+3. Biryani  ?250
+4. Sandwich ?150
+5. Checkout
+Select item: 4
+Enter Quantity: 6
+Current Bill = ?1500
+
+===== FOOD DELIVERY APP =====
+1. Burger   ?120
+2. Pizza    ?300
+3. Biryani  ?250
+4. Sandwich ?150
+5. Checkout
+Select item: 3
+Enter Quantity: 4
+Current Bill = ?2500
+
+===== FOOD DELIVERY APP =====
+1. Burger   ?120
+2. Pizza    ?300
+3. Biryani  ?250
+4. Sandwich ?150
+5. Checkout
+Select item: 1
+Enter Quantity: 12
+Current Bill = ?3940
+
+===== FOOD DELIVERY APP =====
+1. Burger   ?120
+2. Pizza    ?300
+3. Biryani  ?250
+4. Sandwich ?150
+5. Checkout
+Select item: 5
+
+Total Bill = ?3940
+Order Placed Successfully
