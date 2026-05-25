@@ -1,0 +1,187 @@
+import java.util.*;
+
+class Student {
+
+    private String name;
+    private int roll;
+    private int marks1;
+    private int marks2;
+    private int marks3;
+
+    // Constructor
+    Student(
+            String name,
+            int roll,
+            int marks1,
+            int marks2,
+            int marks3
+    ) {
+
+        this.name = name;
+        this.roll = roll;
+        this.marks1 = marks1;
+        this.marks2 = marks2;
+        this.marks3 = marks3;
+    }
+
+    // Calculate Average
+    public double calculateAverage() {
+
+        return (marks1 + marks2 + marks3) / 3.0;
+    }
+
+    // Calculate Grade
+    public String grade() {
+
+        double avg =
+                calculateAverage();
+
+        if (avg >= 90)
+            return "A";
+
+        else if (avg >= 75)
+            return "B";
+
+        else if (avg >= 60)
+            return "C";
+
+        else
+            return "D";
+    }
+
+    // Display Student
+    public void display() {
+
+        System.out.println(
+                "\n===== STUDENT PORTAL ====="
+        );
+
+        System.out.println(
+                "Name: " + name
+        );
+
+        System.out.println(
+                "Roll Number: " + roll
+        );
+
+        System.out.println(
+                "Marks:"
+        );
+
+        System.out.println(
+                "Subject 1: " +
+                        marks1
+        );
+
+        System.out.println(
+                "Subject 2: " +
+                        marks2
+        );
+
+        System.out.println(
+                "Subject 3: " +
+                        marks3
+        );
+
+        System.out.println(
+                "Average: " +
+                        calculateAverage()
+        );
+
+        System.out.println(
+                "Grade: " +
+                        grade()
+        );
+    }
+}
+
+public class Main {
+
+    public static void main(
+            String[] args
+    ) {
+
+        Scanner sc =
+                new Scanner(System.in);
+
+        System.out.print(
+                "Enter Student Name: "
+        );
+
+        String name =
+                sc.nextLine();
+
+        System.out.print(
+                "Enter Roll Number: "
+        );
+
+        int roll =
+                sc.nextInt();
+
+        System.out.print(
+                "Enter Subject 1 Marks: "
+        );
+
+        int m1 =
+                sc.nextInt();
+
+        System.out.print(
+                "Enter Subject 2 Marks: "
+        );
+
+        int m2 =
+                sc.nextInt();
+
+        System.out.print(
+                "Enter Subject 3 Marks: "
+        );
+
+        int m3 =
+                sc.nextInt();
+
+        Student s =
+                new Student(
+                        name,
+                        roll,
+                        m1,
+                        m2,
+                        m3
+                );
+
+        s.display();
+
+        sc.close();
+    }
+}
+output:
+Enter Student Name: Nilikant
+Enter Roll Number: 25
+Enter Subject 1 Marks: 96
+Enter Subject 2 Marks: 65
+Enter Subject 3 Marks: 65
+
+===== STUDENT PORTAL =====
+Name: Nilikant
+Roll Number: 25
+Marks:
+Subject 1: 96
+Subject 2: 65
+Subject 3: 65
+Average: 75.33333333333333
+Grade: B
+
+Enter Student Name: Nilishank
+Enter Roll Number: 24
+Enter Subject 1 Marks: 96
+Enter Subject 2 Marks: 89
+Enter Subject 3 Marks: 98
+
+===== STUDENT PORTAL =====
+Name: Nilishank
+Roll Number: 24
+Marks:
+Subject 1: 96
+Subject 2: 89
+Subject 3: 98
+Average: 94.33333333333333
+Grade: A
