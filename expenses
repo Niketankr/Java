@@ -1,0 +1,102 @@
+import java.util.*;
+
+public class Main {
+
+    public static void main(String[] args) {
+
+        Scanner sc = new Scanner(System.in);
+
+        double total = 0;
+
+        while (true) {
+
+            System.out.println("\n1 Add Expense");
+            System.out.println("2 Show Total");
+            System.out.println("3 Exit");
+
+            int ch = sc.nextInt();
+
+            if (ch == 1) {
+
+                System.out.print("Enter expense: ₹");
+
+                total += sc.nextDouble();
+            }
+
+            else if (ch == 2) {
+
+                System.out.println(
+                        "Total Expense = ₹"
+                                + total
+                );
+            }
+
+            else {
+
+                break;
+            }
+        }
+
+        sc.close();
+    }
+}
+output:
+
+1 Add Expense
+2 Show Total
+3 Exit
+1
+Enter expense: ?5000
+
+1 Add Expense
+2 Show Total
+3 Exit
+1
+Enter expense: ?6540
+
+1 Add Expense
+2 Show Total
+3 Exit
+1
+Enter expense: ?865
+
+1 Add Expense
+2 Show Total
+3 Exit
+1
+Enter expense: ?6585
+
+1 Add Expense
+2 Show Total
+3 Exit
+2
+Total Expense = ?18990.0
+
+1 Add Expense
+2 Show Total
+3 Exit
+1
+Enter expense: ?5890
+
+1 Add Expense
+2 Show Total
+3 Exit
+1
+Enter expense: ?3200
+
+1 Add Expense
+2 Show Total
+3 Exit
+1
+Enter expense: ?2900
+
+1 Add Expense
+2 Show Total
+3 Exit
+2
+Total Expense = ?30980.0
+
+1 Add Expense
+2 Show Total
+3 Exit
+3
