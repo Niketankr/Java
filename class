@@ -1,0 +1,56 @@
+import java.util.*;
+
+public class Main {
+
+    public static void main(String[] args) {
+
+        Scanner sc =
+                new Scanner(System.in);
+
+        System.out.print(
+                "Total Classes: "
+        );
+
+        int total =
+                sc.nextInt();
+
+        System.out.print(
+                "Classes Attended: "
+        );
+
+        int attended =
+                sc.nextInt();
+
+        double attendance =
+                attended * 100.0 / total;
+
+        System.out.println(
+                "Attendance = "
+                        + attendance
+                        + "%"
+        );
+
+        if (attendance >= 75)
+
+            System.out.println(
+                    "Eligible"
+            );
+
+        else
+
+            System.out.println(
+                    "Not Eligible"
+            );
+
+        sc.close();
+    }
+}
+output:
+Total Classes: 5
+Classes Attended: 4
+Attendance = 80.0%
+Eligible
+Total Classes: 90
+Classes Attended: 81
+Attendance = 90.0%
+Eligible
