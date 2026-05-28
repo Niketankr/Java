@@ -1,0 +1,110 @@
+import java.util.*;
+
+public class Main {
+
+    public static void main(
+            String[] args
+    ) {
+
+        Scanner sc =
+                new Scanner(System.in);
+
+        HashMap<String,Integer>
+                items =
+                new HashMap<>();
+
+        while (true) {
+
+            System.out.println(
+                    "\n1 Add"
+            );
+
+            System.out.println(
+                    "2 View"
+            );
+
+            System.out.println(
+                    "3 Exit"
+            );
+
+            int ch =
+                    sc.nextInt();
+
+            sc.nextLine();
+
+            if (ch == 1) {
+
+                System.out.print(
+                        "Item: "
+                );
+
+                String item =
+                        sc.nextLine();
+
+                System.out.print(
+                        "Quantity: "
+                );
+
+                int q =
+                        sc.nextInt();
+
+                items.put(
+                        item,
+                        q
+                );
+            }
+
+            else if (ch == 2) {
+
+                System.out.println(
+                        items
+                );
+            }
+
+            else {
+
+                break;
+            }
+        }
+    }
+}
+output:
+
+1 Add
+2 View
+3 Exit
+1
+Item: folur
+Quantity: 50
+
+1 Add
+2 View
+3 Exit
+1
+Item: rice
+Quantity: 80
+
+1 Add
+2 View
+3 Exit
+1
+Item: pulses
+Quantity: 51
+
+1 Add
+2 View
+3 Exit
+1
+Item: oil
+Quantity: 26
+
+1 Add
+2 View
+3 Exit
+2
+{folur=50, oil=26, pulses=51, rice=80}
+
+1 Add
+2 View
+3 Exit
+3
