@@ -1,0 +1,105 @@
+import java.util.*;
+
+public class Main {
+
+    public static void main(
+            String[] args
+    ) {
+
+        Scanner sc =
+                new Scanner(System.in);
+
+        int seats = 40;
+
+        while (true) {
+
+            System.out.println(
+                    "\nAvailable: "
+                            + seats
+            );
+
+            System.out.println(
+                    "1 Book"
+            );
+
+            System.out.println(
+                    "2 Exit"
+            );
+
+            int ch =
+                    sc.nextInt();
+
+            if (ch == 1) {
+
+                System.out.print(
+                        "Seats: "
+                );
+
+                int book =
+                        sc.nextInt();
+
+                if (book <= seats) {
+
+                    seats -= book;
+
+                    System.out.println(
+                            "Booked"
+                    );
+                }
+
+                else {
+
+                    System.out.println(
+                            "Not Available"
+                    );
+                }
+            }
+
+            else {
+
+                break;
+            }
+        }
+    }
+}
+output:
+
+Available: 40
+1 Book
+2 Exit
+1
+Seats: 250
+Not Available
+
+Available: 40
+1 Book
+2 Exit
+1
+Seats: 20
+Booked
+
+Available: 20
+1 Book
+2 Exit
+1
+Seats: 5
+Booked
+
+Available: 15
+1 Book
+2 Exit
+1
+Seats: 6
+Booked
+
+Available: 9
+1 Book
+2 Exit
+1
+Seats: 2
+Booked
+
+Available: 7
+1 Book
+2 Exit
+2
