@@ -1,0 +1,108 @@
+import java.util.*;
+
+public class Main {
+
+    public static void main(
+            String[] args
+    ) {
+
+        Scanner sc =
+                new Scanner(System.in);
+
+        ArrayList<String>
+                students =
+                new ArrayList<>();
+
+        while (true) {
+
+            System.out.println(
+                    "\n1 Add Student"
+            );
+
+            System.out.println(
+                    "2 View"
+            );
+
+            System.out.println(
+                    "3 Exit"
+            );
+
+            int ch =
+                    sc.nextInt();
+
+            sc.nextLine();
+
+            if (ch == 1) {
+
+                System.out.print(
+                        "Student Name: "
+                );
+
+                students.add(
+                        sc.nextLine()
+                );
+            }
+
+            else if (ch == 2) {
+
+                System.out.println(
+                        students
+                );
+            }
+
+            else {
+
+                break;
+            }
+        }
+    }
+}
+output:
+
+1 Add Student
+2 View
+3 Exit
+1
+Student Name: Nilansh
+
+1 Add Student
+2 View
+3 Exit
+1
+Student Name: Shashank
+
+1 Add Student
+2 View
+3 Exit
+1
+Student Name: Sekhar
+
+1 Add Student
+2 View
+3 Exit
+1
+Student Name: Subham
+
+1 Add Student
+2 View
+3 Exit
+1
+Student Name: Sohan
+
+1 Add Student
+2 View
+3 Exit
+
+1
+Student Name: Mohan
+
+1 Add Student
+2 View
+3 Exit
+2
+[Nilansh, Shashank, Sekhar, Subham, Sohan, Mohan]
+
+1 Add Student
+2 View
+3 Exit
+3
