@@ -27,6 +27,7 @@ Java code learned during learning DSA in java
 |  |
 | ------- |
 | [0008-string-to-integer-atoi](https://github.com/Niketankr/Java/tree/master/0008-string-to-integer-atoi) |
+| [0012-integer-to-roman](https://github.com/Niketankr/Java/tree/master/0012-integer-to-roman) |
 ## Linked List
 |  |
 | ------- |
@@ -36,8 +37,13 @@ Java code learned during learning DSA in java
 | ------- |
 | [0002-add-two-numbers](https://github.com/Niketankr/Java/tree/master/0002-add-two-numbers) |
 | [0007-reverse-integer](https://github.com/Niketankr/Java/tree/master/0007-reverse-integer) |
+| [0012-integer-to-roman](https://github.com/Niketankr/Java/tree/master/0012-integer-to-roman) |
 ## Recursion
 |  |
 | ------- |
 | [0002-add-two-numbers](https://github.com/Niketankr/Java/tree/master/0002-add-two-numbers) |
+## Hash Table
+|  |
+| ------- |
+| [0012-integer-to-roman](https://github.com/Niketankr/Java/tree/master/0012-integer-to-roman) |
 <!---LeetCode Topics End-->
