@@ -50,6 +50,7 @@ Java code learned during learning DSA in java
 |  |
 | ------- |
 | [0015-3sum](https://github.com/Niketankr/Java/tree/master/0015-3sum) |
+| [0064-minimum-path-sum](https://github.com/Niketankr/Java/tree/master/0064-minimum-path-sum) |
 ## Two Pointers
 |  |
 | ------- |
@@ -58,4 +59,12 @@ Java code learned during learning DSA in java
 |  |
 | ------- |
 | [0015-3sum](https://github.com/Niketankr/Java/tree/master/0015-3sum) |
+## Dynamic Programming
+|  |
+| ------- |
+| [0064-minimum-path-sum](https://github.com/Niketankr/Java/tree/master/0064-minimum-path-sum) |
+## Matrix
+|  |
+| ------- |
+| [0064-minimum-path-sum](https://github.com/Niketankr/Java/tree/master/0064-minimum-path-sum) |
 <!---LeetCode Topics End-->
