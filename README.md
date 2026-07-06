@@ -6,6 +6,7 @@ Java code learned during learning DSA in java
 ## Tree
 |  |
 | ------- |
+| [0098-validate-binary-search-tree](https://github.com/Niketankr/Java/tree/master/0098-validate-binary-search-tree) |
 | [0101-symmetric-tree](https://github.com/Niketankr/Java/tree/master/0101-symmetric-tree) |
 | [0104-maximum-depth-of-binary-tree](https://github.com/Niketankr/Java/tree/master/0104-maximum-depth-of-binary-tree) |
 | [0110-balanced-binary-tree](https://github.com/Niketankr/Java/tree/master/0110-balanced-binary-tree) |
@@ -13,6 +14,7 @@ Java code learned during learning DSA in java
 ## Depth-First Search
 |  |
 | ------- |
+| [0098-validate-binary-search-tree](https://github.com/Niketankr/Java/tree/master/0098-validate-binary-search-tree) |
 | [0101-symmetric-tree](https://github.com/Niketankr/Java/tree/master/0101-symmetric-tree) |
 | [0104-maximum-depth-of-binary-tree](https://github.com/Niketankr/Java/tree/master/0104-maximum-depth-of-binary-tree) |
 | [0110-balanced-binary-tree](https://github.com/Niketankr/Java/tree/master/0110-balanced-binary-tree) |
@@ -26,6 +28,7 @@ Java code learned during learning DSA in java
 ## Binary Tree
 |  |
 | ------- |
+| [0098-validate-binary-search-tree](https://github.com/Niketankr/Java/tree/master/0098-validate-binary-search-tree) |
 | [0101-symmetric-tree](https://github.com/Niketankr/Java/tree/master/0101-symmetric-tree) |
 | [0104-maximum-depth-of-binary-tree](https://github.com/Niketankr/Java/tree/master/0104-maximum-depth-of-binary-tree) |
 | [0110-balanced-binary-tree](https://github.com/Niketankr/Java/tree/master/0110-balanced-binary-tree) |
@@ -74,4 +77,8 @@ Java code learned during learning DSA in java
 |  |
 | ------- |
 | [0064-minimum-path-sum](https://github.com/Niketankr/Java/tree/master/0064-minimum-path-sum) |
+## Binary Search Tree
+|  |
+| ------- |
+| [0098-validate-binary-search-tree](https://github.com/Niketankr/Java/tree/master/0098-validate-binary-search-tree) |
 <!---LeetCode Topics End-->
