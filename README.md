@@ -43,6 +43,7 @@ Java code learned during learning DSA in java
 | ------- |
 | [0008-string-to-integer-atoi](https://github.com/Niketankr/Java/tree/master/0008-string-to-integer-atoi) |
 | [0012-integer-to-roman](https://github.com/Niketankr/Java/tree/master/0012-integer-to-roman) |
+| [0125-valid-palindrome](https://github.com/Niketankr/Java/tree/master/0125-valid-palindrome) |
 ## Linked List
 |  |
 | ------- |
@@ -76,6 +77,7 @@ Java code learned during learning DSA in java
 | ------- |
 | [0015-3sum](https://github.com/Niketankr/Java/tree/master/0015-3sum) |
 | [0016-3sum-closest](https://github.com/Niketankr/Java/tree/master/0016-3sum-closest) |
+| [0125-valid-palindrome](https://github.com/Niketankr/Java/tree/master/0125-valid-palindrome) |
 ## Sorting
 |  |
 | ------- |
