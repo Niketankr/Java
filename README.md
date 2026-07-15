@@ -11,6 +11,7 @@ Java code learned during learning DSA in java
 | [0104-maximum-depth-of-binary-tree](https://github.com/Niketankr/Java/tree/master/0104-maximum-depth-of-binary-tree) |
 | [0108-convert-sorted-array-to-binary-search-tree](https://github.com/Niketankr/Java/tree/master/0108-convert-sorted-array-to-binary-search-tree) |
 | [0110-balanced-binary-tree](https://github.com/Niketankr/Java/tree/master/0110-balanced-binary-tree) |
+| [0111-minimum-depth-of-binary-tree](https://github.com/Niketankr/Java/tree/master/0111-minimum-depth-of-binary-tree) |
 | [0112-path-sum](https://github.com/Niketankr/Java/tree/master/0112-path-sum) |
 | [0113-path-sum-ii](https://github.com/Niketankr/Java/tree/master/0113-path-sum-ii) |
 ## Depth-First Search
@@ -20,6 +21,7 @@ Java code learned during learning DSA in java
 | [0101-symmetric-tree](https://github.com/Niketankr/Java/tree/master/0101-symmetric-tree) |
 | [0104-maximum-depth-of-binary-tree](https://github.com/Niketankr/Java/tree/master/0104-maximum-depth-of-binary-tree) |
 | [0110-balanced-binary-tree](https://github.com/Niketankr/Java/tree/master/0110-balanced-binary-tree) |
+| [0111-minimum-depth-of-binary-tree](https://github.com/Niketankr/Java/tree/master/0111-minimum-depth-of-binary-tree) |
 | [0112-path-sum](https://github.com/Niketankr/Java/tree/master/0112-path-sum) |
 | [0113-path-sum-ii](https://github.com/Niketankr/Java/tree/master/0113-path-sum-ii) |
 ## Breadth-First Search
@@ -27,6 +29,7 @@ Java code learned during learning DSA in java
 | ------- |
 | [0101-symmetric-tree](https://github.com/Niketankr/Java/tree/master/0101-symmetric-tree) |
 | [0104-maximum-depth-of-binary-tree](https://github.com/Niketankr/Java/tree/master/0104-maximum-depth-of-binary-tree) |
+| [0111-minimum-depth-of-binary-tree](https://github.com/Niketankr/Java/tree/master/0111-minimum-depth-of-binary-tree) |
 | [0112-path-sum](https://github.com/Niketankr/Java/tree/master/0112-path-sum) |
 ## Binary Tree
 |  |
@@ -36,6 +39,7 @@ Java code learned during learning DSA in java
 | [0104-maximum-depth-of-binary-tree](https://github.com/Niketankr/Java/tree/master/0104-maximum-depth-of-binary-tree) |
 | [0108-convert-sorted-array-to-binary-search-tree](https://github.com/Niketankr/Java/tree/master/0108-convert-sorted-array-to-binary-search-tree) |
 | [0110-balanced-binary-tree](https://github.com/Niketankr/Java/tree/master/0110-balanced-binary-tree) |
+| [0111-minimum-depth-of-binary-tree](https://github.com/Niketankr/Java/tree/master/0111-minimum-depth-of-binary-tree) |
 | [0112-path-sum](https://github.com/Niketankr/Java/tree/master/0112-path-sum) |
 | [0113-path-sum-ii](https://github.com/Niketankr/Java/tree/master/0113-path-sum-ii) |
 ## String
