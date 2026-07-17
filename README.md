@@ -76,6 +76,7 @@ Java code learned during learning DSA in java
 | [0108-convert-sorted-array-to-binary-search-tree](https://github.com/Niketankr/Java/tree/master/0108-convert-sorted-array-to-binary-search-tree) |
 | [0118-pascals-triangle](https://github.com/Niketankr/Java/tree/master/0118-pascals-triangle) |
 | [0119-pascals-triangle-ii](https://github.com/Niketankr/Java/tree/master/0119-pascals-triangle-ii) |
+| [0136-single-number](https://github.com/Niketankr/Java/tree/master/0136-single-number) |
 ## Two Pointers
 |  |
 | ------- |
@@ -111,6 +112,7 @@ Java code learned during learning DSA in java
 |  |
 | ------- |
 | [0089-gray-code](https://github.com/Niketankr/Java/tree/master/0089-gray-code) |
+| [0136-single-number](https://github.com/Niketankr/Java/tree/master/0136-single-number) |
 ## Divide and Conquer
 |  |
 | ------- |
