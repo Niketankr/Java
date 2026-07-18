@@ -15,6 +15,7 @@ Java code learned during learning DSA in java
 | [0112-path-sum](https://github.com/Niketankr/Java/tree/master/0112-path-sum) |
 | [0113-path-sum-ii](https://github.com/Niketankr/Java/tree/master/0113-path-sum-ii) |
 | [0144-binary-tree-preorder-traversal](https://github.com/Niketankr/Java/tree/master/0144-binary-tree-preorder-traversal) |
+| [0145-binary-tree-postorder-traversal](https://github.com/Niketankr/Java/tree/master/0145-binary-tree-postorder-traversal) |
 ## Depth-First Search
 |  |
 | ------- |
@@ -26,6 +27,7 @@ Java code learned during learning DSA in java
 | [0112-path-sum](https://github.com/Niketankr/Java/tree/master/0112-path-sum) |
 | [0113-path-sum-ii](https://github.com/Niketankr/Java/tree/master/0113-path-sum-ii) |
 | [0144-binary-tree-preorder-traversal](https://github.com/Niketankr/Java/tree/master/0144-binary-tree-preorder-traversal) |
+| [0145-binary-tree-postorder-traversal](https://github.com/Niketankr/Java/tree/master/0145-binary-tree-postorder-traversal) |
 ## Breadth-First Search
 |  |
 | ------- |
@@ -45,6 +47,7 @@ Java code learned during learning DSA in java
 | [0112-path-sum](https://github.com/Niketankr/Java/tree/master/0112-path-sum) |
 | [0113-path-sum-ii](https://github.com/Niketankr/Java/tree/master/0113-path-sum-ii) |
 | [0144-binary-tree-preorder-traversal](https://github.com/Niketankr/Java/tree/master/0144-binary-tree-preorder-traversal) |
+| [0145-binary-tree-postorder-traversal](https://github.com/Niketankr/Java/tree/master/0145-binary-tree-postorder-traversal) |
 ## String
 |  |
 | ------- |
@@ -124,4 +127,5 @@ Java code learned during learning DSA in java
 |  |
 | ------- |
 | [0144-binary-tree-preorder-traversal](https://github.com/Niketankr/Java/tree/master/0144-binary-tree-preorder-traversal) |
+| [0145-binary-tree-postorder-traversal](https://github.com/Niketankr/Java/tree/master/0145-binary-tree-postorder-traversal) |
 <!---LeetCode Topics End-->
