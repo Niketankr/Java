@@ -51,6 +51,7 @@ Java code learned during learning DSA in java
 ## String
 |  |
 | ------- |
+| [0003-longest-substring-without-repeating-characters](https://github.com/Niketankr/Java/tree/master/0003-longest-substring-without-repeating-characters) |
 | [0008-string-to-integer-atoi](https://github.com/Niketankr/Java/tree/master/0008-string-to-integer-atoi) |
 | [0012-integer-to-roman](https://github.com/Niketankr/Java/tree/master/0012-integer-to-roman) |
 | [0125-valid-palindrome](https://github.com/Niketankr/Java/tree/master/0125-valid-palindrome) |
@@ -72,6 +73,7 @@ Java code learned during learning DSA in java
 ## Hash Table
 |  |
 | ------- |
+| [0003-longest-substring-without-repeating-characters](https://github.com/Niketankr/Java/tree/master/0003-longest-substring-without-repeating-characters) |
 | [0012-integer-to-roman](https://github.com/Niketankr/Java/tree/master/0012-integer-to-roman) |
 ## Array
 |  |
@@ -128,4 +130,8 @@ Java code learned during learning DSA in java
 | ------- |
 | [0144-binary-tree-preorder-traversal](https://github.com/Niketankr/Java/tree/master/0144-binary-tree-preorder-traversal) |
 | [0145-binary-tree-postorder-traversal](https://github.com/Niketankr/Java/tree/master/0145-binary-tree-postorder-traversal) |
+## Sliding Window
+|  |
+| ------- |
+| [0003-longest-substring-without-repeating-characters](https://github.com/Niketankr/Java/tree/master/0003-longest-substring-without-repeating-characters) |
 <!---LeetCode Topics End-->
