@@ -74,6 +74,7 @@ Java code learned during learning DSA in java
 | [0002-add-two-numbers](https://github.com/Niketankr/Java/tree/master/0002-add-two-numbers) |
 | [0007-reverse-integer](https://github.com/Niketankr/Java/tree/master/0007-reverse-integer) |
 | [0012-integer-to-roman](https://github.com/Niketankr/Java/tree/master/0012-integer-to-roman) |
+| [0029-divide-two-integers](https://github.com/Niketankr/Java/tree/master/0029-divide-two-integers) |
 | [0089-gray-code](https://github.com/Niketankr/Java/tree/master/0089-gray-code) |
 ## Recursion
 |  |
@@ -129,6 +130,7 @@ Java code learned during learning DSA in java
 ## Bit Manipulation
 |  |
 | ------- |
+| [0029-divide-two-integers](https://github.com/Niketankr/Java/tree/master/0029-divide-two-integers) |
 | [0089-gray-code](https://github.com/Niketankr/Java/tree/master/0089-gray-code) |
 | [0136-single-number](https://github.com/Niketankr/Java/tree/master/0136-single-number) |
 ## Divide and Conquer
