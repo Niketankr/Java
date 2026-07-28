@@ -91,6 +91,7 @@ Java code learned during learning DSA in java
 | ------- |
 | [0015-3sum](https://github.com/Niketankr/Java/tree/master/0015-3sum) |
 | [0016-3sum-closest](https://github.com/Niketankr/Java/tree/master/0016-3sum-closest) |
+| [0031-next-permutation](https://github.com/Niketankr/Java/tree/master/0031-next-permutation) |
 | [0064-minimum-path-sum](https://github.com/Niketankr/Java/tree/master/0064-minimum-path-sum) |
 | [0108-convert-sorted-array-to-binary-search-tree](https://github.com/Niketankr/Java/tree/master/0108-convert-sorted-array-to-binary-search-tree) |
 | [0118-pascals-triangle](https://github.com/Niketankr/Java/tree/master/0118-pascals-triangle) |
@@ -102,6 +103,7 @@ Java code learned during learning DSA in java
 | [0005-longest-palindromic-substring](https://github.com/Niketankr/Java/tree/master/0005-longest-palindromic-substring) |
 | [0015-3sum](https://github.com/Niketankr/Java/tree/master/0015-3sum) |
 | [0016-3sum-closest](https://github.com/Niketankr/Java/tree/master/0016-3sum-closest) |
+| [0031-next-permutation](https://github.com/Niketankr/Java/tree/master/0031-next-permutation) |
 | [0125-valid-palindrome](https://github.com/Niketankr/Java/tree/master/0125-valid-palindrome) |
 ## Sorting
 |  |
