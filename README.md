@@ -78,6 +78,7 @@ Java code learned during learning DSA in java
 | [0012-integer-to-roman](https://github.com/Niketankr/Java/tree/master/0012-integer-to-roman) |
 | [0029-divide-two-integers](https://github.com/Niketankr/Java/tree/master/0029-divide-two-integers) |
 | [0089-gray-code](https://github.com/Niketankr/Java/tree/master/0089-gray-code) |
+| [0268-missing-number](https://github.com/Niketankr/Java/tree/master/0268-missing-number) |
 ## Recursion
 |  |
 | ------- |
@@ -89,6 +90,7 @@ Java code learned during learning DSA in java
 | [0012-integer-to-roman](https://github.com/Niketankr/Java/tree/master/0012-integer-to-roman) |
 | [0041-first-missing-positive](https://github.com/Niketankr/Java/tree/master/0041-first-missing-positive) |
 | [0141-linked-list-cycle](https://github.com/Niketankr/Java/tree/master/0141-linked-list-cycle) |
+| [0268-missing-number](https://github.com/Niketankr/Java/tree/master/0268-missing-number) |
 ## Array
 |  |
 | ------- |
@@ -104,6 +106,7 @@ Java code learned during learning DSA in java
 | [0118-pascals-triangle](https://github.com/Niketankr/Java/tree/master/0118-pascals-triangle) |
 | [0119-pascals-triangle-ii](https://github.com/Niketankr/Java/tree/master/0119-pascals-triangle-ii) |
 | [0136-single-number](https://github.com/Niketankr/Java/tree/master/0136-single-number) |
+| [0268-missing-number](https://github.com/Niketankr/Java/tree/master/0268-missing-number) |
 ## Two Pointers
 |  |
 | ------- |
@@ -120,6 +123,7 @@ Java code learned during learning DSA in java
 | [0015-3sum](https://github.com/Niketankr/Java/tree/master/0015-3sum) |
 | [0016-3sum-closest](https://github.com/Niketankr/Java/tree/master/0016-3sum-closest) |
 | [0018-4sum](https://github.com/Niketankr/Java/tree/master/0018-4sum) |
+| [0268-missing-number](https://github.com/Niketankr/Java/tree/master/0268-missing-number) |
 ## Dynamic Programming
 |  |
 | ------- |
@@ -137,6 +141,7 @@ Java code learned during learning DSA in java
 | [0098-validate-binary-search-tree](https://github.com/Niketankr/Java/tree/master/0098-validate-binary-search-tree) |
 | [0099-recover-binary-search-tree](https://github.com/Niketankr/Java/tree/master/0099-recover-binary-search-tree) |
 | [0108-convert-sorted-array-to-binary-search-tree](https://github.com/Niketankr/Java/tree/master/0108-convert-sorted-array-to-binary-search-tree) |
+| [0268-missing-number](https://github.com/Niketankr/Java/tree/master/0268-missing-number) |
 ## Backtracking
 |  |
 | ------- |
@@ -150,6 +155,7 @@ Java code learned during learning DSA in java
 | [0029-divide-two-integers](https://github.com/Niketankr/Java/tree/master/0029-divide-two-integers) |
 | [0089-gray-code](https://github.com/Niketankr/Java/tree/master/0089-gray-code) |
 | [0136-single-number](https://github.com/Niketankr/Java/tree/master/0136-single-number) |
+| [0268-missing-number](https://github.com/Niketankr/Java/tree/master/0268-missing-number) |
 ## Divide and Conquer
 |  |
 | ------- |
