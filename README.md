@@ -65,6 +65,7 @@ Java code learned during learning DSA in java
 | [0008-string-to-integer-atoi](https://github.com/Niketankr/Java/tree/master/0008-string-to-integer-atoi) |
 | [0012-integer-to-roman](https://github.com/Niketankr/Java/tree/master/0012-integer-to-roman) |
 | [0125-valid-palindrome](https://github.com/Niketankr/Java/tree/master/0125-valid-palindrome) |
+| [0131-palindrome-partitioning](https://github.com/Niketankr/Java/tree/master/0131-palindrome-partitioning) |
 ## Linked List
 |  |
 | ------- |
@@ -131,6 +132,7 @@ Java code learned during learning DSA in java
 | [0064-minimum-path-sum](https://github.com/Niketankr/Java/tree/master/0064-minimum-path-sum) |
 | [0118-pascals-triangle](https://github.com/Niketankr/Java/tree/master/0118-pascals-triangle) |
 | [0119-pascals-triangle-ii](https://github.com/Niketankr/Java/tree/master/0119-pascals-triangle-ii) |
+| [0131-palindrome-partitioning](https://github.com/Niketankr/Java/tree/master/0131-palindrome-partitioning) |
 ## Matrix
 |  |
 | ------- |
@@ -149,6 +151,7 @@ Java code learned during learning DSA in java
 | [0040-combination-sum-ii](https://github.com/Niketankr/Java/tree/master/0040-combination-sum-ii) |
 | [0089-gray-code](https://github.com/Niketankr/Java/tree/master/0089-gray-code) |
 | [0113-path-sum-ii](https://github.com/Niketankr/Java/tree/master/0113-path-sum-ii) |
+| [0131-palindrome-partitioning](https://github.com/Niketankr/Java/tree/master/0131-palindrome-partitioning) |
 ## Bit Manipulation
 |  |
 | ------- |
