@@ -104,6 +104,7 @@ Java code learned during learning DSA in java
 | [0039-combination-sum](https://github.com/Niketankr/Java/tree/master/0039-combination-sum) |
 | [0040-combination-sum-ii](https://github.com/Niketankr/Java/tree/master/0040-combination-sum-ii) |
 | [0041-first-missing-positive](https://github.com/Niketankr/Java/tree/master/0041-first-missing-positive) |
+| [0046-permutations](https://github.com/Niketankr/Java/tree/master/0046-permutations) |
 | [0064-minimum-path-sum](https://github.com/Niketankr/Java/tree/master/0064-minimum-path-sum) |
 | [0108-convert-sorted-array-to-binary-search-tree](https://github.com/Niketankr/Java/tree/master/0108-convert-sorted-array-to-binary-search-tree) |
 | [0118-pascals-triangle](https://github.com/Niketankr/Java/tree/master/0118-pascals-triangle) |
@@ -152,6 +153,7 @@ Java code learned during learning DSA in java
 | [0017-letter-combinations-of-a-phone-number](https://github.com/Niketankr/Java/tree/master/0017-letter-combinations-of-a-phone-number) |
 | [0039-combination-sum](https://github.com/Niketankr/Java/tree/master/0039-combination-sum) |
 | [0040-combination-sum-ii](https://github.com/Niketankr/Java/tree/master/0040-combination-sum-ii) |
+| [0046-permutations](https://github.com/Niketankr/Java/tree/master/0046-permutations) |
 | [0089-gray-code](https://github.com/Niketankr/Java/tree/master/0089-gray-code) |
 | [0113-path-sum-ii](https://github.com/Niketankr/Java/tree/master/0113-path-sum-ii) |
 | [0131-palindrome-partitioning](https://github.com/Niketankr/Java/tree/master/0131-palindrome-partitioning) |
