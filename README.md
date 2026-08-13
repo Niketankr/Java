@@ -102,6 +102,7 @@ Java code learned during learning DSA in java
 | [0016-3sum-closest](https://github.com/Niketankr/Java/tree/master/0016-3sum-closest) |
 | [0018-4sum](https://github.com/Niketankr/Java/tree/master/0018-4sum) |
 | [0031-next-permutation](https://github.com/Niketankr/Java/tree/master/0031-next-permutation) |
+| [0033-search-in-rotated-sorted-array](https://github.com/Niketankr/Java/tree/master/0033-search-in-rotated-sorted-array) |
 | [0039-combination-sum](https://github.com/Niketankr/Java/tree/master/0039-combination-sum) |
 | [0040-combination-sum-ii](https://github.com/Niketankr/Java/tree/master/0040-combination-sum-ii) |
 | [0041-first-missing-positive](https://github.com/Niketankr/Java/tree/master/0041-first-missing-positive) |
@@ -145,6 +146,7 @@ Java code learned during learning DSA in java
 ## Binary Search Tree
 |  |
 | ------- |
+| [0033-search-in-rotated-sorted-array](https://github.com/Niketankr/Java/tree/master/0033-search-in-rotated-sorted-array) |
 | [0098-validate-binary-search-tree](https://github.com/Niketankr/Java/tree/master/0098-validate-binary-search-tree) |
 | [0099-recover-binary-search-tree](https://github.com/Niketankr/Java/tree/master/0099-recover-binary-search-tree) |
 | [0108-convert-sorted-array-to-binary-search-tree](https://github.com/Niketankr/Java/tree/master/0108-convert-sorted-array-to-binary-search-tree) |
