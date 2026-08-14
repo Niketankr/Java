@@ -81,6 +81,7 @@ Java code learned during learning DSA in java
 | [0012-integer-to-roman](https://github.com/Niketankr/Java/tree/master/0012-integer-to-roman) |
 | [0029-divide-two-integers](https://github.com/Niketankr/Java/tree/master/0029-divide-two-integers) |
 | [0089-gray-code](https://github.com/Niketankr/Java/tree/master/0089-gray-code) |
+| [0258-add-digits](https://github.com/Niketankr/Java/tree/master/0258-add-digits) |
 | [0268-missing-number](https://github.com/Niketankr/Java/tree/master/0268-missing-number) |
 ## Recursion
 |  |
@@ -181,4 +182,12 @@ Java code learned during learning DSA in java
 |  |
 | ------- |
 | [0003-longest-substring-without-repeating-characters](https://github.com/Niketankr/Java/tree/master/0003-longest-substring-without-repeating-characters) |
+## Simulation
+|  |
+| ------- |
+| [0258-add-digits](https://github.com/Niketankr/Java/tree/master/0258-add-digits) |
+## Number Theory
+|  |
+| ------- |
+| [0258-add-digits](https://github.com/Niketankr/Java/tree/master/0258-add-digits) |
 <!---LeetCode Topics End-->
