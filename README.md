@@ -73,6 +73,7 @@ Java code learned during learning DSA in java
 | [0002-add-two-numbers](https://github.com/Niketankr/Java/tree/master/0002-add-two-numbers) |
 | [0141-linked-list-cycle](https://github.com/Niketankr/Java/tree/master/0141-linked-list-cycle) |
 | [0147-insertion-sort-list](https://github.com/Niketankr/Java/tree/master/0147-insertion-sort-list) |
+| [0160-intersection-of-two-linked-lists](https://github.com/Niketankr/Java/tree/master/0160-intersection-of-two-linked-lists) |
 ## Math
 |  |
 | ------- |
@@ -95,6 +96,7 @@ Java code learned during learning DSA in java
 | [0017-letter-combinations-of-a-phone-number](https://github.com/Niketankr/Java/tree/master/0017-letter-combinations-of-a-phone-number) |
 | [0041-first-missing-positive](https://github.com/Niketankr/Java/tree/master/0041-first-missing-positive) |
 | [0141-linked-list-cycle](https://github.com/Niketankr/Java/tree/master/0141-linked-list-cycle) |
+| [0160-intersection-of-two-linked-lists](https://github.com/Niketankr/Java/tree/master/0160-intersection-of-two-linked-lists) |
 | [0268-missing-number](https://github.com/Niketankr/Java/tree/master/0268-missing-number) |
 ## Array
 |  |
@@ -124,6 +126,7 @@ Java code learned during learning DSA in java
 | [0031-next-permutation](https://github.com/Niketankr/Java/tree/master/0031-next-permutation) |
 | [0125-valid-palindrome](https://github.com/Niketankr/Java/tree/master/0125-valid-palindrome) |
 | [0141-linked-list-cycle](https://github.com/Niketankr/Java/tree/master/0141-linked-list-cycle) |
+| [0160-intersection-of-two-linked-lists](https://github.com/Niketankr/Java/tree/master/0160-intersection-of-two-linked-lists) |
 ## Sorting
 |  |
 | ------- |
