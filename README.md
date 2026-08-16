@@ -85,6 +85,7 @@ Java code learned during learning DSA in java
 | [0258-add-digits](https://github.com/Niketankr/Java/tree/master/0258-add-digits) |
 | [0268-missing-number](https://github.com/Niketankr/Java/tree/master/0268-missing-number) |
 | [0371-sum-of-two-integers](https://github.com/Niketankr/Java/tree/master/0371-sum-of-two-integers) |
+| [2235-add-two-integers](https://github.com/Niketankr/Java/tree/master/2235-add-two-integers) |
 ## Recursion
 |  |
 | ------- |
