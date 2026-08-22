@@ -114,6 +114,7 @@ Java code learned during learning DSA in java
 | [0040-combination-sum-ii](https://github.com/Niketankr/Java/tree/master/0040-combination-sum-ii) |
 | [0041-first-missing-positive](https://github.com/Niketankr/Java/tree/master/0041-first-missing-positive) |
 | [0046-permutations](https://github.com/Niketankr/Java/tree/master/0046-permutations) |
+| [0047-permutations-ii](https://github.com/Niketankr/Java/tree/master/0047-permutations-ii) |
 | [0064-minimum-path-sum](https://github.com/Niketankr/Java/tree/master/0064-minimum-path-sum) |
 | [0108-convert-sorted-array-to-binary-search-tree](https://github.com/Niketankr/Java/tree/master/0108-convert-sorted-array-to-binary-search-tree) |
 | [0118-pascals-triangle](https://github.com/Niketankr/Java/tree/master/0118-pascals-triangle) |
@@ -138,6 +139,7 @@ Java code learned during learning DSA in java
 | [0015-3sum](https://github.com/Niketankr/Java/tree/master/0015-3sum) |
 | [0016-3sum-closest](https://github.com/Niketankr/Java/tree/master/0016-3sum-closest) |
 | [0018-4sum](https://github.com/Niketankr/Java/tree/master/0018-4sum) |
+| [0047-permutations-ii](https://github.com/Niketankr/Java/tree/master/0047-permutations-ii) |
 | [0147-insertion-sort-list](https://github.com/Niketankr/Java/tree/master/0147-insertion-sort-list) |
 | [0268-missing-number](https://github.com/Niketankr/Java/tree/master/0268-missing-number) |
 ## Dynamic Programming
@@ -168,6 +170,7 @@ Java code learned during learning DSA in java
 | [0039-combination-sum](https://github.com/Niketankr/Java/tree/master/0039-combination-sum) |
 | [0040-combination-sum-ii](https://github.com/Niketankr/Java/tree/master/0040-combination-sum-ii) |
 | [0046-permutations](https://github.com/Niketankr/Java/tree/master/0046-permutations) |
+| [0047-permutations-ii](https://github.com/Niketankr/Java/tree/master/0047-permutations-ii) |
 | [0089-gray-code](https://github.com/Niketankr/Java/tree/master/0089-gray-code) |
 | [0113-path-sum-ii](https://github.com/Niketankr/Java/tree/master/0113-path-sum-ii) |
 | [0131-palindrome-partitioning](https://github.com/Niketankr/Java/tree/master/0131-palindrome-partitioning) |
