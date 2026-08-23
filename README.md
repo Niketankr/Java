@@ -6,6 +6,7 @@ Java code learned during learning DSA in java
 ## Tree
 |  |
 | ------- |
+| [0096-unique-binary-search-trees](https://github.com/Niketankr/Java/tree/master/0096-unique-binary-search-trees) |
 | [0098-validate-binary-search-tree](https://github.com/Niketankr/Java/tree/master/0098-validate-binary-search-tree) |
 | [0099-recover-binary-search-tree](https://github.com/Niketankr/Java/tree/master/0099-recover-binary-search-tree) |
 | [0101-symmetric-tree](https://github.com/Niketankr/Java/tree/master/0101-symmetric-tree) |
@@ -44,6 +45,7 @@ Java code learned during learning DSA in java
 ## Binary Tree
 |  |
 | ------- |
+| [0096-unique-binary-search-trees](https://github.com/Niketankr/Java/tree/master/0096-unique-binary-search-trees) |
 | [0098-validate-binary-search-tree](https://github.com/Niketankr/Java/tree/master/0098-validate-binary-search-tree) |
 | [0099-recover-binary-search-tree](https://github.com/Niketankr/Java/tree/master/0099-recover-binary-search-tree) |
 | [0101-symmetric-tree](https://github.com/Niketankr/Java/tree/master/0101-symmetric-tree) |
@@ -83,6 +85,7 @@ Java code learned during learning DSA in java
 | [0012-integer-to-roman](https://github.com/Niketankr/Java/tree/master/0012-integer-to-roman) |
 | [0029-divide-two-integers](https://github.com/Niketankr/Java/tree/master/0029-divide-two-integers) |
 | [0089-gray-code](https://github.com/Niketankr/Java/tree/master/0089-gray-code) |
+| [0096-unique-binary-search-trees](https://github.com/Niketankr/Java/tree/master/0096-unique-binary-search-trees) |
 | [0258-add-digits](https://github.com/Niketankr/Java/tree/master/0258-add-digits) |
 | [0268-missing-number](https://github.com/Niketankr/Java/tree/master/0268-missing-number) |
 | [0371-sum-of-two-integers](https://github.com/Niketankr/Java/tree/master/0371-sum-of-two-integers) |
@@ -147,6 +150,7 @@ Java code learned during learning DSA in java
 | ------- |
 | [0005-longest-palindromic-substring](https://github.com/Niketankr/Java/tree/master/0005-longest-palindromic-substring) |
 | [0064-minimum-path-sum](https://github.com/Niketankr/Java/tree/master/0064-minimum-path-sum) |
+| [0096-unique-binary-search-trees](https://github.com/Niketankr/Java/tree/master/0096-unique-binary-search-trees) |
 | [0097-interleaving-string](https://github.com/Niketankr/Java/tree/master/0097-interleaving-string) |
 | [0118-pascals-triangle](https://github.com/Niketankr/Java/tree/master/0118-pascals-triangle) |
 | [0119-pascals-triangle-ii](https://github.com/Niketankr/Java/tree/master/0119-pascals-triangle-ii) |
@@ -159,6 +163,7 @@ Java code learned during learning DSA in java
 |  |
 | ------- |
 | [0033-search-in-rotated-sorted-array](https://github.com/Niketankr/Java/tree/master/0033-search-in-rotated-sorted-array) |
+| [0096-unique-binary-search-trees](https://github.com/Niketankr/Java/tree/master/0096-unique-binary-search-trees) |
 | [0098-validate-binary-search-tree](https://github.com/Niketankr/Java/tree/master/0098-validate-binary-search-tree) |
 | [0099-recover-binary-search-tree](https://github.com/Niketankr/Java/tree/master/0099-recover-binary-search-tree) |
 | [0108-convert-sorted-array-to-binary-search-tree](https://github.com/Niketankr/Java/tree/master/0108-convert-sorted-array-to-binary-search-tree) |
