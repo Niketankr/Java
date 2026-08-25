@@ -104,6 +104,7 @@ Java code learned during learning DSA in java
 | [0141-linked-list-cycle](https://github.com/Niketankr/Java/tree/master/0141-linked-list-cycle) |
 | [0160-intersection-of-two-linked-lists](https://github.com/Niketankr/Java/tree/master/0160-intersection-of-two-linked-lists) |
 | [0268-missing-number](https://github.com/Niketankr/Java/tree/master/0268-missing-number) |
+| [3718-smallest-missing-multiple-of-k](https://github.com/Niketankr/Java/tree/master/3718-smallest-missing-multiple-of-k) |
 ## Array
 |  |
 | ------- |
@@ -125,6 +126,7 @@ Java code learned during learning DSA in java
 | [0119-pascals-triangle-ii](https://github.com/Niketankr/Java/tree/master/0119-pascals-triangle-ii) |
 | [0136-single-number](https://github.com/Niketankr/Java/tree/master/0136-single-number) |
 | [0268-missing-number](https://github.com/Niketankr/Java/tree/master/0268-missing-number) |
+| [3718-smallest-missing-multiple-of-k](https://github.com/Niketankr/Java/tree/master/3718-smallest-missing-multiple-of-k) |
 ## Two Pointers
 |  |
 | ------- |
