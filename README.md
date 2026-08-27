@@ -6,6 +6,7 @@ Java code learned during learning DSA in java
 ## Tree
 |  |
 | ------- |
+| [0095-unique-binary-search-trees-ii](https://github.com/Niketankr/Java/tree/master/0095-unique-binary-search-trees-ii) |
 | [0096-unique-binary-search-trees](https://github.com/Niketankr/Java/tree/master/0096-unique-binary-search-trees) |
 | [0098-validate-binary-search-tree](https://github.com/Niketankr/Java/tree/master/0098-validate-binary-search-tree) |
 | [0099-recover-binary-search-tree](https://github.com/Niketankr/Java/tree/master/0099-recover-binary-search-tree) |
@@ -45,6 +46,7 @@ Java code learned during learning DSA in java
 ## Binary Tree
 |  |
 | ------- |
+| [0095-unique-binary-search-trees-ii](https://github.com/Niketankr/Java/tree/master/0095-unique-binary-search-trees-ii) |
 | [0096-unique-binary-search-trees](https://github.com/Niketankr/Java/tree/master/0096-unique-binary-search-trees) |
 | [0098-validate-binary-search-tree](https://github.com/Niketankr/Java/tree/master/0098-validate-binary-search-tree) |
 | [0099-recover-binary-search-tree](https://github.com/Niketankr/Java/tree/master/0099-recover-binary-search-tree) |
@@ -155,6 +157,7 @@ Java code learned during learning DSA in java
 | [0005-longest-palindromic-substring](https://github.com/Niketankr/Java/tree/master/0005-longest-palindromic-substring) |
 | [0053-maximum-subarray](https://github.com/Niketankr/Java/tree/master/0053-maximum-subarray) |
 | [0064-minimum-path-sum](https://github.com/Niketankr/Java/tree/master/0064-minimum-path-sum) |
+| [0095-unique-binary-search-trees-ii](https://github.com/Niketankr/Java/tree/master/0095-unique-binary-search-trees-ii) |
 | [0096-unique-binary-search-trees](https://github.com/Niketankr/Java/tree/master/0096-unique-binary-search-trees) |
 | [0097-interleaving-string](https://github.com/Niketankr/Java/tree/master/0097-interleaving-string) |
 | [0118-pascals-triangle](https://github.com/Niketankr/Java/tree/master/0118-pascals-triangle) |
@@ -168,6 +171,7 @@ Java code learned during learning DSA in java
 |  |
 | ------- |
 | [0033-search-in-rotated-sorted-array](https://github.com/Niketankr/Java/tree/master/0033-search-in-rotated-sorted-array) |
+| [0095-unique-binary-search-trees-ii](https://github.com/Niketankr/Java/tree/master/0095-unique-binary-search-trees-ii) |
 | [0096-unique-binary-search-trees](https://github.com/Niketankr/Java/tree/master/0096-unique-binary-search-trees) |
 | [0098-validate-binary-search-tree](https://github.com/Niketankr/Java/tree/master/0098-validate-binary-search-tree) |
 | [0099-recover-binary-search-tree](https://github.com/Niketankr/Java/tree/master/0099-recover-binary-search-tree) |
@@ -182,6 +186,7 @@ Java code learned during learning DSA in java
 | [0046-permutations](https://github.com/Niketankr/Java/tree/master/0046-permutations) |
 | [0047-permutations-ii](https://github.com/Niketankr/Java/tree/master/0047-permutations-ii) |
 | [0089-gray-code](https://github.com/Niketankr/Java/tree/master/0089-gray-code) |
+| [0095-unique-binary-search-trees-ii](https://github.com/Niketankr/Java/tree/master/0095-unique-binary-search-trees-ii) |
 | [0113-path-sum-ii](https://github.com/Niketankr/Java/tree/master/0113-path-sum-ii) |
 | [0131-palindrome-partitioning](https://github.com/Niketankr/Java/tree/master/0131-palindrome-partitioning) |
 ## Bit Manipulation
