@@ -129,6 +129,7 @@ Java code learned during learning DSA in java
 | [0118-pascals-triangle](https://github.com/Niketankr/Java/tree/master/0118-pascals-triangle) |
 | [0119-pascals-triangle-ii](https://github.com/Niketankr/Java/tree/master/0119-pascals-triangle-ii) |
 | [0136-single-number](https://github.com/Niketankr/Java/tree/master/0136-single-number) |
+| [0137-single-number-ii](https://github.com/Niketankr/Java/tree/master/0137-single-number-ii) |
 | [0268-missing-number](https://github.com/Niketankr/Java/tree/master/0268-missing-number) |
 | [3718-smallest-missing-multiple-of-k](https://github.com/Niketankr/Java/tree/master/3718-smallest-missing-multiple-of-k) |
 ## Two Pointers
@@ -196,6 +197,7 @@ Java code learned during learning DSA in java
 | [0029-divide-two-integers](https://github.com/Niketankr/Java/tree/master/0029-divide-two-integers) |
 | [0089-gray-code](https://github.com/Niketankr/Java/tree/master/0089-gray-code) |
 | [0136-single-number](https://github.com/Niketankr/Java/tree/master/0136-single-number) |
+| [0137-single-number-ii](https://github.com/Niketankr/Java/tree/master/0137-single-number-ii) |
 | [0268-missing-number](https://github.com/Niketankr/Java/tree/master/0268-missing-number) |
 | [0371-sum-of-two-integers](https://github.com/Niketankr/Java/tree/master/0371-sum-of-two-integers) |
 ## Divide and Conquer
