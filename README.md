@@ -80,6 +80,7 @@ Java code learned during learning DSA in java
 | [0092-reverse-linked-list-ii](https://github.com/Niketankr/Java/tree/master/0092-reverse-linked-list-ii) |
 | [0141-linked-list-cycle](https://github.com/Niketankr/Java/tree/master/0141-linked-list-cycle) |
 | [0147-insertion-sort-list](https://github.com/Niketankr/Java/tree/master/0147-insertion-sort-list) |
+| [0148-sort-list](https://github.com/Niketankr/Java/tree/master/0148-sort-list) |
 | [0160-intersection-of-two-linked-lists](https://github.com/Niketankr/Java/tree/master/0160-intersection-of-two-linked-lists) |
 ## Math
 |  |
@@ -143,6 +144,7 @@ Java code learned during learning DSA in java
 | [0031-next-permutation](https://github.com/Niketankr/Java/tree/master/0031-next-permutation) |
 | [0125-valid-palindrome](https://github.com/Niketankr/Java/tree/master/0125-valid-palindrome) |
 | [0141-linked-list-cycle](https://github.com/Niketankr/Java/tree/master/0141-linked-list-cycle) |
+| [0148-sort-list](https://github.com/Niketankr/Java/tree/master/0148-sort-list) |
 | [0160-intersection-of-two-linked-lists](https://github.com/Niketankr/Java/tree/master/0160-intersection-of-two-linked-lists) |
 ## Sorting
 |  |
@@ -152,6 +154,7 @@ Java code learned during learning DSA in java
 | [0018-4sum](https://github.com/Niketankr/Java/tree/master/0018-4sum) |
 | [0047-permutations-ii](https://github.com/Niketankr/Java/tree/master/0047-permutations-ii) |
 | [0147-insertion-sort-list](https://github.com/Niketankr/Java/tree/master/0147-insertion-sort-list) |
+| [0148-sort-list](https://github.com/Niketankr/Java/tree/master/0148-sort-list) |
 | [0268-missing-number](https://github.com/Niketankr/Java/tree/master/0268-missing-number) |
 ## Dynamic Programming
 |  |
@@ -205,6 +208,7 @@ Java code learned during learning DSA in java
 | ------- |
 | [0053-maximum-subarray](https://github.com/Niketankr/Java/tree/master/0053-maximum-subarray) |
 | [0108-convert-sorted-array-to-binary-search-tree](https://github.com/Niketankr/Java/tree/master/0108-convert-sorted-array-to-binary-search-tree) |
+| [0148-sort-list](https://github.com/Niketankr/Java/tree/master/0148-sort-list) |
 ## Stack
 |  |
 | ------- |
@@ -227,4 +231,8 @@ Java code learned during learning DSA in java
 |  |
 | ------- |
 | [0011-container-with-most-water](https://github.com/Niketankr/Java/tree/master/0011-container-with-most-water) |
+## Merge Sort
+|  |
+| ------- |
+| [0148-sort-list](https://github.com/Niketankr/Java/tree/master/0148-sort-list) |
 <!---LeetCode Topics End-->
