@@ -98,6 +98,7 @@ Java code learned during learning DSA in java
 | [0268-missing-number](https://github.com/Niketankr/Java/tree/master/0268-missing-number) |
 | [0371-sum-of-two-integers](https://github.com/Niketankr/Java/tree/master/0371-sum-of-two-integers) |
 | [2235-add-two-integers](https://github.com/Niketankr/Java/tree/master/2235-add-two-integers) |
+| [3875-construct-uniform-parity-array-i](https://github.com/Niketankr/Java/tree/master/3875-construct-uniform-parity-array-i) |
 ## Recursion
 |  |
 | ------- |
@@ -137,6 +138,7 @@ Java code learned during learning DSA in java
 | [0137-single-number-ii](https://github.com/Niketankr/Java/tree/master/0137-single-number-ii) |
 | [0268-missing-number](https://github.com/Niketankr/Java/tree/master/0268-missing-number) |
 | [3718-smallest-missing-multiple-of-k](https://github.com/Niketankr/Java/tree/master/3718-smallest-missing-multiple-of-k) |
+| [3875-construct-uniform-parity-array-i](https://github.com/Niketankr/Java/tree/master/3875-construct-uniform-parity-array-i) |
 ## Two Pointers
 |  |
 | ------- |
