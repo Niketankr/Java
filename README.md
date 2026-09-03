@@ -112,6 +112,7 @@ Java code learned during learning DSA in java
 | [0041-first-missing-positive](https://github.com/Niketankr/Java/tree/master/0041-first-missing-positive) |
 | [0141-linked-list-cycle](https://github.com/Niketankr/Java/tree/master/0141-linked-list-cycle) |
 | [0160-intersection-of-two-linked-lists](https://github.com/Niketankr/Java/tree/master/0160-intersection-of-two-linked-lists) |
+| [0169-majority-element](https://github.com/Niketankr/Java/tree/master/0169-majority-element) |
 | [0268-missing-number](https://github.com/Niketankr/Java/tree/master/0268-missing-number) |
 | [3718-smallest-missing-multiple-of-k](https://github.com/Niketankr/Java/tree/master/3718-smallest-missing-multiple-of-k) |
 ## Array
@@ -136,6 +137,7 @@ Java code learned during learning DSA in java
 | [0119-pascals-triangle-ii](https://github.com/Niketankr/Java/tree/master/0119-pascals-triangle-ii) |
 | [0136-single-number](https://github.com/Niketankr/Java/tree/master/0136-single-number) |
 | [0137-single-number-ii](https://github.com/Niketankr/Java/tree/master/0137-single-number-ii) |
+| [0169-majority-element](https://github.com/Niketankr/Java/tree/master/0169-majority-element) |
 | [0268-missing-number](https://github.com/Niketankr/Java/tree/master/0268-missing-number) |
 | [3718-smallest-missing-multiple-of-k](https://github.com/Niketankr/Java/tree/master/3718-smallest-missing-multiple-of-k) |
 | [3875-construct-uniform-parity-array-i](https://github.com/Niketankr/Java/tree/master/3875-construct-uniform-parity-array-i) |
@@ -161,6 +163,7 @@ Java code learned during learning DSA in java
 | [0047-permutations-ii](https://github.com/Niketankr/Java/tree/master/0047-permutations-ii) |
 | [0147-insertion-sort-list](https://github.com/Niketankr/Java/tree/master/0147-insertion-sort-list) |
 | [0148-sort-list](https://github.com/Niketankr/Java/tree/master/0148-sort-list) |
+| [0169-majority-element](https://github.com/Niketankr/Java/tree/master/0169-majority-element) |
 | [0268-missing-number](https://github.com/Niketankr/Java/tree/master/0268-missing-number) |
 ## Dynamic Programming
 |  |
@@ -216,6 +219,7 @@ Java code learned during learning DSA in java
 | [0053-maximum-subarray](https://github.com/Niketankr/Java/tree/master/0053-maximum-subarray) |
 | [0108-convert-sorted-array-to-binary-search-tree](https://github.com/Niketankr/Java/tree/master/0108-convert-sorted-array-to-binary-search-tree) |
 | [0148-sort-list](https://github.com/Niketankr/Java/tree/master/0148-sort-list) |
+| [0169-majority-element](https://github.com/Niketankr/Java/tree/master/0169-majority-element) |
 ## Stack
 |  |
 | ------- |
@@ -243,4 +247,12 @@ Java code learned during learning DSA in java
 |  |
 | ------- |
 | [0148-sort-list](https://github.com/Niketankr/Java/tree/master/0148-sort-list) |
+## Counting
+|  |
+| ------- |
+| [0169-majority-element](https://github.com/Niketankr/Java/tree/master/0169-majority-element) |
+## Boyer–Moore Majority Vote Algorithm
+|  |
+| ------- |
+| [0169-majority-element](https://github.com/Niketankr/Java/tree/master/0169-majority-element) |
 <!---LeetCode Topics End-->
