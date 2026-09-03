@@ -75,6 +75,7 @@ Java code learned during learning DSA in java
 | [0097-interleaving-string](https://github.com/Niketankr/Java/tree/master/0097-interleaving-string) |
 | [0125-valid-palindrome](https://github.com/Niketankr/Java/tree/master/0125-valid-palindrome) |
 | [0131-palindrome-partitioning](https://github.com/Niketankr/Java/tree/master/0131-palindrome-partitioning) |
+| [0168-excel-sheet-column-title](https://github.com/Niketankr/Java/tree/master/0168-excel-sheet-column-title) |
 | [2904-shortest-and-lexicographically-smallest-beautiful-string](https://github.com/Niketankr/Java/tree/master/2904-shortest-and-lexicographically-smallest-beautiful-string) |
 ## Linked List
 |  |
@@ -94,6 +95,7 @@ Java code learned during learning DSA in java
 | [0029-divide-two-integers](https://github.com/Niketankr/Java/tree/master/0029-divide-two-integers) |
 | [0089-gray-code](https://github.com/Niketankr/Java/tree/master/0089-gray-code) |
 | [0096-unique-binary-search-trees](https://github.com/Niketankr/Java/tree/master/0096-unique-binary-search-trees) |
+| [0168-excel-sheet-column-title](https://github.com/Niketankr/Java/tree/master/0168-excel-sheet-column-title) |
 | [0258-add-digits](https://github.com/Niketankr/Java/tree/master/0258-add-digits) |
 | [0268-missing-number](https://github.com/Niketankr/Java/tree/master/0268-missing-number) |
 | [0371-sum-of-two-integers](https://github.com/Niketankr/Java/tree/master/0371-sum-of-two-integers) |
