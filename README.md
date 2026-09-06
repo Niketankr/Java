@@ -94,6 +94,7 @@ Java code learned during learning DSA in java
 | [0007-reverse-integer](https://github.com/Niketankr/Java/tree/master/0007-reverse-integer) |
 | [0012-integer-to-roman](https://github.com/Niketankr/Java/tree/master/0012-integer-to-roman) |
 | [0029-divide-two-integers](https://github.com/Niketankr/Java/tree/master/0029-divide-two-integers) |
+| [0050-powx-n](https://github.com/Niketankr/Java/tree/master/0050-powx-n) |
 | [0089-gray-code](https://github.com/Niketankr/Java/tree/master/0089-gray-code) |
 | [0096-unique-binary-search-trees](https://github.com/Niketankr/Java/tree/master/0096-unique-binary-search-trees) |
 | [0168-excel-sheet-column-title](https://github.com/Niketankr/Java/tree/master/0168-excel-sheet-column-title) |
@@ -106,6 +107,7 @@ Java code learned during learning DSA in java
 |  |
 | ------- |
 | [0002-add-two-numbers](https://github.com/Niketankr/Java/tree/master/0002-add-two-numbers) |
+| [0050-powx-n](https://github.com/Niketankr/Java/tree/master/0050-powx-n) |
 ## Hash Table
 |  |
 | ------- |
