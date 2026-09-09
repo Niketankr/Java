@@ -104,6 +104,7 @@ Java code learned during learning DSA in java
 | [0371-sum-of-two-integers](https://github.com/Niketankr/Java/tree/master/0371-sum-of-two-integers) |
 | [2235-add-two-integers](https://github.com/Niketankr/Java/tree/master/2235-add-two-integers) |
 | [3870-count-commas-in-range](https://github.com/Niketankr/Java/tree/master/3870-count-commas-in-range) |
+| [3871-count-commas-in-range-ii](https://github.com/Niketankr/Java/tree/master/3871-count-commas-in-range-ii) |
 | [3875-construct-uniform-parity-array-i](https://github.com/Niketankr/Java/tree/master/3875-construct-uniform-parity-array-i) |
 ## Recursion
 |  |
