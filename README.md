@@ -117,6 +117,7 @@ Java code learned during learning DSA in java
 | [0003-longest-substring-without-repeating-characters](https://github.com/Niketankr/Java/tree/master/0003-longest-substring-without-repeating-characters) |
 | [0012-integer-to-roman](https://github.com/Niketankr/Java/tree/master/0012-integer-to-roman) |
 | [0017-letter-combinations-of-a-phone-number](https://github.com/Niketankr/Java/tree/master/0017-letter-combinations-of-a-phone-number) |
+| [0036-valid-sudoku](https://github.com/Niketankr/Java/tree/master/0036-valid-sudoku) |
 | [0041-first-missing-positive](https://github.com/Niketankr/Java/tree/master/0041-first-missing-positive) |
 | [0141-linked-list-cycle](https://github.com/Niketankr/Java/tree/master/0141-linked-list-cycle) |
 | [0160-intersection-of-two-linked-lists](https://github.com/Niketankr/Java/tree/master/0160-intersection-of-two-linked-lists) |
@@ -132,6 +133,7 @@ Java code learned during learning DSA in java
 | [0018-4sum](https://github.com/Niketankr/Java/tree/master/0018-4sum) |
 | [0031-next-permutation](https://github.com/Niketankr/Java/tree/master/0031-next-permutation) |
 | [0033-search-in-rotated-sorted-array](https://github.com/Niketankr/Java/tree/master/0033-search-in-rotated-sorted-array) |
+| [0036-valid-sudoku](https://github.com/Niketankr/Java/tree/master/0036-valid-sudoku) |
 | [0039-combination-sum](https://github.com/Niketankr/Java/tree/master/0039-combination-sum) |
 | [0040-combination-sum-ii](https://github.com/Niketankr/Java/tree/master/0040-combination-sum-ii) |
 | [0041-first-missing-positive](https://github.com/Niketankr/Java/tree/master/0041-first-missing-positive) |
@@ -191,6 +193,7 @@ Java code learned during learning DSA in java
 ## Matrix
 |  |
 | ------- |
+| [0036-valid-sudoku](https://github.com/Niketankr/Java/tree/master/0036-valid-sudoku) |
 | [0059-spiral-matrix-ii](https://github.com/Niketankr/Java/tree/master/0059-spiral-matrix-ii) |
 | [0064-minimum-path-sum](https://github.com/Niketankr/Java/tree/master/0064-minimum-path-sum) |
 ## Binary Search Tree
