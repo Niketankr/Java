@@ -111,6 +111,7 @@ Java code learned during learning DSA in java
 | ------- |
 | [0002-add-two-numbers](https://github.com/Niketankr/Java/tree/master/0002-add-two-numbers) |
 | [0050-powx-n](https://github.com/Niketankr/Java/tree/master/0050-powx-n) |
+| [3483-unique-3-digit-even-numbers](https://github.com/Niketankr/Java/tree/master/3483-unique-3-digit-even-numbers) |
 ## Hash Table
 |  |
 | ------- |
@@ -123,6 +124,7 @@ Java code learned during learning DSA in java
 | [0160-intersection-of-two-linked-lists](https://github.com/Niketankr/Java/tree/master/0160-intersection-of-two-linked-lists) |
 | [0169-majority-element](https://github.com/Niketankr/Java/tree/master/0169-majority-element) |
 | [0268-missing-number](https://github.com/Niketankr/Java/tree/master/0268-missing-number) |
+| [3483-unique-3-digit-even-numbers](https://github.com/Niketankr/Java/tree/master/3483-unique-3-digit-even-numbers) |
 | [3718-smallest-missing-multiple-of-k](https://github.com/Niketankr/Java/tree/master/3718-smallest-missing-multiple-of-k) |
 ## Array
 |  |
@@ -149,6 +151,7 @@ Java code learned during learning DSA in java
 | [0137-single-number-ii](https://github.com/Niketankr/Java/tree/master/0137-single-number-ii) |
 | [0169-majority-element](https://github.com/Niketankr/Java/tree/master/0169-majority-element) |
 | [0268-missing-number](https://github.com/Niketankr/Java/tree/master/0268-missing-number) |
+| [3483-unique-3-digit-even-numbers](https://github.com/Niketankr/Java/tree/master/3483-unique-3-digit-even-numbers) |
 | [3718-smallest-missing-multiple-of-k](https://github.com/Niketankr/Java/tree/master/3718-smallest-missing-multiple-of-k) |
 | [3875-construct-uniform-parity-array-i](https://github.com/Niketankr/Java/tree/master/3875-construct-uniform-parity-array-i) |
 | [3903-smallest-stable-index-i](https://github.com/Niketankr/Java/tree/master/3903-smallest-stable-index-i) |
@@ -273,4 +276,8 @@ Java code learned during learning DSA in java
 |  |
 | ------- |
 | [3903-smallest-stable-index-i](https://github.com/Niketankr/Java/tree/master/3903-smallest-stable-index-i) |
+## Enumeration
+|  |
+| ------- |
+| [3483-unique-3-digit-even-numbers](https://github.com/Niketankr/Java/tree/master/3483-unique-3-digit-even-numbers) |
 <!---LeetCode Topics End-->
