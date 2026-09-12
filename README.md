@@ -83,6 +83,7 @@ Java code learned during learning DSA in java
 | ------- |
 | [0002-add-two-numbers](https://github.com/Niketankr/Java/tree/master/0002-add-two-numbers) |
 | [0019-remove-nth-node-from-end-of-list](https://github.com/Niketankr/Java/tree/master/0019-remove-nth-node-from-end-of-list) |
+| [0024-swap-nodes-in-pairs](https://github.com/Niketankr/Java/tree/master/0024-swap-nodes-in-pairs) |
 | [0092-reverse-linked-list-ii](https://github.com/Niketankr/Java/tree/master/0092-reverse-linked-list-ii) |
 | [0141-linked-list-cycle](https://github.com/Niketankr/Java/tree/master/0141-linked-list-cycle) |
 | [0147-insertion-sort-list](https://github.com/Niketankr/Java/tree/master/0147-insertion-sort-list) |
@@ -110,6 +111,7 @@ Java code learned during learning DSA in java
 |  |
 | ------- |
 | [0002-add-two-numbers](https://github.com/Niketankr/Java/tree/master/0002-add-two-numbers) |
+| [0024-swap-nodes-in-pairs](https://github.com/Niketankr/Java/tree/master/0024-swap-nodes-in-pairs) |
 | [0050-powx-n](https://github.com/Niketankr/Java/tree/master/0050-powx-n) |
 | [3483-unique-3-digit-even-numbers](https://github.com/Niketankr/Java/tree/master/3483-unique-3-digit-even-numbers) |
 ## Hash Table
