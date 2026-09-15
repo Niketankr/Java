@@ -97,6 +97,7 @@ Java code learned during learning DSA in java
 | [0012-integer-to-roman](https://github.com/Niketankr/Java/tree/master/0012-integer-to-roman) |
 | [0029-divide-two-integers](https://github.com/Niketankr/Java/tree/master/0029-divide-two-integers) |
 | [0050-powx-n](https://github.com/Niketankr/Java/tree/master/0050-powx-n) |
+| [0062-unique-paths](https://github.com/Niketankr/Java/tree/master/0062-unique-paths) |
 | [0089-gray-code](https://github.com/Niketankr/Java/tree/master/0089-gray-code) |
 | [0096-unique-binary-search-trees](https://github.com/Niketankr/Java/tree/master/0096-unique-binary-search-trees) |
 | [0168-excel-sheet-column-title](https://github.com/Niketankr/Java/tree/master/0168-excel-sheet-column-title) |
@@ -188,6 +189,7 @@ Java code learned during learning DSA in java
 | ------- |
 | [0005-longest-palindromic-substring](https://github.com/Niketankr/Java/tree/master/0005-longest-palindromic-substring) |
 | [0053-maximum-subarray](https://github.com/Niketankr/Java/tree/master/0053-maximum-subarray) |
+| [0062-unique-paths](https://github.com/Niketankr/Java/tree/master/0062-unique-paths) |
 | [0064-minimum-path-sum](https://github.com/Niketankr/Java/tree/master/0064-minimum-path-sum) |
 | [0095-unique-binary-search-trees-ii](https://github.com/Niketankr/Java/tree/master/0095-unique-binary-search-trees-ii) |
 | [0096-unique-binary-search-trees](https://github.com/Niketankr/Java/tree/master/0096-unique-binary-search-trees) |
@@ -282,4 +284,8 @@ Java code learned during learning DSA in java
 |  |
 | ------- |
 | [3483-unique-3-digit-even-numbers](https://github.com/Niketankr/Java/tree/master/3483-unique-3-digit-even-numbers) |
+## Combinatorics
+|  |
+| ------- |
+| [0062-unique-paths](https://github.com/Niketankr/Java/tree/master/0062-unique-paths) |
 <!---LeetCode Topics End-->
