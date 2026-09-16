@@ -104,6 +104,7 @@ Java code learned during learning DSA in java
 | [0258-add-digits](https://github.com/Niketankr/Java/tree/master/0258-add-digits) |
 | [0268-missing-number](https://github.com/Niketankr/Java/tree/master/0268-missing-number) |
 | [0371-sum-of-two-integers](https://github.com/Niketankr/Java/tree/master/0371-sum-of-two-integers) |
+| [1621-number-of-sets-of-k-non-overlapping-line-segments](https://github.com/Niketankr/Java/tree/master/1621-number-of-sets-of-k-non-overlapping-line-segments) |
 | [2235-add-two-integers](https://github.com/Niketankr/Java/tree/master/2235-add-two-integers) |
 | [3870-count-commas-in-range](https://github.com/Niketankr/Java/tree/master/3870-count-commas-in-range) |
 | [3871-count-commas-in-range-ii](https://github.com/Niketankr/Java/tree/master/3871-count-commas-in-range-ii) |
@@ -197,6 +198,7 @@ Java code learned during learning DSA in java
 | [0118-pascals-triangle](https://github.com/Niketankr/Java/tree/master/0118-pascals-triangle) |
 | [0119-pascals-triangle-ii](https://github.com/Niketankr/Java/tree/master/0119-pascals-triangle-ii) |
 | [0131-palindrome-partitioning](https://github.com/Niketankr/Java/tree/master/0131-palindrome-partitioning) |
+| [1621-number-of-sets-of-k-non-overlapping-line-segments](https://github.com/Niketankr/Java/tree/master/1621-number-of-sets-of-k-non-overlapping-line-segments) |
 ## Matrix
 |  |
 | ------- |
@@ -279,6 +281,7 @@ Java code learned during learning DSA in java
 ## Prefix Sum
 |  |
 | ------- |
+| [1621-number-of-sets-of-k-non-overlapping-line-segments](https://github.com/Niketankr/Java/tree/master/1621-number-of-sets-of-k-non-overlapping-line-segments) |
 | [3903-smallest-stable-index-i](https://github.com/Niketankr/Java/tree/master/3903-smallest-stable-index-i) |
 ## Enumeration
 |  |
@@ -288,4 +291,5 @@ Java code learned during learning DSA in java
 |  |
 | ------- |
 | [0062-unique-paths](https://github.com/Niketankr/Java/tree/master/0062-unique-paths) |
+| [1621-number-of-sets-of-k-non-overlapping-line-segments](https://github.com/Niketankr/Java/tree/master/1621-number-of-sets-of-k-non-overlapping-line-segments) |
 <!---LeetCode Topics End-->
