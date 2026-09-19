@@ -104,6 +104,7 @@ Java code learned during learning DSA in java
 | [0258-add-digits](https://github.com/Niketankr/Java/tree/master/0258-add-digits) |
 | [0268-missing-number](https://github.com/Niketankr/Java/tree/master/0268-missing-number) |
 | [0371-sum-of-two-integers](https://github.com/Niketankr/Java/tree/master/0371-sum-of-two-integers) |
+| [1401-circle-and-rectangle-overlapping](https://github.com/Niketankr/Java/tree/master/1401-circle-and-rectangle-overlapping) |
 | [1621-number-of-sets-of-k-non-overlapping-line-segments](https://github.com/Niketankr/Java/tree/master/1621-number-of-sets-of-k-non-overlapping-line-segments) |
 | [2235-add-two-integers](https://github.com/Niketankr/Java/tree/master/2235-add-two-integers) |
 | [3870-count-commas-in-range](https://github.com/Niketankr/Java/tree/master/3870-count-commas-in-range) |
@@ -292,4 +293,8 @@ Java code learned during learning DSA in java
 | ------- |
 | [0062-unique-paths](https://github.com/Niketankr/Java/tree/master/0062-unique-paths) |
 | [1621-number-of-sets-of-k-non-overlapping-line-segments](https://github.com/Niketankr/Java/tree/master/1621-number-of-sets-of-k-non-overlapping-line-segments) |
+## Geometry
+|  |
+| ------- |
+| [1401-circle-and-rectangle-overlapping](https://github.com/Niketankr/Java/tree/master/1401-circle-and-rectangle-overlapping) |
 <!---LeetCode Topics End-->
