@@ -78,6 +78,7 @@ Java code learned during learning DSA in java
 | [0151-reverse-words-in-a-string](https://github.com/Niketankr/Java/tree/master/0151-reverse-words-in-a-string) |
 | [0168-excel-sheet-column-title](https://github.com/Niketankr/Java/tree/master/0168-excel-sheet-column-title) |
 | [2904-shortest-and-lexicographically-smallest-beautiful-string](https://github.com/Niketankr/Java/tree/master/2904-shortest-and-lexicographically-smallest-beautiful-string) |
+| [3498-reverse-degree-of-a-string](https://github.com/Niketankr/Java/tree/master/3498-reverse-degree-of-a-string) |
 ## Linked List
 |  |
 | ------- |
@@ -259,6 +260,7 @@ Java code learned during learning DSA in java
 | ------- |
 | [0059-spiral-matrix-ii](https://github.com/Niketankr/Java/tree/master/0059-spiral-matrix-ii) |
 | [0258-add-digits](https://github.com/Niketankr/Java/tree/master/0258-add-digits) |
+| [3498-reverse-degree-of-a-string](https://github.com/Niketankr/Java/tree/master/3498-reverse-degree-of-a-string) |
 ## Number Theory
 |  |
 | ------- |
