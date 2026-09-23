@@ -132,6 +132,7 @@ Java code learned during learning DSA in java
 | [0160-intersection-of-two-linked-lists](https://github.com/Niketankr/Java/tree/master/0160-intersection-of-two-linked-lists) |
 | [0169-majority-element](https://github.com/Niketankr/Java/tree/master/0169-majority-element) |
 | [0268-missing-number](https://github.com/Niketankr/Java/tree/master/0268-missing-number) |
+| [1658-minimum-operations-to-reduce-x-to-zero](https://github.com/Niketankr/Java/tree/master/1658-minimum-operations-to-reduce-x-to-zero) |
 | [3483-unique-3-digit-even-numbers](https://github.com/Niketankr/Java/tree/master/3483-unique-3-digit-even-numbers) |
 | [3718-smallest-missing-multiple-of-k](https://github.com/Niketankr/Java/tree/master/3718-smallest-missing-multiple-of-k) |
 ## Array
@@ -159,6 +160,7 @@ Java code learned during learning DSA in java
 | [0137-single-number-ii](https://github.com/Niketankr/Java/tree/master/0137-single-number-ii) |
 | [0169-majority-element](https://github.com/Niketankr/Java/tree/master/0169-majority-element) |
 | [0268-missing-number](https://github.com/Niketankr/Java/tree/master/0268-missing-number) |
+| [1658-minimum-operations-to-reduce-x-to-zero](https://github.com/Niketankr/Java/tree/master/1658-minimum-operations-to-reduce-x-to-zero) |
 | [3483-unique-3-digit-even-numbers](https://github.com/Niketankr/Java/tree/master/3483-unique-3-digit-even-numbers) |
 | [3524-find-x-value-of-array-i](https://github.com/Niketankr/Java/tree/master/3524-find-x-value-of-array-i) |
 | [3718-smallest-missing-multiple-of-k](https://github.com/Niketankr/Java/tree/master/3718-smallest-missing-multiple-of-k) |
@@ -221,6 +223,7 @@ Java code learned during learning DSA in java
 | [0099-recover-binary-search-tree](https://github.com/Niketankr/Java/tree/master/0099-recover-binary-search-tree) |
 | [0108-convert-sorted-array-to-binary-search-tree](https://github.com/Niketankr/Java/tree/master/0108-convert-sorted-array-to-binary-search-tree) |
 | [0268-missing-number](https://github.com/Niketankr/Java/tree/master/0268-missing-number) |
+| [1658-minimum-operations-to-reduce-x-to-zero](https://github.com/Niketankr/Java/tree/master/1658-minimum-operations-to-reduce-x-to-zero) |
 ## Backtracking
 |  |
 | ------- |
@@ -258,6 +261,7 @@ Java code learned during learning DSA in java
 |  |
 | ------- |
 | [0003-longest-substring-without-repeating-characters](https://github.com/Niketankr/Java/tree/master/0003-longest-substring-without-repeating-characters) |
+| [1658-minimum-operations-to-reduce-x-to-zero](https://github.com/Niketankr/Java/tree/master/1658-minimum-operations-to-reduce-x-to-zero) |
 | [2904-shortest-and-lexicographically-smallest-beautiful-string](https://github.com/Niketankr/Java/tree/master/2904-shortest-and-lexicographically-smallest-beautiful-string) |
 ## Simulation
 |  |
@@ -289,6 +293,7 @@ Java code learned during learning DSA in java
 |  |
 | ------- |
 | [1621-number-of-sets-of-k-non-overlapping-line-segments](https://github.com/Niketankr/Java/tree/master/1621-number-of-sets-of-k-non-overlapping-line-segments) |
+| [1658-minimum-operations-to-reduce-x-to-zero](https://github.com/Niketankr/Java/tree/master/1658-minimum-operations-to-reduce-x-to-zero) |
 | [3903-smallest-stable-index-i](https://github.com/Niketankr/Java/tree/master/3903-smallest-stable-index-i) |
 ## Enumeration
 |  |
