@@ -110,6 +110,7 @@ Java code learned during learning DSA in java
 | [1621-number-of-sets-of-k-non-overlapping-line-segments](https://github.com/Niketankr/Java/tree/master/1621-number-of-sets-of-k-non-overlapping-line-segments) |
 | [2235-add-two-integers](https://github.com/Niketankr/Java/tree/master/2235-add-two-integers) |
 | [3524-find-x-value-of-array-i](https://github.com/Niketankr/Java/tree/master/3524-find-x-value-of-array-i) |
+| [3550-smallest-index-with-digit-sum-equal-to-index](https://github.com/Niketankr/Java/tree/master/3550-smallest-index-with-digit-sum-equal-to-index) |
 | [3870-count-commas-in-range](https://github.com/Niketankr/Java/tree/master/3870-count-commas-in-range) |
 | [3871-count-commas-in-range-ii](https://github.com/Niketankr/Java/tree/master/3871-count-commas-in-range-ii) |
 | [3875-construct-uniform-parity-array-i](https://github.com/Niketankr/Java/tree/master/3875-construct-uniform-parity-array-i) |
@@ -163,6 +164,7 @@ Java code learned during learning DSA in java
 | [1658-minimum-operations-to-reduce-x-to-zero](https://github.com/Niketankr/Java/tree/master/1658-minimum-operations-to-reduce-x-to-zero) |
 | [3483-unique-3-digit-even-numbers](https://github.com/Niketankr/Java/tree/master/3483-unique-3-digit-even-numbers) |
 | [3524-find-x-value-of-array-i](https://github.com/Niketankr/Java/tree/master/3524-find-x-value-of-array-i) |
+| [3550-smallest-index-with-digit-sum-equal-to-index](https://github.com/Niketankr/Java/tree/master/3550-smallest-index-with-digit-sum-equal-to-index) |
 | [3718-smallest-missing-multiple-of-k](https://github.com/Niketankr/Java/tree/master/3718-smallest-missing-multiple-of-k) |
 | [3875-construct-uniform-parity-array-i](https://github.com/Niketankr/Java/tree/master/3875-construct-uniform-parity-array-i) |
 | [3903-smallest-stable-index-i](https://github.com/Niketankr/Java/tree/master/3903-smallest-stable-index-i) |
