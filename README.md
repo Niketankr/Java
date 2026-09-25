@@ -139,6 +139,7 @@ Java code learned during learning DSA in java
 ## Array
 |  |
 | ------- |
+| [0004-median-of-two-sorted-arrays](https://github.com/Niketankr/Java/tree/master/0004-median-of-two-sorted-arrays) |
 | [0011-container-with-most-water](https://github.com/Niketankr/Java/tree/master/0011-container-with-most-water) |
 | [0015-3sum](https://github.com/Niketankr/Java/tree/master/0015-3sum) |
 | [0016-3sum-closest](https://github.com/Niketankr/Java/tree/master/0016-3sum-closest) |
@@ -218,6 +219,7 @@ Java code learned during learning DSA in java
 ## Binary Search Tree
 |  |
 | ------- |
+| [0004-median-of-two-sorted-arrays](https://github.com/Niketankr/Java/tree/master/0004-median-of-two-sorted-arrays) |
 | [0033-search-in-rotated-sorted-array](https://github.com/Niketankr/Java/tree/master/0033-search-in-rotated-sorted-array) |
 | [0095-unique-binary-search-trees-ii](https://github.com/Niketankr/Java/tree/master/0095-unique-binary-search-trees-ii) |
 | [0096-unique-binary-search-trees](https://github.com/Niketankr/Java/tree/master/0096-unique-binary-search-trees) |
@@ -250,6 +252,7 @@ Java code learned during learning DSA in java
 ## Divide and Conquer
 |  |
 | ------- |
+| [0004-median-of-two-sorted-arrays](https://github.com/Niketankr/Java/tree/master/0004-median-of-two-sorted-arrays) |
 | [0053-maximum-subarray](https://github.com/Niketankr/Java/tree/master/0053-maximum-subarray) |
 | [0108-convert-sorted-array-to-binary-search-tree](https://github.com/Niketankr/Java/tree/master/0108-convert-sorted-array-to-binary-search-tree) |
 | [0148-sort-list](https://github.com/Niketankr/Java/tree/master/0148-sort-list) |
