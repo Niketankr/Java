@@ -165,6 +165,7 @@ Java code learned during learning DSA in java
 | [0169-majority-element](https://github.com/Niketankr/Java/tree/master/0169-majority-element) |
 | [0268-missing-number](https://github.com/Niketankr/Java/tree/master/0268-missing-number) |
 | [1658-minimum-operations-to-reduce-x-to-zero](https://github.com/Niketankr/Java/tree/master/1658-minimum-operations-to-reduce-x-to-zero) |
+| [2267-check-if-there-is-a-valid-parentheses-string-path](https://github.com/Niketankr/Java/tree/master/2267-check-if-there-is-a-valid-parentheses-string-path) |
 | [3483-unique-3-digit-even-numbers](https://github.com/Niketankr/Java/tree/master/3483-unique-3-digit-even-numbers) |
 | [3524-find-x-value-of-array-i](https://github.com/Niketankr/Java/tree/master/3524-find-x-value-of-array-i) |
 | [3550-smallest-index-with-digit-sum-equal-to-index](https://github.com/Niketankr/Java/tree/master/3550-smallest-index-with-digit-sum-equal-to-index) |
@@ -211,6 +212,7 @@ Java code learned during learning DSA in java
 | [0119-pascals-triangle-ii](https://github.com/Niketankr/Java/tree/master/0119-pascals-triangle-ii) |
 | [0131-palindrome-partitioning](https://github.com/Niketankr/Java/tree/master/0131-palindrome-partitioning) |
 | [1621-number-of-sets-of-k-non-overlapping-line-segments](https://github.com/Niketankr/Java/tree/master/1621-number-of-sets-of-k-non-overlapping-line-segments) |
+| [2267-check-if-there-is-a-valid-parentheses-string-path](https://github.com/Niketankr/Java/tree/master/2267-check-if-there-is-a-valid-parentheses-string-path) |
 | [3524-find-x-value-of-array-i](https://github.com/Niketankr/Java/tree/master/3524-find-x-value-of-array-i) |
 ## Matrix
 |  |
@@ -218,6 +220,7 @@ Java code learned during learning DSA in java
 | [0036-valid-sudoku](https://github.com/Niketankr/Java/tree/master/0036-valid-sudoku) |
 | [0059-spiral-matrix-ii](https://github.com/Niketankr/Java/tree/master/0059-spiral-matrix-ii) |
 | [0064-minimum-path-sum](https://github.com/Niketankr/Java/tree/master/0064-minimum-path-sum) |
+| [2267-check-if-there-is-a-valid-parentheses-string-path](https://github.com/Niketankr/Java/tree/master/2267-check-if-there-is-a-valid-parentheses-string-path) |
 ## Binary Search Tree
 |  |
 | ------- |
@@ -322,4 +325,5 @@ Java code learned during learning DSA in java
 | ------- |
 | [1190-reverse-substrings-between-each-pair-of-parentheses](https://github.com/Niketankr/Java/tree/master/1190-reverse-substrings-between-each-pair-of-parentheses) |
 | [1614-maximum-nesting-depth-of-the-parentheses](https://github.com/Niketankr/Java/tree/master/1614-maximum-nesting-depth-of-the-parentheses) |
+| [2267-check-if-there-is-a-valid-parentheses-string-path](https://github.com/Niketankr/Java/tree/master/2267-check-if-there-is-a-valid-parentheses-string-path) |
 <!---LeetCode Topics End-->
