@@ -73,6 +73,7 @@ Java code learned during learning DSA in java
 | [0008-string-to-integer-atoi](https://github.com/Niketankr/Java/tree/master/0008-string-to-integer-atoi) |
 | [0012-integer-to-roman](https://github.com/Niketankr/Java/tree/master/0012-integer-to-roman) |
 | [0017-letter-combinations-of-a-phone-number](https://github.com/Niketankr/Java/tree/master/0017-letter-combinations-of-a-phone-number) |
+| [0020-valid-parentheses](https://github.com/Niketankr/Java/tree/master/0020-valid-parentheses) |
 | [0097-interleaving-string](https://github.com/Niketankr/Java/tree/master/0097-interleaving-string) |
 | [0125-valid-palindrome](https://github.com/Niketankr/Java/tree/master/0125-valid-palindrome) |
 | [0131-palindrome-partitioning](https://github.com/Niketankr/Java/tree/master/0131-palindrome-partitioning) |
@@ -266,6 +267,7 @@ Java code learned during learning DSA in java
 ## Stack
 |  |
 | ------- |
+| [0020-valid-parentheses](https://github.com/Niketankr/Java/tree/master/0020-valid-parentheses) |
 | [0144-binary-tree-preorder-traversal](https://github.com/Niketankr/Java/tree/master/0144-binary-tree-preorder-traversal) |
 | [0145-binary-tree-postorder-traversal](https://github.com/Niketankr/Java/tree/master/0145-binary-tree-postorder-traversal) |
 | [1111-maximum-nesting-depth-of-two-valid-parentheses-strings](https://github.com/Niketankr/Java/tree/master/1111-maximum-nesting-depth-of-two-valid-parentheses-strings) |
@@ -325,6 +327,7 @@ Java code learned during learning DSA in java
 ## Bracket Sequences
 |  |
 | ------- |
+| [0020-valid-parentheses](https://github.com/Niketankr/Java/tree/master/0020-valid-parentheses) |
 | [1111-maximum-nesting-depth-of-two-valid-parentheses-strings](https://github.com/Niketankr/Java/tree/master/1111-maximum-nesting-depth-of-two-valid-parentheses-strings) |
 | [1190-reverse-substrings-between-each-pair-of-parentheses](https://github.com/Niketankr/Java/tree/master/1190-reverse-substrings-between-each-pair-of-parentheses) |
 | [1614-maximum-nesting-depth-of-the-parentheses](https://github.com/Niketankr/Java/tree/master/1614-maximum-nesting-depth-of-the-parentheses) |
