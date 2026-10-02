@@ -167,6 +167,7 @@ Java code learned during learning DSA in java
 | [0169-majority-element](https://github.com/Niketankr/Java/tree/master/0169-majority-element) |
 | [0268-missing-number](https://github.com/Niketankr/Java/tree/master/0268-missing-number) |
 | [1658-minimum-operations-to-reduce-x-to-zero](https://github.com/Niketankr/Java/tree/master/1658-minimum-operations-to-reduce-x-to-zero) |
+| [1929-concatenation-of-array](https://github.com/Niketankr/Java/tree/master/1929-concatenation-of-array) |
 | [2267-check-if-there-is-a-valid-parentheses-string-path](https://github.com/Niketankr/Java/tree/master/2267-check-if-there-is-a-valid-parentheses-string-path) |
 | [3483-unique-3-digit-even-numbers](https://github.com/Niketankr/Java/tree/master/3483-unique-3-digit-even-numbers) |
 | [3524-find-x-value-of-array-i](https://github.com/Niketankr/Java/tree/master/3524-find-x-value-of-array-i) |
@@ -284,6 +285,7 @@ Java code learned during learning DSA in java
 | ------- |
 | [0059-spiral-matrix-ii](https://github.com/Niketankr/Java/tree/master/0059-spiral-matrix-ii) |
 | [0258-add-digits](https://github.com/Niketankr/Java/tree/master/0258-add-digits) |
+| [1929-concatenation-of-array](https://github.com/Niketankr/Java/tree/master/1929-concatenation-of-array) |
 | [3498-reverse-degree-of-a-string](https://github.com/Niketankr/Java/tree/master/3498-reverse-degree-of-a-string) |
 ## Number Theory
 |  |
