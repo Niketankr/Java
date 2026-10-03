@@ -136,6 +136,7 @@ Java code learned during learning DSA in java
 | [0141-linked-list-cycle](https://github.com/Niketankr/Java/tree/master/0141-linked-list-cycle) |
 | [0160-intersection-of-two-linked-lists](https://github.com/Niketankr/Java/tree/master/0160-intersection-of-two-linked-lists) |
 | [0169-majority-element](https://github.com/Niketankr/Java/tree/master/0169-majority-element) |
+| [0229-majority-element-ii](https://github.com/Niketankr/Java/tree/master/0229-majority-element-ii) |
 | [0268-missing-number](https://github.com/Niketankr/Java/tree/master/0268-missing-number) |
 | [1658-minimum-operations-to-reduce-x-to-zero](https://github.com/Niketankr/Java/tree/master/1658-minimum-operations-to-reduce-x-to-zero) |
 | [3483-unique-3-digit-even-numbers](https://github.com/Niketankr/Java/tree/master/3483-unique-3-digit-even-numbers) |
@@ -165,6 +166,7 @@ Java code learned during learning DSA in java
 | [0136-single-number](https://github.com/Niketankr/Java/tree/master/0136-single-number) |
 | [0137-single-number-ii](https://github.com/Niketankr/Java/tree/master/0137-single-number-ii) |
 | [0169-majority-element](https://github.com/Niketankr/Java/tree/master/0169-majority-element) |
+| [0229-majority-element-ii](https://github.com/Niketankr/Java/tree/master/0229-majority-element-ii) |
 | [0268-missing-number](https://github.com/Niketankr/Java/tree/master/0268-missing-number) |
 | [1658-minimum-operations-to-reduce-x-to-zero](https://github.com/Niketankr/Java/tree/master/1658-minimum-operations-to-reduce-x-to-zero) |
 | [1929-concatenation-of-array](https://github.com/Niketankr/Java/tree/master/1929-concatenation-of-array) |
@@ -200,6 +202,7 @@ Java code learned during learning DSA in java
 | [0147-insertion-sort-list](https://github.com/Niketankr/Java/tree/master/0147-insertion-sort-list) |
 | [0148-sort-list](https://github.com/Niketankr/Java/tree/master/0148-sort-list) |
 | [0169-majority-element](https://github.com/Niketankr/Java/tree/master/0169-majority-element) |
+| [0229-majority-element-ii](https://github.com/Niketankr/Java/tree/master/0229-majority-element-ii) |
 | [0268-missing-number](https://github.com/Niketankr/Java/tree/master/0268-missing-number) |
 ## Dynamic Programming
 |  |
@@ -303,10 +306,12 @@ Java code learned during learning DSA in java
 |  |
 | ------- |
 | [0169-majority-element](https://github.com/Niketankr/Java/tree/master/0169-majority-element) |
+| [0229-majority-element-ii](https://github.com/Niketankr/Java/tree/master/0229-majority-element-ii) |
 ## Boyer–Moore Majority Vote Algorithm
 |  |
 | ------- |
 | [0169-majority-element](https://github.com/Niketankr/Java/tree/master/0169-majority-element) |
+| [0229-majority-element-ii](https://github.com/Niketankr/Java/tree/master/0229-majority-element-ii) |
 ## Prefix Sum
 |  |
 | ------- |
