@@ -95,6 +95,7 @@ Java code learned during learning DSA in java
 | [0147-insertion-sort-list](https://github.com/Niketankr/Java/tree/master/0147-insertion-sort-list) |
 | [0148-sort-list](https://github.com/Niketankr/Java/tree/master/0148-sort-list) |
 | [0160-intersection-of-two-linked-lists](https://github.com/Niketankr/Java/tree/master/0160-intersection-of-two-linked-lists) |
+| [0705-design-hashset](https://github.com/Niketankr/Java/tree/master/0705-design-hashset) |
 ## Math
 |  |
 | ------- |
@@ -138,6 +139,7 @@ Java code learned during learning DSA in java
 | [0169-majority-element](https://github.com/Niketankr/Java/tree/master/0169-majority-element) |
 | [0229-majority-element-ii](https://github.com/Niketankr/Java/tree/master/0229-majority-element-ii) |
 | [0268-missing-number](https://github.com/Niketankr/Java/tree/master/0268-missing-number) |
+| [0705-design-hashset](https://github.com/Niketankr/Java/tree/master/0705-design-hashset) |
 | [1658-minimum-operations-to-reduce-x-to-zero](https://github.com/Niketankr/Java/tree/master/1658-minimum-operations-to-reduce-x-to-zero) |
 | [3483-unique-3-digit-even-numbers](https://github.com/Niketankr/Java/tree/master/3483-unique-3-digit-even-numbers) |
 | [3718-smallest-missing-multiple-of-k](https://github.com/Niketankr/Java/tree/master/3718-smallest-missing-multiple-of-k) |
@@ -168,6 +170,7 @@ Java code learned during learning DSA in java
 | [0169-majority-element](https://github.com/Niketankr/Java/tree/master/0169-majority-element) |
 | [0229-majority-element-ii](https://github.com/Niketankr/Java/tree/master/0229-majority-element-ii) |
 | [0268-missing-number](https://github.com/Niketankr/Java/tree/master/0268-missing-number) |
+| [0705-design-hashset](https://github.com/Niketankr/Java/tree/master/0705-design-hashset) |
 | [1658-minimum-operations-to-reduce-x-to-zero](https://github.com/Niketankr/Java/tree/master/1658-minimum-operations-to-reduce-x-to-zero) |
 | [1929-concatenation-of-array](https://github.com/Niketankr/Java/tree/master/1929-concatenation-of-array) |
 | [2267-check-if-there-is-a-valid-parentheses-string-path](https://github.com/Niketankr/Java/tree/master/2267-check-if-there-is-a-valid-parentheses-string-path) |
@@ -339,4 +342,12 @@ Java code learned during learning DSA in java
 | [1190-reverse-substrings-between-each-pair-of-parentheses](https://github.com/Niketankr/Java/tree/master/1190-reverse-substrings-between-each-pair-of-parentheses) |
 | [1614-maximum-nesting-depth-of-the-parentheses](https://github.com/Niketankr/Java/tree/master/1614-maximum-nesting-depth-of-the-parentheses) |
 | [2267-check-if-there-is-a-valid-parentheses-string-path](https://github.com/Niketankr/Java/tree/master/2267-check-if-there-is-a-valid-parentheses-string-path) |
+## Design
+|  |
+| ------- |
+| [0705-design-hashset](https://github.com/Niketankr/Java/tree/master/0705-design-hashset) |
+## Hash Function
+|  |
+| ------- |
+| [0705-design-hashset](https://github.com/Niketankr/Java/tree/master/0705-design-hashset) |
 <!---LeetCode Topics End-->
