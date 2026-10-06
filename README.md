@@ -162,6 +162,7 @@ Java code learned during learning DSA in java
 | [0053-maximum-subarray](https://github.com/Niketankr/Java/tree/master/0053-maximum-subarray) |
 | [0059-spiral-matrix-ii](https://github.com/Niketankr/Java/tree/master/0059-spiral-matrix-ii) |
 | [0064-minimum-path-sum](https://github.com/Niketankr/Java/tree/master/0064-minimum-path-sum) |
+| [0075-sort-colors](https://github.com/Niketankr/Java/tree/master/0075-sort-colors) |
 | [0108-convert-sorted-array-to-binary-search-tree](https://github.com/Niketankr/Java/tree/master/0108-convert-sorted-array-to-binary-search-tree) |
 | [0118-pascals-triangle](https://github.com/Niketankr/Java/tree/master/0118-pascals-triangle) |
 | [0119-pascals-triangle-ii](https://github.com/Niketankr/Java/tree/master/0119-pascals-triangle-ii) |
@@ -190,6 +191,7 @@ Java code learned during learning DSA in java
 | [0018-4sum](https://github.com/Niketankr/Java/tree/master/0018-4sum) |
 | [0019-remove-nth-node-from-end-of-list](https://github.com/Niketankr/Java/tree/master/0019-remove-nth-node-from-end-of-list) |
 | [0031-next-permutation](https://github.com/Niketankr/Java/tree/master/0031-next-permutation) |
+| [0075-sort-colors](https://github.com/Niketankr/Java/tree/master/0075-sort-colors) |
 | [0125-valid-palindrome](https://github.com/Niketankr/Java/tree/master/0125-valid-palindrome) |
 | [0141-linked-list-cycle](https://github.com/Niketankr/Java/tree/master/0141-linked-list-cycle) |
 | [0148-sort-list](https://github.com/Niketankr/Java/tree/master/0148-sort-list) |
@@ -202,6 +204,7 @@ Java code learned during learning DSA in java
 | [0016-3sum-closest](https://github.com/Niketankr/Java/tree/master/0016-3sum-closest) |
 | [0018-4sum](https://github.com/Niketankr/Java/tree/master/0018-4sum) |
 | [0047-permutations-ii](https://github.com/Niketankr/Java/tree/master/0047-permutations-ii) |
+| [0075-sort-colors](https://github.com/Niketankr/Java/tree/master/0075-sort-colors) |
 | [0147-insertion-sort-list](https://github.com/Niketankr/Java/tree/master/0147-insertion-sort-list) |
 | [0148-sort-list](https://github.com/Niketankr/Java/tree/master/0148-sort-list) |
 | [0169-majority-element](https://github.com/Niketankr/Java/tree/master/0169-majority-element) |
@@ -350,4 +353,12 @@ Java code learned during learning DSA in java
 |  |
 | ------- |
 | [0705-design-hashset](https://github.com/Niketankr/Java/tree/master/0705-design-hashset) |
+## Quicksort
+|  |
+| ------- |
+| [0075-sort-colors](https://github.com/Niketankr/Java/tree/master/0075-sort-colors) |
+## Bubble Sort
+|  |
+| ------- |
+| [0075-sort-colors](https://github.com/Niketankr/Java/tree/master/0075-sort-colors) |
 <!---LeetCode Topics End-->
