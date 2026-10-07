@@ -74,6 +74,7 @@ Java code learned during learning DSA in java
 | [0012-integer-to-roman](https://github.com/Niketankr/Java/tree/master/0012-integer-to-roman) |
 | [0017-letter-combinations-of-a-phone-number](https://github.com/Niketankr/Java/tree/master/0017-letter-combinations-of-a-phone-number) |
 | [0020-valid-parentheses](https://github.com/Niketankr/Java/tree/master/0020-valid-parentheses) |
+| [0022-generate-parentheses](https://github.com/Niketankr/Java/tree/master/0022-generate-parentheses) |
 | [0097-interleaving-string](https://github.com/Niketankr/Java/tree/master/0097-interleaving-string) |
 | [0125-valid-palindrome](https://github.com/Niketankr/Java/tree/master/0125-valid-palindrome) |
 | [0131-palindrome-partitioning](https://github.com/Niketankr/Java/tree/master/0131-palindrome-partitioning) |
@@ -214,6 +215,7 @@ Java code learned during learning DSA in java
 |  |
 | ------- |
 | [0005-longest-palindromic-substring](https://github.com/Niketankr/Java/tree/master/0005-longest-palindromic-substring) |
+| [0022-generate-parentheses](https://github.com/Niketankr/Java/tree/master/0022-generate-parentheses) |
 | [0053-maximum-subarray](https://github.com/Niketankr/Java/tree/master/0053-maximum-subarray) |
 | [0062-unique-paths](https://github.com/Niketankr/Java/tree/master/0062-unique-paths) |
 | [0064-minimum-path-sum](https://github.com/Niketankr/Java/tree/master/0064-minimum-path-sum) |
@@ -249,6 +251,7 @@ Java code learned during learning DSA in java
 |  |
 | ------- |
 | [0017-letter-combinations-of-a-phone-number](https://github.com/Niketankr/Java/tree/master/0017-letter-combinations-of-a-phone-number) |
+| [0022-generate-parentheses](https://github.com/Niketankr/Java/tree/master/0022-generate-parentheses) |
 | [0039-combination-sum](https://github.com/Niketankr/Java/tree/master/0039-combination-sum) |
 | [0040-combination-sum-ii](https://github.com/Niketankr/Java/tree/master/0040-combination-sum-ii) |
 | [0046-permutations](https://github.com/Niketankr/Java/tree/master/0046-permutations) |
@@ -341,6 +344,7 @@ Java code learned during learning DSA in java
 |  |
 | ------- |
 | [0020-valid-parentheses](https://github.com/Niketankr/Java/tree/master/0020-valid-parentheses) |
+| [0022-generate-parentheses](https://github.com/Niketankr/Java/tree/master/0022-generate-parentheses) |
 | [1111-maximum-nesting-depth-of-two-valid-parentheses-strings](https://github.com/Niketankr/Java/tree/master/1111-maximum-nesting-depth-of-two-valid-parentheses-strings) |
 | [1190-reverse-substrings-between-each-pair-of-parentheses](https://github.com/Niketankr/Java/tree/master/1190-reverse-substrings-between-each-pair-of-parentheses) |
 | [1614-maximum-nesting-depth-of-the-parentheses](https://github.com/Niketankr/Java/tree/master/1614-maximum-nesting-depth-of-the-parentheses) |
