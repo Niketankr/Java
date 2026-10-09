@@ -97,6 +97,7 @@ Java code learned during learning DSA in java
 | [0148-sort-list](https://github.com/Niketankr/Java/tree/master/0148-sort-list) |
 | [0160-intersection-of-two-linked-lists](https://github.com/Niketankr/Java/tree/master/0160-intersection-of-two-linked-lists) |
 | [0705-design-hashset](https://github.com/Niketankr/Java/tree/master/0705-design-hashset) |
+| [0706-design-hashmap](https://github.com/Niketankr/Java/tree/master/0706-design-hashmap) |
 ## Math
 |  |
 | ------- |
@@ -141,6 +142,7 @@ Java code learned during learning DSA in java
 | [0229-majority-element-ii](https://github.com/Niketankr/Java/tree/master/0229-majority-element-ii) |
 | [0268-missing-number](https://github.com/Niketankr/Java/tree/master/0268-missing-number) |
 | [0705-design-hashset](https://github.com/Niketankr/Java/tree/master/0705-design-hashset) |
+| [0706-design-hashmap](https://github.com/Niketankr/Java/tree/master/0706-design-hashmap) |
 | [1658-minimum-operations-to-reduce-x-to-zero](https://github.com/Niketankr/Java/tree/master/1658-minimum-operations-to-reduce-x-to-zero) |
 | [3483-unique-3-digit-even-numbers](https://github.com/Niketankr/Java/tree/master/3483-unique-3-digit-even-numbers) |
 | [3718-smallest-missing-multiple-of-k](https://github.com/Niketankr/Java/tree/master/3718-smallest-missing-multiple-of-k) |
@@ -173,6 +175,7 @@ Java code learned during learning DSA in java
 | [0229-majority-element-ii](https://github.com/Niketankr/Java/tree/master/0229-majority-element-ii) |
 | [0268-missing-number](https://github.com/Niketankr/Java/tree/master/0268-missing-number) |
 | [0705-design-hashset](https://github.com/Niketankr/Java/tree/master/0705-design-hashset) |
+| [0706-design-hashmap](https://github.com/Niketankr/Java/tree/master/0706-design-hashmap) |
 | [1658-minimum-operations-to-reduce-x-to-zero](https://github.com/Niketankr/Java/tree/master/1658-minimum-operations-to-reduce-x-to-zero) |
 | [1929-concatenation-of-array](https://github.com/Niketankr/Java/tree/master/1929-concatenation-of-array) |
 | [2267-check-if-there-is-a-valid-parentheses-string-path](https://github.com/Niketankr/Java/tree/master/2267-check-if-there-is-a-valid-parentheses-string-path) |
@@ -353,10 +356,12 @@ Java code learned during learning DSA in java
 |  |
 | ------- |
 | [0705-design-hashset](https://github.com/Niketankr/Java/tree/master/0705-design-hashset) |
+| [0706-design-hashmap](https://github.com/Niketankr/Java/tree/master/0706-design-hashmap) |
 ## Hash Function
 |  |
 | ------- |
 | [0705-design-hashset](https://github.com/Niketankr/Java/tree/master/0705-design-hashset) |
+| [0706-design-hashmap](https://github.com/Niketankr/Java/tree/master/0706-design-hashmap) |
 ## Quicksort
 |  |
 | ------- |
