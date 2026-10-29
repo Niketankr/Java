@@ -83,6 +83,7 @@ Java code learned during learning DSA in java
 | [1111-maximum-nesting-depth-of-two-valid-parentheses-strings](https://github.com/Niketankr/Java/tree/master/1111-maximum-nesting-depth-of-two-valid-parentheses-strings) |
 | [1190-reverse-substrings-between-each-pair-of-parentheses](https://github.com/Niketankr/Java/tree/master/1190-reverse-substrings-between-each-pair-of-parentheses) |
 | [1614-maximum-nesting-depth-of-the-parentheses](https://github.com/Niketankr/Java/tree/master/1614-maximum-nesting-depth-of-the-parentheses) |
+| [2227-encrypt-and-decrypt-strings](https://github.com/Niketankr/Java/tree/master/2227-encrypt-and-decrypt-strings) |
 | [2904-shortest-and-lexicographically-smallest-beautiful-string](https://github.com/Niketankr/Java/tree/master/2904-shortest-and-lexicographically-smallest-beautiful-string) |
 | [3498-reverse-degree-of-a-string](https://github.com/Niketankr/Java/tree/master/3498-reverse-degree-of-a-string) |
 ## Linked List
@@ -145,6 +146,7 @@ Java code learned during learning DSA in java
 | [0705-design-hashset](https://github.com/Niketankr/Java/tree/master/0705-design-hashset) |
 | [0706-design-hashmap](https://github.com/Niketankr/Java/tree/master/0706-design-hashmap) |
 | [1658-minimum-operations-to-reduce-x-to-zero](https://github.com/Niketankr/Java/tree/master/1658-minimum-operations-to-reduce-x-to-zero) |
+| [2227-encrypt-and-decrypt-strings](https://github.com/Niketankr/Java/tree/master/2227-encrypt-and-decrypt-strings) |
 | [3483-unique-3-digit-even-numbers](https://github.com/Niketankr/Java/tree/master/3483-unique-3-digit-even-numbers) |
 | [3718-smallest-missing-multiple-of-k](https://github.com/Niketankr/Java/tree/master/3718-smallest-missing-multiple-of-k) |
 ## Array
@@ -180,6 +182,7 @@ Java code learned during learning DSA in java
 | [0706-design-hashmap](https://github.com/Niketankr/Java/tree/master/0706-design-hashmap) |
 | [1658-minimum-operations-to-reduce-x-to-zero](https://github.com/Niketankr/Java/tree/master/1658-minimum-operations-to-reduce-x-to-zero) |
 | [1929-concatenation-of-array](https://github.com/Niketankr/Java/tree/master/1929-concatenation-of-array) |
+| [2227-encrypt-and-decrypt-strings](https://github.com/Niketankr/Java/tree/master/2227-encrypt-and-decrypt-strings) |
 | [2267-check-if-there-is-a-valid-parentheses-string-path](https://github.com/Niketankr/Java/tree/master/2267-check-if-there-is-a-valid-parentheses-string-path) |
 | [3483-unique-3-digit-even-numbers](https://github.com/Niketankr/Java/tree/master/3483-unique-3-digit-even-numbers) |
 | [3524-find-x-value-of-array-i](https://github.com/Niketankr/Java/tree/master/3524-find-x-value-of-array-i) |
@@ -366,6 +369,7 @@ Java code learned during learning DSA in java
 | ------- |
 | [0705-design-hashset](https://github.com/Niketankr/Java/tree/master/0705-design-hashset) |
 | [0706-design-hashmap](https://github.com/Niketankr/Java/tree/master/0706-design-hashmap) |
+| [2227-encrypt-and-decrypt-strings](https://github.com/Niketankr/Java/tree/master/2227-encrypt-and-decrypt-strings) |
 ## Hash Function
 |  |
 | ------- |
@@ -391,4 +395,8 @@ Java code learned during learning DSA in java
 |  |
 | ------- |
 | [0347-top-k-frequent-elements](https://github.com/Niketankr/Java/tree/master/0347-top-k-frequent-elements) |
+## Trie
+|  |
+| ------- |
+| [2227-encrypt-and-decrypt-strings](https://github.com/Niketankr/Java/tree/master/2227-encrypt-and-decrypt-strings) |
 <!---LeetCode Topics End-->
