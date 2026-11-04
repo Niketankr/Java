@@ -145,6 +145,7 @@ Java code learned during learning DSA in java
 | [0229-majority-element-ii](https://github.com/Niketankr/Java/tree/master/0229-majority-element-ii) |
 | [0268-missing-number](https://github.com/Niketankr/Java/tree/master/0268-missing-number) |
 | [0347-top-k-frequent-elements](https://github.com/Niketankr/Java/tree/master/0347-top-k-frequent-elements) |
+| [0560-subarray-sum-equals-k](https://github.com/Niketankr/Java/tree/master/0560-subarray-sum-equals-k) |
 | [0705-design-hashset](https://github.com/Niketankr/Java/tree/master/0705-design-hashset) |
 | [0706-design-hashmap](https://github.com/Niketankr/Java/tree/master/0706-design-hashmap) |
 | [1658-minimum-operations-to-reduce-x-to-zero](https://github.com/Niketankr/Java/tree/master/1658-minimum-operations-to-reduce-x-to-zero) |
@@ -183,6 +184,7 @@ Java code learned during learning DSA in java
 | [0238-product-of-array-except-self](https://github.com/Niketankr/Java/tree/master/0238-product-of-array-except-self) |
 | [0268-missing-number](https://github.com/Niketankr/Java/tree/master/0268-missing-number) |
 | [0347-top-k-frequent-elements](https://github.com/Niketankr/Java/tree/master/0347-top-k-frequent-elements) |
+| [0560-subarray-sum-equals-k](https://github.com/Niketankr/Java/tree/master/0560-subarray-sum-equals-k) |
 | [0705-design-hashset](https://github.com/Niketankr/Java/tree/master/0705-design-hashset) |
 | [0706-design-hashmap](https://github.com/Niketankr/Java/tree/master/0706-design-hashmap) |
 | [1658-minimum-operations-to-reduce-x-to-zero](https://github.com/Niketankr/Java/tree/master/1658-minimum-operations-to-reduce-x-to-zero) |
@@ -346,6 +348,7 @@ Java code learned during learning DSA in java
 |  |
 | ------- |
 | [0238-product-of-array-except-self](https://github.com/Niketankr/Java/tree/master/0238-product-of-array-except-self) |
+| [0560-subarray-sum-equals-k](https://github.com/Niketankr/Java/tree/master/0560-subarray-sum-equals-k) |
 | [1621-number-of-sets-of-k-non-overlapping-line-segments](https://github.com/Niketankr/Java/tree/master/1621-number-of-sets-of-k-non-overlapping-line-segments) |
 | [1658-minimum-operations-to-reduce-x-to-zero](https://github.com/Niketankr/Java/tree/master/1658-minimum-operations-to-reduce-x-to-zero) |
 | [3903-smallest-stable-index-i](https://github.com/Niketankr/Java/tree/master/3903-smallest-stable-index-i) |
