@@ -187,6 +187,7 @@ Java code learned during learning DSA in java
 | [0560-subarray-sum-equals-k](https://github.com/Niketankr/Java/tree/master/0560-subarray-sum-equals-k) |
 | [0705-design-hashset](https://github.com/Niketankr/Java/tree/master/0705-design-hashset) |
 | [0706-design-hashmap](https://github.com/Niketankr/Java/tree/master/0706-design-hashmap) |
+| [1539-kth-missing-positive-number](https://github.com/Niketankr/Java/tree/master/1539-kth-missing-positive-number) |
 | [1658-minimum-operations-to-reduce-x-to-zero](https://github.com/Niketankr/Java/tree/master/1658-minimum-operations-to-reduce-x-to-zero) |
 | [1929-concatenation-of-array](https://github.com/Niketankr/Java/tree/master/1929-concatenation-of-array) |
 | [2227-encrypt-and-decrypt-strings](https://github.com/Niketankr/Java/tree/master/2227-encrypt-and-decrypt-strings) |
@@ -266,6 +267,7 @@ Java code learned during learning DSA in java
 | [0099-recover-binary-search-tree](https://github.com/Niketankr/Java/tree/master/0099-recover-binary-search-tree) |
 | [0108-convert-sorted-array-to-binary-search-tree](https://github.com/Niketankr/Java/tree/master/0108-convert-sorted-array-to-binary-search-tree) |
 | [0268-missing-number](https://github.com/Niketankr/Java/tree/master/0268-missing-number) |
+| [1539-kth-missing-positive-number](https://github.com/Niketankr/Java/tree/master/1539-kth-missing-positive-number) |
 | [1658-minimum-operations-to-reduce-x-to-zero](https://github.com/Niketankr/Java/tree/master/1658-minimum-operations-to-reduce-x-to-zero) |
 ## Backtracking
 |  |
