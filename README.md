@@ -181,6 +181,7 @@ Java code learned during learning DSA in java
 | [0128-longest-consecutive-sequence](https://github.com/Niketankr/Java/tree/master/0128-longest-consecutive-sequence) |
 | [0136-single-number](https://github.com/Niketankr/Java/tree/master/0136-single-number) |
 | [0137-single-number-ii](https://github.com/Niketankr/Java/tree/master/0137-single-number-ii) |
+| [0167-two-sum-ii-input-array-is-sorted](https://github.com/Niketankr/Java/tree/master/0167-two-sum-ii-input-array-is-sorted) |
 | [0169-majority-element](https://github.com/Niketankr/Java/tree/master/0169-majority-element) |
 | [0229-majority-element-ii](https://github.com/Niketankr/Java/tree/master/0229-majority-element-ii) |
 | [0238-product-of-array-except-self](https://github.com/Niketankr/Java/tree/master/0238-product-of-array-except-self) |
@@ -217,6 +218,7 @@ Java code learned during learning DSA in java
 | [0148-sort-list](https://github.com/Niketankr/Java/tree/master/0148-sort-list) |
 | [0151-reverse-words-in-a-string](https://github.com/Niketankr/Java/tree/master/0151-reverse-words-in-a-string) |
 | [0160-intersection-of-two-linked-lists](https://github.com/Niketankr/Java/tree/master/0160-intersection-of-two-linked-lists) |
+| [0167-two-sum-ii-input-array-is-sorted](https://github.com/Niketankr/Java/tree/master/0167-two-sum-ii-input-array-is-sorted) |
 | [0344-reverse-string](https://github.com/Niketankr/Java/tree/master/0344-reverse-string) |
 ## Sorting
 |  |
@@ -269,6 +271,7 @@ Java code learned during learning DSA in java
 | [0098-validate-binary-search-tree](https://github.com/Niketankr/Java/tree/master/0098-validate-binary-search-tree) |
 | [0099-recover-binary-search-tree](https://github.com/Niketankr/Java/tree/master/0099-recover-binary-search-tree) |
 | [0108-convert-sorted-array-to-binary-search-tree](https://github.com/Niketankr/Java/tree/master/0108-convert-sorted-array-to-binary-search-tree) |
+| [0167-two-sum-ii-input-array-is-sorted](https://github.com/Niketankr/Java/tree/master/0167-two-sum-ii-input-array-is-sorted) |
 | [0268-missing-number](https://github.com/Niketankr/Java/tree/master/0268-missing-number) |
 | [1539-kth-missing-positive-number](https://github.com/Niketankr/Java/tree/master/1539-kth-missing-positive-number) |
 | [1658-minimum-operations-to-reduce-x-to-zero](https://github.com/Niketankr/Java/tree/master/1658-minimum-operations-to-reduce-x-to-zero) |
