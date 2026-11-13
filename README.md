@@ -113,6 +113,7 @@ Java code learned during learning DSA in java
 | [0089-gray-code](https://github.com/Niketankr/Java/tree/master/0089-gray-code) |
 | [0096-unique-binary-search-trees](https://github.com/Niketankr/Java/tree/master/0096-unique-binary-search-trees) |
 | [0168-excel-sheet-column-title](https://github.com/Niketankr/Java/tree/master/0168-excel-sheet-column-title) |
+| [0189-rotate-array](https://github.com/Niketankr/Java/tree/master/0189-rotate-array) |
 | [0258-add-digits](https://github.com/Niketankr/Java/tree/master/0258-add-digits) |
 | [0268-missing-number](https://github.com/Niketankr/Java/tree/master/0268-missing-number) |
 | [0371-sum-of-two-integers](https://github.com/Niketankr/Java/tree/master/0371-sum-of-two-integers) |
@@ -184,6 +185,7 @@ Java code learned during learning DSA in java
 | [0137-single-number-ii](https://github.com/Niketankr/Java/tree/master/0137-single-number-ii) |
 | [0167-two-sum-ii-input-array-is-sorted](https://github.com/Niketankr/Java/tree/master/0167-two-sum-ii-input-array-is-sorted) |
 | [0169-majority-element](https://github.com/Niketankr/Java/tree/master/0169-majority-element) |
+| [0189-rotate-array](https://github.com/Niketankr/Java/tree/master/0189-rotate-array) |
 | [0229-majority-element-ii](https://github.com/Niketankr/Java/tree/master/0229-majority-element-ii) |
 | [0238-product-of-array-except-self](https://github.com/Niketankr/Java/tree/master/0238-product-of-array-except-self) |
 | [0268-missing-number](https://github.com/Niketankr/Java/tree/master/0268-missing-number) |
@@ -221,6 +223,7 @@ Java code learned during learning DSA in java
 | [0151-reverse-words-in-a-string](https://github.com/Niketankr/Java/tree/master/0151-reverse-words-in-a-string) |
 | [0160-intersection-of-two-linked-lists](https://github.com/Niketankr/Java/tree/master/0160-intersection-of-two-linked-lists) |
 | [0167-two-sum-ii-input-array-is-sorted](https://github.com/Niketankr/Java/tree/master/0167-two-sum-ii-input-array-is-sorted) |
+| [0189-rotate-array](https://github.com/Niketankr/Java/tree/master/0189-rotate-array) |
 | [0344-reverse-string](https://github.com/Niketankr/Java/tree/master/0344-reverse-string) |
 ## Sorting
 |  |
