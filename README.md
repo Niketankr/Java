@@ -85,6 +85,7 @@ Java code learned during learning DSA in java
 | [1111-maximum-nesting-depth-of-two-valid-parentheses-strings](https://github.com/Niketankr/Java/tree/master/1111-maximum-nesting-depth-of-two-valid-parentheses-strings) |
 | [1190-reverse-substrings-between-each-pair-of-parentheses](https://github.com/Niketankr/Java/tree/master/1190-reverse-substrings-between-each-pair-of-parentheses) |
 | [1614-maximum-nesting-depth-of-the-parentheses](https://github.com/Niketankr/Java/tree/master/1614-maximum-nesting-depth-of-the-parentheses) |
+| [1768-merge-strings-alternately](https://github.com/Niketankr/Java/tree/master/1768-merge-strings-alternately) |
 | [2227-encrypt-and-decrypt-strings](https://github.com/Niketankr/Java/tree/master/2227-encrypt-and-decrypt-strings) |
 | [2904-shortest-and-lexicographically-smallest-beautiful-string](https://github.com/Niketankr/Java/tree/master/2904-shortest-and-lexicographically-smallest-beautiful-string) |
 | [3498-reverse-degree-of-a-string](https://github.com/Niketankr/Java/tree/master/3498-reverse-degree-of-a-string) |
@@ -233,6 +234,7 @@ Java code learned during learning DSA in java
 | [0344-reverse-string](https://github.com/Niketankr/Java/tree/master/0344-reverse-string) |
 | [0567-permutation-in-string](https://github.com/Niketankr/Java/tree/master/0567-permutation-in-string) |
 | [0881-boats-to-save-people](https://github.com/Niketankr/Java/tree/master/0881-boats-to-save-people) |
+| [1768-merge-strings-alternately](https://github.com/Niketankr/Java/tree/master/1768-merge-strings-alternately) |
 ## Sorting
 |  |
 | ------- |
