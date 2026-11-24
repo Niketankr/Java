@@ -174,6 +174,7 @@ Java code learned during learning DSA in java
 | [0039-combination-sum](https://github.com/Niketankr/Java/tree/master/0039-combination-sum) |
 | [0040-combination-sum-ii](https://github.com/Niketankr/Java/tree/master/0040-combination-sum-ii) |
 | [0041-first-missing-positive](https://github.com/Niketankr/Java/tree/master/0041-first-missing-positive) |
+| [0042-trapping-rain-water](https://github.com/Niketankr/Java/tree/master/0042-trapping-rain-water) |
 | [0046-permutations](https://github.com/Niketankr/Java/tree/master/0046-permutations) |
 | [0047-permutations-ii](https://github.com/Niketankr/Java/tree/master/0047-permutations-ii) |
 | [0053-maximum-subarray](https://github.com/Niketankr/Java/tree/master/0053-maximum-subarray) |
@@ -223,6 +224,7 @@ Java code learned during learning DSA in java
 | [0019-remove-nth-node-from-end-of-list](https://github.com/Niketankr/Java/tree/master/0019-remove-nth-node-from-end-of-list) |
 | [0026-remove-duplicates-from-sorted-array](https://github.com/Niketankr/Java/tree/master/0026-remove-duplicates-from-sorted-array) |
 | [0031-next-permutation](https://github.com/Niketankr/Java/tree/master/0031-next-permutation) |
+| [0042-trapping-rain-water](https://github.com/Niketankr/Java/tree/master/0042-trapping-rain-water) |
 | [0075-sort-colors](https://github.com/Niketankr/Java/tree/master/0075-sort-colors) |
 | [0125-valid-palindrome](https://github.com/Niketankr/Java/tree/master/0125-valid-palindrome) |
 | [0141-linked-list-cycle](https://github.com/Niketankr/Java/tree/master/0141-linked-list-cycle) |
@@ -255,6 +257,7 @@ Java code learned during learning DSA in java
 | ------- |
 | [0005-longest-palindromic-substring](https://github.com/Niketankr/Java/tree/master/0005-longest-palindromic-substring) |
 | [0022-generate-parentheses](https://github.com/Niketankr/Java/tree/master/0022-generate-parentheses) |
+| [0042-trapping-rain-water](https://github.com/Niketankr/Java/tree/master/0042-trapping-rain-water) |
 | [0053-maximum-subarray](https://github.com/Niketankr/Java/tree/master/0053-maximum-subarray) |
 | [0062-unique-paths](https://github.com/Niketankr/Java/tree/master/0062-unique-paths) |
 | [0064-minimum-path-sum](https://github.com/Niketankr/Java/tree/master/0064-minimum-path-sum) |
@@ -329,6 +332,7 @@ Java code learned during learning DSA in java
 |  |
 | ------- |
 | [0020-valid-parentheses](https://github.com/Niketankr/Java/tree/master/0020-valid-parentheses) |
+| [0042-trapping-rain-water](https://github.com/Niketankr/Java/tree/master/0042-trapping-rain-water) |
 | [0144-binary-tree-preorder-traversal](https://github.com/Niketankr/Java/tree/master/0144-binary-tree-preorder-traversal) |
 | [0145-binary-tree-postorder-traversal](https://github.com/Niketankr/Java/tree/master/0145-binary-tree-postorder-traversal) |
 | [1111-maximum-nesting-depth-of-two-valid-parentheses-strings](https://github.com/Niketankr/Java/tree/master/1111-maximum-nesting-depth-of-two-valid-parentheses-strings) |
@@ -453,4 +457,8 @@ Java code learned during learning DSA in java
 |  |
 | ------- |
 | [0881-boats-to-save-people](https://github.com/Niketankr/Java/tree/master/0881-boats-to-save-people) |
+## Monotonic Stack
+|  |
+| ------- |
+| [0042-trapping-rain-water](https://github.com/Niketankr/Java/tree/master/0042-trapping-rain-water) |
 <!---LeetCode Topics End-->
