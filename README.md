@@ -191,6 +191,7 @@ Java code learned during learning DSA in java
 | [0167-two-sum-ii-input-array-is-sorted](https://github.com/Niketankr/Java/tree/master/0167-two-sum-ii-input-array-is-sorted) |
 | [0169-majority-element](https://github.com/Niketankr/Java/tree/master/0169-majority-element) |
 | [0189-rotate-array](https://github.com/Niketankr/Java/tree/master/0189-rotate-array) |
+| [0209-minimum-size-subarray-sum](https://github.com/Niketankr/Java/tree/master/0209-minimum-size-subarray-sum) |
 | [0219-contains-duplicate-ii](https://github.com/Niketankr/Java/tree/master/0219-contains-duplicate-ii) |
 | [0229-majority-element-ii](https://github.com/Niketankr/Java/tree/master/0229-majority-element-ii) |
 | [0238-product-of-array-except-self](https://github.com/Niketankr/Java/tree/master/0238-product-of-array-except-self) |
@@ -291,6 +292,7 @@ Java code learned during learning DSA in java
 | [0099-recover-binary-search-tree](https://github.com/Niketankr/Java/tree/master/0099-recover-binary-search-tree) |
 | [0108-convert-sorted-array-to-binary-search-tree](https://github.com/Niketankr/Java/tree/master/0108-convert-sorted-array-to-binary-search-tree) |
 | [0167-two-sum-ii-input-array-is-sorted](https://github.com/Niketankr/Java/tree/master/0167-two-sum-ii-input-array-is-sorted) |
+| [0209-minimum-size-subarray-sum](https://github.com/Niketankr/Java/tree/master/0209-minimum-size-subarray-sum) |
 | [0268-missing-number](https://github.com/Niketankr/Java/tree/master/0268-missing-number) |
 | [0704-binary-search](https://github.com/Niketankr/Java/tree/master/0704-binary-search) |
 | [1539-kth-missing-positive-number](https://github.com/Niketankr/Java/tree/master/1539-kth-missing-positive-number) |
@@ -342,6 +344,7 @@ Java code learned during learning DSA in java
 |  |
 | ------- |
 | [0003-longest-substring-without-repeating-characters](https://github.com/Niketankr/Java/tree/master/0003-longest-substring-without-repeating-characters) |
+| [0209-minimum-size-subarray-sum](https://github.com/Niketankr/Java/tree/master/0209-minimum-size-subarray-sum) |
 | [0219-contains-duplicate-ii](https://github.com/Niketankr/Java/tree/master/0219-contains-duplicate-ii) |
 | [0567-permutation-in-string](https://github.com/Niketankr/Java/tree/master/0567-permutation-in-string) |
 | [1658-minimum-operations-to-reduce-x-to-zero](https://github.com/Niketankr/Java/tree/master/1658-minimum-operations-to-reduce-x-to-zero) |
@@ -381,6 +384,7 @@ Java code learned during learning DSA in java
 ## Prefix Sum
 |  |
 | ------- |
+| [0209-minimum-size-subarray-sum](https://github.com/Niketankr/Java/tree/master/0209-minimum-size-subarray-sum) |
 | [0238-product-of-array-except-self](https://github.com/Niketankr/Java/tree/master/0238-product-of-array-except-self) |
 | [0560-subarray-sum-equals-k](https://github.com/Niketankr/Java/tree/master/0560-subarray-sum-equals-k) |
 | [1621-number-of-sets-of-k-non-overlapping-line-segments](https://github.com/Niketankr/Java/tree/master/1621-number-of-sets-of-k-non-overlapping-line-segments) |
