@@ -81,6 +81,7 @@ Java code learned during learning DSA in java
 | [0151-reverse-words-in-a-string](https://github.com/Niketankr/Java/tree/master/0151-reverse-words-in-a-string) |
 | [0168-excel-sheet-column-title](https://github.com/Niketankr/Java/tree/master/0168-excel-sheet-column-title) |
 | [0344-reverse-string](https://github.com/Niketankr/Java/tree/master/0344-reverse-string) |
+| [0424-longest-repeating-character-replacement](https://github.com/Niketankr/Java/tree/master/0424-longest-repeating-character-replacement) |
 | [0567-permutation-in-string](https://github.com/Niketankr/Java/tree/master/0567-permutation-in-string) |
 | [1111-maximum-nesting-depth-of-two-valid-parentheses-strings](https://github.com/Niketankr/Java/tree/master/1111-maximum-nesting-depth-of-two-valid-parentheses-strings) |
 | [1190-reverse-substrings-between-each-pair-of-parentheses](https://github.com/Niketankr/Java/tree/master/1190-reverse-substrings-between-each-pair-of-parentheses) |
@@ -151,6 +152,7 @@ Java code learned during learning DSA in java
 | [0229-majority-element-ii](https://github.com/Niketankr/Java/tree/master/0229-majority-element-ii) |
 | [0268-missing-number](https://github.com/Niketankr/Java/tree/master/0268-missing-number) |
 | [0347-top-k-frequent-elements](https://github.com/Niketankr/Java/tree/master/0347-top-k-frequent-elements) |
+| [0424-longest-repeating-character-replacement](https://github.com/Niketankr/Java/tree/master/0424-longest-repeating-character-replacement) |
 | [0560-subarray-sum-equals-k](https://github.com/Niketankr/Java/tree/master/0560-subarray-sum-equals-k) |
 | [0567-permutation-in-string](https://github.com/Niketankr/Java/tree/master/0567-permutation-in-string) |
 | [0705-design-hashset](https://github.com/Niketankr/Java/tree/master/0705-design-hashset) |
@@ -346,6 +348,7 @@ Java code learned during learning DSA in java
 | [0003-longest-substring-without-repeating-characters](https://github.com/Niketankr/Java/tree/master/0003-longest-substring-without-repeating-characters) |
 | [0209-minimum-size-subarray-sum](https://github.com/Niketankr/Java/tree/master/0209-minimum-size-subarray-sum) |
 | [0219-contains-duplicate-ii](https://github.com/Niketankr/Java/tree/master/0219-contains-duplicate-ii) |
+| [0424-longest-repeating-character-replacement](https://github.com/Niketankr/Java/tree/master/0424-longest-repeating-character-replacement) |
 | [0567-permutation-in-string](https://github.com/Niketankr/Java/tree/master/0567-permutation-in-string) |
 | [1658-minimum-operations-to-reduce-x-to-zero](https://github.com/Niketankr/Java/tree/master/1658-minimum-operations-to-reduce-x-to-zero) |
 | [2904-shortest-and-lexicographically-smallest-beautiful-string](https://github.com/Niketankr/Java/tree/master/2904-shortest-and-lexicographically-smallest-beautiful-string) |
